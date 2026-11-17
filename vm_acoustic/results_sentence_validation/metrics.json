@@ -1,0 +1,369 @@
+{
+  "coverage": {
+    "cal_old_text": {
+      "all_aligned_candidates": 186,
+      "long_candidates": 9,
+      "baseline_complete": 150,
+      "baseline_feature0_available": 152,
+      "baseline_feature1_available": 186,
+      "baseline_feature2_available": 186,
+      "baseline_feature3_available": 186,
+      "baseline_feature4_available": 152,
+      "baseline_feature5_available": 150,
+      "reference_selected_complete": 150,
+      "reference_selected_feature0_available": 152,
+      "reference_selected_feature1_available": 186,
+      "reference_selected_feature2_available": 186,
+      "reference_selected_feature3_available": 186,
+      "reference_selected_feature4_available": 152,
+      "reference_selected_feature5_available": 150,
+      "common_complete": 150,
+      "baseline_long_complete": 9,
+      "reference_selected_long_complete": 9,
+      "long_common_complete": 9
+    },
+    "cal_new_text": {
+      "all_aligned_candidates": 203,
+      "long_candidates": 1,
+      "baseline_complete": 158,
+      "baseline_feature0_available": 162,
+      "baseline_feature1_available": 203,
+      "baseline_feature2_available": 203,
+      "baseline_feature3_available": 203,
+      "baseline_feature4_available": 162,
+      "baseline_feature5_available": 158,
+      "reference_selected_complete": 158,
+      "reference_selected_feature0_available": 162,
+      "reference_selected_feature1_available": 203,
+      "reference_selected_feature2_available": 203,
+      "reference_selected_feature3_available": 203,
+      "reference_selected_feature4_available": 162,
+      "reference_selected_feature5_available": 158,
+      "common_complete": 158,
+      "baseline_long_complete": 1,
+      "reference_selected_long_complete": 1,
+      "long_common_complete": 1
+    },
+    "eval_old_text": {
+      "all_aligned_candidates": 219,
+      "long_candidates": 23,
+      "baseline_complete": 178,
+      "baseline_feature0_available": 185,
+      "baseline_feature1_available": 219,
+      "baseline_feature2_available": 219,
+      "baseline_feature3_available": 219,
+      "baseline_feature4_available": 185,
+      "baseline_feature5_available": 178,
+      "reference_selected_complete": 178,
+      "reference_selected_feature0_available": 185,
+      "reference_selected_feature1_available": 219,
+      "reference_selected_feature2_available": 219,
+      "reference_selected_feature3_available": 219,
+      "reference_selected_feature4_available": 185,
+      "reference_selected_feature5_available": 178,
+      "common_complete": 178,
+      "baseline_long_complete": 21,
+      "reference_selected_long_complete": 21,
+      "long_common_complete": 21
+    },
+    "eval_new_text": {
+      "all_aligned_candidates": 263,
+      "long_candidates": 6,
+      "baseline_complete": 212,
+      "baseline_feature0_available": 220,
+      "baseline_feature1_available": 263,
+      "baseline_feature2_available": 263,
+      "baseline_feature3_available": 263,
+      "baseline_feature4_available": 220,
+      "baseline_feature5_available": 212,
+      "reference_selected_complete": 212,
+      "reference_selected_feature0_available": 220,
+      "reference_selected_feature1_available": 263,
+      "reference_selected_feature2_available": 263,
+      "reference_selected_feature3_available": 263,
+      "reference_selected_feature4_available": 220,
+      "reference_selected_feature5_available": 212,
+      "common_complete": 212,
+      "baseline_long_complete": 6,
+      "reference_selected_long_complete": 6,
+      "long_common_complete": 6
+    }
+  },
+  "metrics": {
+    "all": {
+      "cal_new_text": {
+        "baseline": {
+          "n": 17,
+          "median": 0.45902880170602833,
+          "mean": 0.4848296352765658
+        },
+        "reference_selected": {
+          "n": 17,
+          "median": 0.451254135496295,
+          "mean": 0.49642629957135387
+        },
+        "bias": {
+          "n": 17,
+          "median": 0.4127321234861066,
+          "mean": 0.4892232160250496
+        },
+        "whole_raw": {
+          "n": 17,
+          "median": 0.3696544474046285,
+          "mean": 0.3955427166669465
+        }
+      },
+      "cal_old_text": {
+        "baseline": {
+          "n": 18,
+          "median": 0.5282019151386466,
+          "mean": 0.6613487115083806
+        },
+        "reference_selected": {
+          "n": 18,
+          "median": 0.4835832453629314,
+          "mean": 0.6438383266887154
+        },
+        "bias": {
+          "n": 18,
+          "median": 0.45654396551335186,
+          "mean": 0.6011926020919348
+        },
+        "whole_raw": {
+          "n": 18,
+          "median": 0.3757697249950579,
+          "mean": 0.5230713180166293
+        }
+      },
+      "eval_new_text": {
+        "baseline": {
+          "n": 22,
+          "median": 0.2978406730426012,
+          "mean": 0.32405482801076124
+        },
+        "reference_selected": {
+          "n": 22,
+          "median": 0.3227092223652455,
+          "mean": 0.34001364842880216
+        },
+        "bias": {
+          "n": 22,
+          "median": 0.3132120522375734,
+          "mean": 0.3222488190967351
+        },
+        "whole_raw": {
+          "n": 22,
+          "median": 0.2612390509592579,
+          "mean": 0.26662355046647923
+        }
+      },
+      "eval_old_text": {
+        "baseline": {
+          "n": 23,
+          "median": 0.36343979520742553,
+          "mean": 0.38345185733528
+        },
+        "reference_selected": {
+          "n": 23,
+          "median": 0.34860707773172933,
+          "mean": 0.3896448372503119
+        },
+        "bias": {
+          "n": 23,
+          "median": 0.33519932345457987,
+          "mean": 0.36751024249056063
+        },
+        "whole_raw": {
+          "n": 23,
+          "median": 0.27626685775755083,
+          "mean": 0.28367510271435853
+        }
+      }
+    },
+    "long": {
+      "cal_new_text": {
+        "baseline": {
+          "n": 1,
+          "median": 0.23281767946628604,
+          "mean": 0.23281767946628604
+        },
+        "reference_selected": {
+          "n": 1,
+          "median": 0.2322231821121701,
+          "mean": 0.2322231821121701
+        },
+        "bias": {
+          "n": 1,
+          "median": 0.1792704303629109,
+          "mean": 0.1792704303629109
+        },
+        "whole_raw": {
+          "n": 1,
+          "median": 0.20738764175615457,
+          "mean": 0.20738764175615457
+        }
+      },
+      "cal_old_text": {
+        "baseline": {
+          "n": 6,
+          "median": 0.2417753526508155,
+          "mean": 0.7900626696734544
+        },
+        "reference_selected": {
+          "n": 6,
+          "median": 0.24547875876801642,
+          "mean": 0.7433705791951285
+        },
+        "bias": {
+          "n": 6,
+          "median": 0.2750010587235783,
+          "mean": 0.7418082248544149
+        },
+        "whole_raw": {
+          "n": 6,
+          "median": 0.3568858200588909,
+          "mean": 0.4670164971742006
+        }
+      },
+      "eval_new_text": {
+        "baseline": {
+          "n": 4,
+          "median": 0.2374949454042384,
+          "mean": 0.24236596722826714
+        },
+        "reference_selected": {
+          "n": 4,
+          "median": 0.2366691595698296,
+          "mean": 0.24233311596392615
+        },
+        "bias": {
+          "n": 4,
+          "median": 0.2604966018828133,
+          "mean": 0.25898388531677274
+        },
+        "whole_raw": {
+          "n": 4,
+          "median": 0.25094759236850883,
+          "mean": 0.24218027467336933
+        }
+      },
+      "eval_old_text": {
+        "baseline": {
+          "n": 14,
+          "median": 0.30360306212543364,
+          "mean": 0.364351302491494
+        },
+        "reference_selected": {
+          "n": 14,
+          "median": 0.3021793370897911,
+          "mean": 0.3634073205523585
+        },
+        "bias": {
+          "n": 14,
+          "median": 0.29790842070603396,
+          "mean": 0.31427284071299344
+        },
+        "whole_raw": {
+          "n": 14,
+          "median": 0.27153117474465377,
+          "mean": 0.2630370929200328
+        }
+      }
+    }
+  },
+  "failures": [
+    {
+      "speaker": "p233",
+      "utterance": "004",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p233",
+      "utterance": "007",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p233",
+      "utterance": "010",
+      "reason": "source_missing"
+    },
+    {
+      "speaker": "p236",
+      "utterance": "001",
+      "reason": "source_missing"
+    },
+    {
+      "speaker": "p236",
+      "utterance": "004",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p236",
+      "utterance": "007",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p236",
+      "utterance": "008",
+      "reason": "source_missing"
+    },
+    {
+      "speaker": "p239",
+      "utterance": "007",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p237",
+      "utterance": "002",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p237",
+      "utterance": "006",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p237",
+      "utterance": "007",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p241",
+      "utterance": "004",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p241",
+      "utterance": "007",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p241",
+      "utterance": "011",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p245",
+      "utterance": "004",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    },
+    {
+      "speaker": "p245",
+      "utterance": "007",
+      "reason": "alignment_failure",
+      "error": "Failed to stop utterance processing"
+    }
+  ]
+}

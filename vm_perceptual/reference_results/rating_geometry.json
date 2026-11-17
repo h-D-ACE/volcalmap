@@ -1,0 +1,28 @@
+{
+  "male": {
+    "speakers": 49,
+    "pairs": 1176,
+    "ratings": 11760,
+    "median_rating_sd": 1.4757295747452437,
+    "split_half_srcc_median": 0.2166469457931109,
+    "minimum_gram_eigenvalue": -13.403843015926004,
+    "negative_gram_eigenvalues": 9,
+    "negative_eigen_mass_fraction": 0.1976304004639937
+  },
+  "female": {
+    "speakers": 51,
+    "pairs": 1275,
+    "ratings": 12750,
+    "median_rating_sd": 1.4757295747452437,
+    "split_half_srcc_median": 0.3672762557252057,
+    "minimum_gram_eigenvalue": -14.032171384488553,
+    "negative_gram_eigenvalues": 12,
+    "negative_eigen_mass_fraction": 0.21927907056138032
+  },
+  "interpretation": [
+    "Mean scores divided by 3 plus unit diagonal are not automatically a positive semidefinite cosine Gram matrix.",
+    "Negative eigenvalues do not disprove a perceptual map: rating scale may be nonlinear, listener noise and context matter.",
+    "Split-half agreement uses independent rating subsets per pair; listener IDs absent, not a universal human ceiling.",
+    "Male/female graphs disconnected: cross-gender geometry lacks supervision and must not be claimed calibrated."
+  ]
+}

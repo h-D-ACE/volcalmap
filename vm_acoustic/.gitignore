@@ -1,0 +1,4 @@
+.deps/
+__pycache__/
+data/*.flac
+data/archive_listing_sample.json

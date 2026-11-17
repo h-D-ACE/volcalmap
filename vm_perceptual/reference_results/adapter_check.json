@@ -1,0 +1,36 @@
+{
+  "repeated_same_model_max_abs": 0.0,
+  "adapters": {
+    "ecapa": {
+      "ridge": 1.0,
+      "development_median": 0.7641492657122532,
+      "test_clips": 80,
+      "test_median_coordinate_error": 0.767593446769324,
+      "test_p90_coordinate_error": 1.0101779663169206,
+      "same_recording_top1": 0.075,
+      "exact_coordinate_matches": 0,
+      "note": "Same-recording retrieval among 80 held-out recordings; not identity or perceptual accuracy"
+    },
+    "wavlm3": {
+      "ridge": 1.0,
+      "development_median": 0.7644985954566885,
+      "test_clips": 80,
+      "test_median_coordinate_error": 0.742538866602265,
+      "test_p90_coordinate_error": 1.0130964085572385,
+      "same_recording_top1": 0.075,
+      "exact_coordinate_matches": 0,
+      "note": "Same-recording retrieval among 80 held-out recordings; not identity or perceptual accuracy"
+    }
+  },
+  "repeat_full_audio_pipeline": {
+    "audio": "jvs001/parallel100/wav24kHz16bit/VOICEACTRESS100_001.wav",
+    "max_abs_coordinate_difference": 0.0,
+    "scope": "two CPU runs, fixed audio, versions and parameters; not cross-hardware bit-exact guarantee"
+  },
+  "interpretation": [
+    "Same audio + fixed deterministic pipeline gives repeatable coordinates.",
+    "Different frontend embeddings do not share units, axes or retained information.",
+    "A learned adapter can approximate a canonical map, but lost information cannot be restored by changing axes.",
+    "This is a post-lock exploratory diagnostic, not a new independently blinded perceptual test."
+  ]
+}

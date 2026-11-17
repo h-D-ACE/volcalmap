@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "strength": 0.0,
+      "disjoint_text_srcc": 0.122372123917576,
+      "median_repeat_distance": 0.6906975760787503
+    },
+    {
+      "strength": 0.25,
+      "disjoint_text_srcc": 0.142860259595105,
+      "median_repeat_distance": 0.637746500117363
+    },
+    {
+      "strength": 0.5,
+      "disjoint_text_srcc": 0.1426296348780565,
+      "median_repeat_distance": 0.6037956859359528
+    },
+    {
+      "strength": 0.75,
+      "disjoint_text_srcc": 0.14153917766666893,
+      "median_repeat_distance": 0.5728866744586771
+    }
+  ],
+  "train_voices": 60,
+  "dev_pairs": 90
+}

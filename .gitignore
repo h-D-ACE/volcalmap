@@ -1,0 +1,16 @@
+**/.deps/
+**/__pycache__/
+**/*.pyc
+vm_acoustic/data/
+vm_acoustic/data_reference/
+vm_acoustic/data_vctk_*/
+vm_acoustic/training_runs/
+vm_acoustic/results*/cache/
+vm_acoustic/results*/feature_cache/
+deliverables/
+*.pt
+*.flac
+*.wav
+*.zip
+.env
+ESD/

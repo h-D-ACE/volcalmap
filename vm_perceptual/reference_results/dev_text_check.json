@@ -1,0 +1,36 @@
+{
+  "development_pairs": 90,
+  "profile_clips": {
+    "1_matched": {
+      "assignments": 4,
+      "mean": 0.2543706755910559,
+      "minimum": 0.15331415339950322,
+      "maximum": 0.3436446363379386
+    },
+    "1_disjoint": {
+      "assignments": 12,
+      "mean": 0.2082763511568246,
+      "minimum": 0.14438834689940955,
+      "maximum": 0.3322274715665795
+    },
+    "2_matched": {
+      "assignments": 6,
+      "mean": 0.30023994392798803,
+      "minimum": 0.19934892740384919,
+      "maximum": 0.38859759828770307
+    },
+    "2_disjoint": {
+      "assignments": 6,
+      "mean": 0.26297813672973214,
+      "minimum": 0.16248982637135356,
+      "maximum": 0.29929905647404276
+    },
+    "4_matched": {
+      "assignments": 1,
+      "mean": 0.35076234279917945,
+      "minimum": 0.35076234279917945,
+      "maximum": 0.35076234279917945
+    }
+  },
+  "limitation": "Development diagnostics on four parallel texts. Ratings refer to voice pairs. Assignments share speakers and are not independent replicates."
+}

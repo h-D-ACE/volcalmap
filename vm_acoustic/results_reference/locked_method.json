@@ -1,0 +1,23 @@
+{
+  "chosen": "c5500_w40",
+  "config": {
+    "ceiling": 5500,
+    "window": 0.04
+  },
+  "dev_scores": {
+    "c4500_w25": 0.22798364635999388,
+    "c4500_w40": 0.23281720601767797,
+    "c5000_w25": 0.14285393605889884,
+    "c5000_w40": 0.1436357822274323,
+    "c5500_w25": 0.05324100345962035,
+    "c5500_w40": 0.052283237136430454,
+    "c6000_w25": 0.1020954185765391,
+    "c6000_w40": 0.10184363008739976,
+    "c6500_w25": 0.26399302066150937,
+    "c6500_w40": 0.26479287921040123
+  },
+  "baseline": "c5500_w25",
+  "selection": "Mean per-token median relative error + 0.5*p90, development speakers only",
+  "reference_sha256": "cebc484484c100cdd67dd191ad33dbb4ed2e8d59e11cc8a9dc23e2df2ef23dad",
+  "scope": "Adult hVd natural speech; human-edited LPC reference, not anatomical ground truth"
+}

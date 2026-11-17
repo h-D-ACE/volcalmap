@@ -1,0 +1,3327 @@
+{
+  "counts": {
+    "cal_old_text": {
+      "candidates": 99,
+      "v2_complete_both_mics": 87,
+      "legacy_mic1_gate_pass": 1,
+      "formant_iqr": 7,
+      "short": 65,
+      "too_few_joint_frames": 10,
+      "boundary_shift": 16,
+      "legacy_pass": 1
+    },
+    "cal_new_text": {
+      "candidates": 88,
+      "v2_complete_both_mics": 76,
+      "legacy_mic1_gate_pass": 2,
+      "formant_iqr": 2,
+      "short": 78,
+      "too_few_joint_frames": 4,
+      "legacy_pass": 2,
+      "boundary_shift": 2
+    },
+    "eval_old_text": {
+      "candidates": 110,
+      "v2_complete_both_mics": 98,
+      "legacy_mic1_gate_pass": 12,
+      "formant_iqr": 2,
+      "short": 68,
+      "boundary_shift": 16,
+      "legacy_pass": 12,
+      "too_few_joint_frames": 12
+    },
+    "eval_new_text": {
+      "candidates": 113,
+      "v2_complete_both_mics": 102,
+      "legacy_mic1_gate_pass": 7,
+      "short": 91,
+      "too_few_joint_frames": 5,
+      "formant_iqr": 2,
+      "boundary_shift": 8,
+      "legacy_pass": 7
+    }
+  },
+  "rows": [
+    {
+      "speaker": "p233",
+      "utterance": "001",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "001",
+      "index": 1,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "002",
+      "index": 0,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "002",
+      "index": 2,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "003",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "003",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "003",
+      "index": 4,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "003",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "003",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "003",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "003",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 1,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 11,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "005",
+      "index": 13,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "006",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "006",
+      "index": 1,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "006",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "006",
+      "index": 5,
+      "vowel": "EH",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "006",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "006",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "006",
+      "index": 10,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p233",
+      "utterance": "008",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "008",
+      "index": 5,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "008",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p233",
+      "utterance": "008",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "008",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "008",
+      "index": 14,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "009",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "009",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "009",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "009",
+      "index": 9,
+      "vowel": "EH",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "011",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "011",
+      "index": 2,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "011",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "011",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "011",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "011",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p233",
+      "utterance": "011",
+      "index": 12,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "011",
+      "index": 13,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "012",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "012",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "012",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "012",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "012",
+      "index": 8,
+      "vowel": "EH",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p233",
+      "utterance": "012",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "002",
+      "index": 0,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "002",
+      "index": 1,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "003",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "003",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "003",
+      "index": 4,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "003",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "003",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p236",
+      "utterance": "003",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p236",
+      "utterance": "003",
+      "index": 10,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "005",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "005",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "005",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "005",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "005",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "005",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "005",
+      "index": 11,
+      "vowel": "IY",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "005",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "005",
+      "index": 13,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "006",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "006",
+      "index": 5,
+      "vowel": "EH",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "006",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "006",
+      "index": 7,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p236",
+      "utterance": "009",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "009",
+      "index": 3,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "009",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "009",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "010",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "010",
+      "index": 4,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "011",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "011",
+      "index": 2,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "011",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "011",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "011",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "011",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p236",
+      "utterance": "011",
+      "index": 12,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "011",
+      "index": 13,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "012",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "012",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "012",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "012",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "012",
+      "index": 8,
+      "vowel": "EH",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p236",
+      "utterance": "012",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "001",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "001",
+      "index": 1,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "002",
+      "index": 0,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "002",
+      "index": 2,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "003",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "003",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "003",
+      "index": 4,
+      "vowel": "AE",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "003",
+      "index": 7,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "003",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "003",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "003",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "004",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "004",
+      "index": 1,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "004",
+      "index": 3,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "004",
+      "index": 4,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "005",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "005",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "005",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "005",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "005",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "005",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "005",
+      "index": 11,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "005",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "005",
+      "index": 13,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "006",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "006",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "006",
+      "index": 5,
+      "vowel": "EH",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "006",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "006",
+      "index": 7,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "008",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "008",
+      "index": 5,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "008",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "008",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "008",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "008",
+      "index": 14,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "009",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "009",
+      "index": 3,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "009",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "009",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "010",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "010",
+      "index": 4,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "011",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "011",
+      "index": 2,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "011",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "011",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "011",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "011",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "011",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p239",
+      "utterance": "011",
+      "index": 12,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "011",
+      "index": 13,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "012",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "012",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "012",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "012",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "012",
+      "index": 8,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p239",
+      "utterance": "012",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "001",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "001",
+      "index": 1,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "002",
+      "index": 0,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "002",
+      "index": 1,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "003",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "003",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "003",
+      "index": 4,
+      "vowel": "AE",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "003",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "003",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "003",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "003",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "004",
+      "index": 0,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "004",
+      "index": 1,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "004",
+      "index": 3,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "004",
+      "index": 4,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p240",
+      "utterance": "004",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 5,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 11,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "005",
+      "index": 13,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p240",
+      "utterance": "006",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "006",
+      "index": 4,
+      "vowel": "EH",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "006",
+      "index": 5,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "006",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "006",
+      "index": 9,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p240",
+      "utterance": "007",
+      "index": 5,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "007",
+      "index": 6,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "008",
+      "index": 0,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "008",
+      "index": 5,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "008",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p240",
+      "utterance": "008",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "008",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "008",
+      "index": 14,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "008",
+      "index": 15,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "009",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "formant_iqr",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "009",
+      "index": 3,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "009",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p240",
+      "utterance": "009",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "010",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "010",
+      "index": 4,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "011",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "011",
+      "index": 2,
+      "vowel": "AE",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "011",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "011",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "011",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "011",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p240",
+      "utterance": "011",
+      "index": 12,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "011",
+      "index": 13,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "012",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "012",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "012",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "012",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "012",
+      "index": 8,
+      "vowel": "EH",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p240",
+      "utterance": "012",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "001",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "001",
+      "index": 1,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p237",
+      "utterance": "003",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "003",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "003",
+      "index": 4,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "003",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "003",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p237",
+      "utterance": "003",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "003",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "004",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "004",
+      "index": 1,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "004",
+      "index": 3,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "004",
+      "index": 4,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 11,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 13,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p237",
+      "utterance": "005",
+      "index": 14,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "008",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "008",
+      "index": 5,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "008",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "008",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "008",
+      "index": 14,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "008",
+      "index": 15,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "009",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "009",
+      "index": 3,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "009",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p237",
+      "utterance": "009",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "010",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "010",
+      "index": 4,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p237",
+      "utterance": "011",
+      "index": 1,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "011",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "011",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "011",
+      "index": 5,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "011",
+      "index": 6,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "011",
+      "index": 10,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p237",
+      "utterance": "011",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "012",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "012",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "012",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "012",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "012",
+      "index": 8,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p237",
+      "utterance": "012",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p241",
+      "utterance": "001",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "001",
+      "index": 1,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "002",
+      "index": 0,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "002",
+      "index": 1,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "003",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "003",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "003",
+      "index": 4,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "003",
+      "index": 7,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "003",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "003",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 1,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 11,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "005",
+      "index": 13,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "006",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "006",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "006",
+      "index": 5,
+      "vowel": "EH",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "006",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "006",
+      "index": 7,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p241",
+      "utterance": "008",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "008",
+      "index": 5,
+      "vowel": "AE",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "008",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p241",
+      "utterance": "008",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "008",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p241",
+      "utterance": "008",
+      "index": 14,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "008",
+      "index": 15,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "009",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "009",
+      "index": 3,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "009",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p241",
+      "utterance": "009",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "010",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "010",
+      "index": 4,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "012",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p241",
+      "utterance": "012",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "012",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "012",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "012",
+      "index": 8,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p241",
+      "utterance": "012",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "001",
+      "index": 0,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "001",
+      "index": 1,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "002",
+      "index": 0,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "002",
+      "index": 2,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "003",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "003",
+      "index": 3,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "003",
+      "index": 4,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "003",
+      "index": 7,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "003",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "003",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "004",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "004",
+      "index": 1,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "004",
+      "index": 3,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 5,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 11,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "005",
+      "index": 13,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p243",
+      "utterance": "006",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "006",
+      "index": 4,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "006",
+      "index": 5,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "006",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "007",
+      "index": 5,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "007",
+      "index": 6,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "008",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "008",
+      "index": 1,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "008",
+      "index": 5,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "008",
+      "index": 10,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "008",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "008",
+      "index": 14,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "008",
+      "index": 15,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "009",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "009",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "009",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "009",
+      "index": 9,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "010",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "010",
+      "index": 4,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "011",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "011",
+      "index": 2,
+      "vowel": "AE",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "011",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "011",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "011",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "011",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "011",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p243",
+      "utterance": "011",
+      "index": 12,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "011",
+      "index": 13,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "012",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "012",
+      "index": 3,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "012",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "012",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "012",
+      "index": 8,
+      "vowel": "EH",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p243",
+      "utterance": "012",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "001",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "001",
+      "index": 1,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "002",
+      "index": 0,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "002",
+      "index": 2,
+      "vowel": "IY",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "003",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "003",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "003",
+      "index": 4,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "003",
+      "index": 7,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "003",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "003",
+      "index": 11,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "005",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "005",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "005",
+      "index": 5,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "005",
+      "index": 6,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "005",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "005",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "005",
+      "index": 11,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "005",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "005",
+      "index": 13,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p245",
+      "utterance": "006",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "006",
+      "index": 4,
+      "vowel": "EH",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "006",
+      "index": 5,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "006",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "008",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "boundary_shift",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "008",
+      "index": 5,
+      "vowel": "AE",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "008",
+      "index": 8,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p245",
+      "utterance": "008",
+      "index": 10,
+      "vowel": "EH",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "008",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "008",
+      "index": 14,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "008",
+      "index": 15,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "008",
+      "index": 16,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "009",
+      "index": 0,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "009",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "009",
+      "index": 7,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p245",
+      "utterance": "009",
+      "index": 9,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "010",
+      "index": 0,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "010",
+      "index": 4,
+      "vowel": "EH",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "011",
+      "index": 1,
+      "vowel": "AE",
+      "reason": null,
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "011",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "011",
+      "index": 5,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "011",
+      "index": 6,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "011",
+      "index": 10,
+      "vowel": "AE",
+      "reason": "too_few_joint_frames",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "011",
+      "index": 11,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": false
+    },
+    {
+      "speaker": "p245",
+      "utterance": "011",
+      "index": 12,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "012",
+      "index": 2,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "012",
+      "index": 3,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "012",
+      "index": 4,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "012",
+      "index": 6,
+      "vowel": "AE",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "012",
+      "index": 8,
+      "vowel": "EH",
+      "reason": "short",
+      "v2_complete": true
+    },
+    {
+      "speaker": "p245",
+      "utterance": "012",
+      "index": 9,
+      "vowel": "IY",
+      "reason": "short",
+      "v2_complete": true
+    }
+  ],
+  "note": "Same AE/EH/IY candidates; legacy mic1 gate is optimistic (does not require mic2 availability); not accuracy truth"
+}

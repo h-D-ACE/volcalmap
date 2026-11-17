@@ -1,0 +1,342 @@
+{
+  ".github/workflows/validate.yml": {
+    "bytes": 796,
+    "sha256": "42e74a125e137027ea15b8d7e2c1d061a123efaf933d9d4607d72a4faee6787a"
+  },
+  ".gitignore": {
+    "bytes": 246,
+    "sha256": "35e4016dece2798886229d53672e03859e3cfd016ffa9accc13f1eff2bbcabfb"
+  },
+  "build_source_bundle.py": {
+    "bytes": 2897,
+    "sha256": "f790ab5551a42cc2f5db50b4f9fca4fa2ba6f61e28e77ee733c88b959c004fb1"
+  },
+  "MIGRATION.md": {
+    "bytes": 2570,
+    "sha256": "a7265d38ed2b518d1bac6aee56df98c4da347863750f7d9ad3c9bd05e3d424b7"
+  },
+  "README.md": {
+    "bytes": 3294,
+    "sha256": "e0b0b8dfe3b846b4c7b7df2945ecf10661c21f3a5c6df0b1381589890c118092"
+  },
+  "ROADMAP.md": {
+    "bytes": 1863,
+    "sha256": "d031e2cefcce90d5fef1486aa72c5f977312ced60e8f2f7565f674ecf332d6a4"
+  },
+  "vm_acoustic/.gitignore": {
+    "bytes": 65,
+    "sha256": "e298b644f890a9e19a8d333d7ee2cad245df9ef3939e3a23fd94a5a8f2dc089c"
+  },
+  "vm_acoustic/acoustics.py": {
+    "bytes": 5716,
+    "sha256": "4d4b564fe2feaeac1959977894969aee9a7d7b920dc055d3de916850b01ad665"
+  },
+  "vm_acoustic/audit_validation.py": {
+    "bytes": 7279,
+    "sha256": "c514ed5b37d193319941a4d006c447a90e3b70452f8320e49d2e4b7b98a685dd"
+  },
+  "vm_acoustic/AUTODL_RUNBOOK.md": {
+    "bytes": 4693,
+    "sha256": "eb2cf59927fbc906549493770890d22566f0405b48186dcf2d7a55bbb2999d8d"
+  },
+  "vm_acoustic/benchmark_tracker.py": {
+    "bytes": 2146,
+    "sha256": "6707c3c97ac9fbef3ac3eba689fa73efb66ed92e334fd834bf22f98bc264f766"
+  },
+  "vm_acoustic/BOUNDARY_REVIEW.md": {
+    "bytes": 2233,
+    "sha256": "10693a51d8b50c67f3f373327ecfd086142b76771d6b44eb9ba162c30d1770b9"
+  },
+  "vm_acoustic/build_sentence_validation.py": {
+    "bytes": 9765,
+    "sha256": "e0aaac1f155b873f57d80fd8a0ccd050b3e17c070e936136507c72193e76b0c0"
+  },
+  "vm_acoustic/channel_equalization.py": {
+    "bytes": 6502,
+    "sha256": "cdaffa81b50e0803da2a09a8fbe22bfdeb163a53d2d46aee4d060d7e97230a50"
+  },
+  "vm_acoustic/confirm_tracker.py": {
+    "bytes": 4801,
+    "sha256": "912d2c47b051bc6619f5b65179a515fbff6706d15eb3b2f015b81ba53a582017"
+  },
+  "vm_acoustic/evaluate_physics.py": {
+    "bytes": 4326,
+    "sha256": "9d0da9ff4324f5da085035246691163955aa83532e04fbcf0473f8ad652220ad"
+  },
+  "vm_acoustic/evaluate_tracker_pairs.py": {
+    "bytes": 3122,
+    "sha256": "50d49af31bcedde69e98c58c88dc715a20a2fc81b839083138bcae74eaa95b78"
+  },
+  "vm_acoustic/fetch_reference.py": {
+    "bytes": 1874,
+    "sha256": "2b8b1adb054b84dd1d834b76662fe7e78661ee1724b000e9cb5929ee20492af8"
+  },
+  "vm_acoustic/fetch_samples.py": {
+    "bytes": 6077,
+    "sha256": "339f010c6c1ebeb82c6d18d680890d044c8f0f2811d158b47ce0e695c2218a3f"
+  },
+  "vm_acoustic/fetch_vctk_validation.py": {
+    "bytes": 3090,
+    "sha256": "464e34c615a8a4061610bbfb0417c5b80ac969e3b6443b1606a48f1e21f224b5"
+  },
+  "vm_acoustic/formant_tracker.py": {
+    "bytes": 2043,
+    "sha256": "b2669895b71368d2cd239fc95af92d4c631db11a937451cbce5f1210d3cd1715"
+  },
+  "vm_acoustic/inspect_reliability.py": {
+    "bytes": 5504,
+    "sha256": "63cd83d0ba7f0a6b4f3daf40260fd541ae293d7e4036bb825625643b4a203c1a"
+  },
+  "vm_acoustic/LANGUAGE_EFFECTS.md": {
+    "bytes": 5339,
+    "sha256": "5a2de52df5de3cda69750438c75e227fe0ce61e222dc59872ef197ececaa9d80"
+  },
+  "vm_acoustic/measurement_v2.py": {
+    "bytes": 3628,
+    "sha256": "02065e3b7e5a22cea3e0972a87050a98009c4f6a7ec4fc8eddd20556f9569906"
+  },
+  "vm_acoustic/MODEL_CONTRACT.md": {
+    "bytes": 11184,
+    "sha256": "77b23202b777747474d0d2ef1c9a2ded8078552c8f75cfcb31f17530f258c86c"
+  },
+  "vm_acoustic/prepare_physics_training.py": {
+    "bytes": 2378,
+    "sha256": "da43d21e9f3ff49c72d0a6d1c3757f967871e88564069f22292d01a86122c284"
+  },
+  "vm_acoustic/READINESS.md": {
+    "bytes": 3889,
+    "sha256": "f3306cabac0720c6489f740647348ac96354c7656cbf863e442e42d04a7c26b7"
+  },
+  "vm_acoustic/README.md": {
+    "bytes": 5287,
+    "sha256": "727b4da26d722999b74343c55592a459d10a95fcbe3a36bad7ce0c74f8c6ad29"
+  },
+  "vm_acoustic/reference_benchmark.py": {
+    "bytes": 7080,
+    "sha256": "97734695cac9a62a24b58c09e300ea4d925965d251472e3ab30924ed2e421f53"
+  },
+  "vm_acoustic/reliability_probe.py": {
+    "bytes": 17767,
+    "sha256": "a9dc6f305d2d18a190bf2e93ea7323f6f25d9b2f93cde3c1af7717787bba9d99"
+  },
+  "vm_acoustic/requirements.txt": {
+    "bytes": 109,
+    "sha256": "67c02e3b0e3732f913ea75e4f5b260b5ab4f21a64941af32101901bf80e19d9a"
+  },
+  "vm_acoustic/results_confirmation/metrics.json": {
+    "bytes": 3672,
+    "sha256": "1203287022b59a83eee30198741e37458e29763c9c300434e76e6985158a091a"
+  },
+  "vm_acoustic/results_confirmation/report.md": {
+    "bytes": 877,
+    "sha256": "1c341a667cb863a7a43a4eae9c638819aacbaddc84cf288f74c4c3ba25c1520f"
+  },
+  "vm_acoustic/results_reference/locked_method.json": {
+    "bytes": 814,
+    "sha256": "8ffa82e6628a0f9dd18bb8cfb60780c40aa1037f5f054e8ad01b7a0cd939e21f"
+  },
+  "vm_acoustic/results_reference/metrics.json": {
+    "bytes": 5217,
+    "sha256": "96d3551f79229b61d8e84dfe8948f9a5ed0258037268c1717c5cb16ecf02e896"
+  },
+  "vm_acoustic/results_reference/report.md": {
+    "bytes": 985,
+    "sha256": "301e353a1a9bcccf793dd45b26bfe2565a05558eabbb956ca88711bc7019417c"
+  },
+  "vm_acoustic/results_reference/tracker_child_challenge.json": {
+    "bytes": 269337,
+    "sha256": "ded89af219a9dda344cf0a3e84fb4d965f09c92679ced14da0c9ccc531214088"
+  },
+  "vm_acoustic/results_reference/tracker_experiment.json": {
+    "bytes": 467470,
+    "sha256": "37028ee00877c30f628786e3613011faa2259aa3e66e15214eef3d8c5e4e032d"
+  },
+  "vm_acoustic/results_sentence_validation/coverage_audit.json": {
+    "bytes": 68620,
+    "sha256": "675df03c8cb071aa09c4839db0d714791b7f80ad345b451501edddc463f1cdc3"
+  },
+  "vm_acoustic/results_sentence_validation/equalization_report.md": {
+    "bytes": 1589,
+    "sha256": "75c00805983bffc4dbe8825c67e00e1d050358e4d6861d364c6d28ee67fefbcf"
+  },
+  "vm_acoustic/results_sentence_validation/metrics.json": {
+    "bytes": 10717,
+    "sha256": "5516da28b314b808b59b2b2bd852e39b873a22930b35a5b85baf8b55945570f8"
+  },
+  "vm_acoustic/results_sentence_validation/report.md": {
+    "bytes": 2005,
+    "sha256": "1b0c76d256a61f2a66ae747b75e76630308bcb4a717fdc781ac65e8e97a1990b"
+  },
+  "vm_acoustic/results_sentence_validation/tracker_metrics.json": {
+    "bytes": 3152,
+    "sha256": "39f197f8c927182357e9e287c750345440da94940f1959c768ca944f7963b331"
+  },
+  "vm_acoustic/run_probe.py": {
+    "bytes": 16679,
+    "sha256": "f0e41b41d957d326bd1a10c9545b03ba110d2bce5f65bc2dfbf37f9dea735db4"
+  },
+  "vm_acoustic/test_contracts.py": {
+    "bytes": 1228,
+    "sha256": "aa6d3fc1f2642b18f804ed6730d6d406cc476456af93c7690fe0291b6112a752"
+  },
+  "vm_acoustic/train_physics.py": {
+    "bytes": 7906,
+    "sha256": "f7b43b3ce2ead541af45a57bac7225e75afa0a71e5b3ceb1127fb8dc3b3b9c14"
+  },
+  "vm_acoustic/TRAINING_PLAN.md": {
+    "bytes": 4742,
+    "sha256": "7b904d17e74ccb94e7ba819597cbc787ea0ec6a8ed57fb76787541221a7243bb"
+  },
+  "vm_acoustic/validate_probe.py": {
+    "bytes": 5133,
+    "sha256": "b0639899d0b3b728841f111ef591acd3eb67fcde82c426015fb381d23532b3b6"
+  },
+  "vm_acoustic/validate_tracker_ood.py": {
+    "bytes": 2752,
+    "sha256": "6e6bc629afe7cb22cba84cdeba4b528ea067087d09fee91d6381643f091f57a6"
+  },
+  "vm_acoustic/validate_vowels.py": {
+    "bytes": 2427,
+    "sha256": "009b0c7e0a955e52009f7de5192d466fef106971becc65b890b5cb5fde56cc43"
+  },
+  "vm_acoustic/voice_space.py": {
+    "bytes": 3076,
+    "sha256": "078a353c95c6e17ac6c23e25eda4d92dc563f547fd456c8ce3bc81fc09ccc316"
+  },
+  "vm_acoustic/vowel_probe.py": {
+    "bytes": 11468,
+    "sha256": "41ee5c43e9a028b7e0cb1c7c446ed46702f57522db44f4c31cbb4380fb25d0e5"
+  },
+  "vm_acoustic/vowel_profiles.py": {
+    "bytes": 7076,
+    "sha256": "445d1aff5bcf882adca3f0968ed6ebfd75a2436f6d3b6eb9687aae3e19d12c69"
+  },
+  "vm_perceptual/.gitignore": {
+    "bytes": 61,
+    "sha256": "930de432c7beb4b0ea449ee4acb9049ad37189705f8f8f9929ecd3f102c07fd3"
+  },
+  "vm_perceptual/adapter_check.py": {
+    "bytes": 3116,
+    "sha256": "bdb6c1ecf1e66ae73313f7b28a0700ac64a805effa76058637c5829e11ca3b2d"
+  },
+  "vm_perceptual/AUTODL.md": {
+    "bytes": 4636,
+    "sha256": "a6ac69f6e9962a41383771fa2dc20c6230d5daf70e8ecacd2d700a34d34c0b5e"
+  },
+  "vm_perceptual/COORDINATE_STANDARD.md": {
+    "bytes": 3037,
+    "sha256": "7946c5f44e755221d8d18f298f425c727a9e460a9c3a629139036cdbf619fdca"
+  },
+  "vm_perceptual/DATA_SOURCES.md": {
+    "bytes": 1559,
+    "sha256": "0b8c3c379159affe1ccd243a7d73c1b28f7f9e1b1307cada5265b933b6937371"
+  },
+  "vm_perceptual/dataset.py": {
+    "bytes": 3665,
+    "sha256": "d9db90a33831241bda33003451303d95f266e11a92c08511caa424b740370c45"
+  },
+  "vm_perceptual/dev_text_check.py": {
+    "bytes": 2404,
+    "sha256": "d3cb89c73503316df18964b30509bcdf6a8d7ebf4f9396598c618eb33eea1be4"
+  },
+  "vm_perceptual/dev_whitening.py": {
+    "bytes": 1619,
+    "sha256": "0908c162ddea1c31f7419414e7be02133ed7974b3abf43141c532368b414e22e"
+  },
+  "vm_perceptual/evaluate_map.py": {
+    "bytes": 10763,
+    "sha256": "de1c0c2ed24fd2a119325943a1e08305d9f5cd2ee08d9a372309edf41ae56b73"
+  },
+  "vm_perceptual/extract_features.py": {
+    "bytes": 5245,
+    "sha256": "47955dcee0caaf80f1bdefa6d849444fcaa42fa1e2f746d78485e687aaae3254"
+  },
+  "vm_perceptual/fetch_jvs.py": {
+    "bytes": 3980,
+    "sha256": "36defd385d4f44f17202c7918f6e4bb9f1bc196bd6e97dda9c09d9bbfcec6b7d"
+  },
+  "vm_perceptual/fetch_models.py": {
+    "bytes": 775,
+    "sha256": "4b5f8d8d1c69b3ec5687c0e2c948471092146607551fd7357084f2480170ef9e"
+  },
+  "vm_perceptual/infer.py": {
+    "bytes": 2907,
+    "sha256": "d98269b5ba3fc0f09bd2d168f65e85aba45aa6cd285bbcaa5ba48a144f0e1f0e"
+  },
+  "vm_perceptual/map_index.py": {
+    "bytes": 4094,
+    "sha256": "eb8e1235c4c180639b21adc600df170353c978f27c8f4aaa21bac2c24a67923b"
+  },
+  "vm_perceptual/prepare_sources.py": {
+    "bytes": 2277,
+    "sha256": "e12f042662a5e91d3acbc768c6ec6db6876100ef73769754055ff50f9b998480"
+  },
+  "vm_perceptual/PROTOCOL.md": {
+    "bytes": 2548,
+    "sha256": "451b0645a1f89085fb741dabb87e1f872b8f2231fa340c6f8171637670f0403b"
+  },
+  "vm_perceptual/rating_geometry.py": {
+    "bytes": 2111,
+    "sha256": "8b41b6beed5201dd2521c905fa229b30e0a04f911198b9ed886a288ff977b0d2"
+  },
+  "vm_perceptual/README.md": {
+    "bytes": 3119,
+    "sha256": "2ef867925e992b8b1ebfd7a892d334a4f67fe5afa89ed39988fc638a234868a7"
+  },
+  "vm_perceptual/requirements.txt": {
+    "bytes": 280,
+    "sha256": "7ae991f2f25bd784cf335dca669c063166eb8e06ded6098c5ba5ee6d70097d10"
+  },
+  "vm_perceptual/RESEARCH.md": {
+    "bytes": 5231,
+    "sha256": "75d0061a0e662f875da6f041c62f2b4482318e0498a374bf1b38c0393a572890"
+  },
+  "vm_perceptual/reference_results/adapter_check.json": {
+    "bytes": 1576,
+    "sha256": "50464e47bad78d44a9e32fcd9a81675cdedfb0610dd8f4acd98433ac2b91620b"
+  },
+  "vm_perceptual/reference_results/dev_text_check.json": {
+    "bytes": 1048,
+    "sha256": "baadb7601a91c4b5b4c030c4af864ba5da11e08134e116e27c6558d417cb2391"
+  },
+  "vm_perceptual/reference_results/dev_whitening.json": {
+    "bytes": 627,
+    "sha256": "173f797b7008fef946b7183d0c8291f911ef76b14062ed0d7a384cdde15a97de"
+  },
+  "vm_perceptual/reference_results/evaluation.json": {
+    "bytes": 24246,
+    "sha256": "295093131d39640a7d9b730c63ba613a8b7061d2bea1dda8b6b860ecdd47ff08"
+  },
+  "vm_perceptual/reference_results/rating_geometry.json": {
+    "bytes": 1172,
+    "sha256": "0020c0974e5e7c4fab7164a07506c7d0433d05ab64331cf2a690f7355a3a2368"
+  },
+  "vm_perceptual/reference_results/REPORT.md": {
+    "bytes": 2600,
+    "sha256": "baad68e422098234a8d2c5a19eec44d18e7e92501744134d11a8b6594ec0c9ac"
+  },
+  "vm_perceptual/reference_results/resume_check.json": {
+    "bytes": 129,
+    "sha256": "dfa3d0e1950a203f09150c6a088588c7b7ced961ae88c52e0c4a0956f5f3356b"
+  },
+  "vm_perceptual/reference_results/short_clip_check.json": {
+    "bytes": 12254,
+    "sha256": "7c26da0e31104f2236cf58f4368af995a65336d9328bbd02b9d77298a7b6c51a"
+  },
+  "vm_perceptual/runtime.py": {
+    "bytes": 598,
+    "sha256": "7f0503efe61c013773d4483ce91e4ba55a55dd25097690bcbe02138ca165460d"
+  },
+  "vm_perceptual/short_clip_check.py": {
+    "bytes": 2438,
+    "sha256": "d905ef437033aef1635178fab92e9147bcacf8238d092745d5b066dbfd523a22"
+  },
+  "vm_perceptual/test_pipeline.py": {
+    "bytes": 3401,
+    "sha256": "e57602a0fcc0fafd134a546b44d95b5d824f20ea375060c0670a228961a61a56"
+  },
+  "vm_perceptual/train_map.py": {
+    "bytes": 6591,
+    "sha256": "7b34cf72c9c5a2d24147748d77fd3a39dd1f07e0bbf793e933bb6932c63f4934"
+  }
+}

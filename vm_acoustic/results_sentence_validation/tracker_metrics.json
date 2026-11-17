@@ -1,0 +1,132 @@
+{
+  "metrics": {
+    "all": {
+      "cal_old_text": {
+        "fixed": {
+          "n": 18,
+          "median": 0.4835832453629314,
+          "mean": 0.6438383266887154
+        },
+        "path": {
+          "n": 18,
+          "median": 0.3733192923627556,
+          "mean": 0.5130119802470726
+        }
+      },
+      "cal_new_text": {
+        "fixed": {
+          "n": 17,
+          "median": 0.451254135496295,
+          "mean": 0.49642629957135387
+        },
+        "path": {
+          "n": 17,
+          "median": 0.34638752365497383,
+          "mean": 0.4109362384216444
+        }
+      },
+      "eval_old_text": {
+        "fixed": {
+          "n": 23,
+          "median": 0.34860707773172933,
+          "mean": 0.3896448372503119
+        },
+        "path": {
+          "n": 23,
+          "median": 0.313089502592464,
+          "mean": 0.379160634249032
+        }
+      },
+      "eval_new_text": {
+        "fixed": {
+          "n": 22,
+          "median": 0.3227092223652455,
+          "mean": 0.34001364842880216
+        },
+        "path": {
+          "n": 22,
+          "median": 0.2740873334668682,
+          "mean": 0.30447114999996744
+        }
+      }
+    },
+    "long": {
+      "cal_old_text": {
+        "fixed": {
+          "n": 6,
+          "median": 0.24547875876801642,
+          "mean": 0.7433705791951285
+        },
+        "path": {
+          "n": 6,
+          "median": 0.45757579524820224,
+          "mean": 0.6553967393589432
+        }
+      },
+      "cal_new_text": {
+        "fixed": {
+          "n": 1,
+          "median": 0.2322231821121701,
+          "mean": 0.2322231821121701
+        },
+        "path": {
+          "n": 1,
+          "median": 0.23369161611629044,
+          "mean": 0.23369161611629044
+        }
+      },
+      "eval_old_text": {
+        "fixed": {
+          "n": 14,
+          "median": 0.3021793370897911,
+          "mean": 0.3634073205523585
+        },
+        "path": {
+          "n": 14,
+          "median": 0.32156720674925376,
+          "mean": 0.3793007810172749
+        }
+      },
+      "eval_new_text": {
+        "fixed": {
+          "n": 4,
+          "median": 0.2366691595698296,
+          "mean": 0.24233311596392615
+        },
+        "path": {
+          "n": 4,
+          "median": 0.2325796992345152,
+          "mean": 0.23889564690544543
+        }
+      }
+    }
+  },
+  "coverage": {
+    "cal_old_text": {
+      "candidate": 186,
+      "fixed_complete": 150,
+      "path_complete": 150,
+      "common": 150
+    },
+    "cal_new_text": {
+      "candidate": 203,
+      "fixed_complete": 158,
+      "path_complete": 158,
+      "common": 158
+    },
+    "eval_old_text": {
+      "candidate": 219,
+      "fixed_complete": 178,
+      "path_complete": 178,
+      "common": 178
+    },
+    "eval_new_text": {
+      "candidate": 263,
+      "fixed_complete": 212,
+      "path_complete": 212,
+      "common": 212
+    }
+  },
+  "strength": 1.0,
+  "note": "Frozen adult-development strength. Existing VCTK evaluation previously inspected; method comparison is exploratory."
+}

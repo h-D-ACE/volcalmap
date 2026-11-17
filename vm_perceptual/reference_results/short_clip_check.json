@@ -1,0 +1,448 @@
+{
+  "metrics": {
+    "1": {
+      "attempted": 20,
+      "complete": 20,
+      "median_to_full": 0.9983389973640442,
+      "p90_to_full": 1.5575186491012576,
+      "median_to_other_sentences": 1.0561347007751465
+    },
+    "2": {
+      "attempted": 20,
+      "complete": 20,
+      "median_to_full": 0.680189847946167,
+      "p90_to_full": 1.003093421459198,
+      "median_to_other_sentences": 0.8247452974319458
+    },
+    "4": {
+      "attempted": 20,
+      "complete": 20,
+      "median_to_full": 0.48270179331302643,
+      "p90_to_full": 0.6953976094722749,
+      "median_to_other_sentences": 0.6752652525901794
+    }
+  },
+  "rows": [
+    {
+      "speaker": "jvs004",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.9694416522979736,
+      "distance_to_other_sentences": 0.9167463183403015
+    },
+    {
+      "speaker": "jvs004",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.48468780517578125,
+      "distance_to_other_sentences": 0.5275595784187317
+    },
+    {
+      "speaker": "jvs004",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.24618791043758392,
+      "distance_to_other_sentences": 0.3939800262451172
+    },
+    {
+      "speaker": "jvs008",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.81993168592453,
+      "distance_to_other_sentences": 1.0827479362487793
+    },
+    {
+      "speaker": "jvs008",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.6891180276870728,
+      "distance_to_other_sentences": 0.5999509692192078
+    },
+    {
+      "speaker": "jvs008",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.36181309819221497,
+      "distance_to_other_sentences": 0.9066121578216553
+    },
+    {
+      "speaker": "jvs020",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.7570987939834595,
+      "distance_to_other_sentences": 0.8297696709632874
+    },
+    {
+      "speaker": "jvs020",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.45250484347343445,
+      "distance_to_other_sentences": 0.4957849681377411
+    },
+    {
+      "speaker": "jvs020",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.2632024884223938,
+      "distance_to_other_sentences": 0.3945353925228119
+    },
+    {
+      "speaker": "jvs022",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.7147766947746277,
+      "distance_to_other_sentences": 0.5516319870948792
+    },
+    {
+      "speaker": "jvs022",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.6594805717468262,
+      "distance_to_other_sentences": 0.6706817150115967
+    },
+    {
+      "speaker": "jvs022",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.5095927715301514,
+      "distance_to_other_sentences": 0.6332560181617737
+    },
+    {
+      "speaker": "jvs029",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.7869913578033447,
+      "distance_to_other_sentences": 1.7666852474212646
+    },
+    {
+      "speaker": "jvs029",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.8209278583526611,
+      "distance_to_other_sentences": 0.843143880367279
+    },
+    {
+      "speaker": "jvs029",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.2685425281524658,
+      "distance_to_other_sentences": 0.6445043683052063
+    },
+    {
+      "speaker": "jvs034",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.5954716801643372,
+      "distance_to_other_sentences": 0.655506432056427
+    },
+    {
+      "speaker": "jvs034",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 1.2519348859786987,
+      "distance_to_other_sentences": 1.3076077699661255
+    },
+    {
+      "speaker": "jvs034",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.6669162511825562,
+      "distance_to_other_sentences": 0.8891564011573792
+    },
+    {
+      "speaker": "jvs036",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.2684624195098877,
+      "distance_to_other_sentences": 1.3130714893341064
+    },
+    {
+      "speaker": "jvs036",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.5016471147537231,
+      "distance_to_other_sentences": 0.8634077906608582
+    },
+    {
+      "speaker": "jvs036",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.6106318235397339,
+      "distance_to_other_sentences": 0.9362913370132446
+    },
+    {
+      "speaker": "jvs039",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.7040857076644897,
+      "distance_to_other_sentences": 1.6791784763336182
+    },
+    {
+      "speaker": "jvs039",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.6712616682052612,
+      "distance_to_other_sentences": 0.8209929466247559
+    },
+    {
+      "speaker": "jvs039",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.6071267127990723,
+      "distance_to_other_sentences": 0.9352968335151672
+    },
+    {
+      "speaker": "jvs044",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.657948911190033,
+      "distance_to_other_sentences": 0.5674796104431152
+    },
+    {
+      "speaker": "jvs044",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.549077033996582,
+      "distance_to_other_sentences": 0.3943040668964386
+    },
+    {
+      "speaker": "jvs044",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.48028555512428284,
+      "distance_to_other_sentences": 0.37820640206336975
+    },
+    {
+      "speaker": "jvs047",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.7416507005691528,
+      "distance_to_other_sentences": 0.6334744095802307
+    },
+    {
+      "speaker": "jvs047",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.3935168385505676,
+      "distance_to_other_sentences": 0.49126845598220825
+    },
+    {
+      "speaker": "jvs047",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.35040509700775146,
+      "distance_to_other_sentences": 0.4912683069705963
+    },
+    {
+      "speaker": "jvs057",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.0272363424301147,
+      "distance_to_other_sentences": 1.37872314453125
+    },
+    {
+      "speaker": "jvs057",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.6623605489730835,
+      "distance_to_other_sentences": 0.9138980507850647
+    },
+    {
+      "speaker": "jvs057",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.48511803150177,
+      "distance_to_other_sentences": 0.7796592712402344
+    },
+    {
+      "speaker": "jvs059",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.5412334203720093,
+      "distance_to_other_sentences": 1.6442021131515503
+    },
+    {
+      "speaker": "jvs059",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.762738823890686,
+      "distance_to_other_sentences": 0.8521679043769836
+    },
+    {
+      "speaker": "jvs059",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.4973033368587494,
+      "distance_to_other_sentences": 0.9879252910614014
+    },
+    {
+      "speaker": "jvs065",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.1177948713302612,
+      "distance_to_other_sentences": 1.0295214653015137
+    },
+    {
+      "speaker": "jvs065",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.5743666887283325,
+      "distance_to_other_sentences": 0.5401760339736938
+    },
+    {
+      "speaker": "jvs065",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.7744148969650269,
+      "distance_to_other_sentences": 0.7060261368751526
+    },
+    {
+      "speaker": "jvs069",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.164791464805603,
+      "distance_to_other_sentences": 1.3271408081054688
+    },
+    {
+      "speaker": "jvs069",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.7763527035713196,
+      "distance_to_other_sentences": 0.9273988604545593
+    },
+    {
+      "speaker": "jvs069",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.37753966450691223,
+      "distance_to_other_sentences": 0.5705403685569763
+    },
+    {
+      "speaker": "jvs071",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.7929790616035461,
+      "distance_to_other_sentences": 0.9173563718795776
+    },
+    {
+      "speaker": "jvs071",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 1.0073790550231934,
+      "distance_to_other_sentences": 1.0949510335922241
+    },
+    {
+      "speaker": "jvs071",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.4585951268672943,
+      "distance_to_other_sentences": 0.6232897043228149
+    },
+    {
+      "speaker": "jvs074",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.8052449822425842,
+      "distance_to_other_sentences": 1.106968879699707
+    },
+    {
+      "speaker": "jvs074",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 1.0026172399520874,
+      "distance_to_other_sentences": 0.8284976482391357
+    },
+    {
+      "speaker": "jvs074",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.686617910861969,
+      "distance_to_other_sentences": 0.6309849619865417
+    },
+    {
+      "speaker": "jvs078",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 0.6672253608703613,
+      "distance_to_other_sentences": 0.8143792152404785
+    },
+    {
+      "speaker": "jvs078",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.7928507924079895,
+      "distance_to_other_sentences": 0.7119070887565613
+    },
+    {
+      "speaker": "jvs078",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.4507039785385132,
+      "distance_to_other_sentences": 0.49034857749938965
+    },
+    {
+      "speaker": "jvs095",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.2697468996047974,
+      "distance_to_other_sentences": 1.3091678619384766
+    },
+    {
+      "speaker": "jvs095",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.8103888034820557,
+      "distance_to_other_sentences": 1.1071743965148926
+    },
+    {
+      "speaker": "jvs095",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.5776426792144775,
+      "distance_to_other_sentences": 0.8563806414604187
+    },
+    {
+      "speaker": "jvs097",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.165379285812378,
+      "distance_to_other_sentences": 0.8595840334892273
+    },
+    {
+      "speaker": "jvs097",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.45382431149482727,
+      "distance_to_other_sentences": 0.745084822177887
+    },
+    {
+      "speaker": "jvs097",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.42342785000801086,
+      "distance_to_other_sentences": 0.7476232647895813
+    },
+    {
+      "speaker": "jvs098",
+      "seconds": 1,
+      "status": "ok",
+      "distance_to_full": 1.2337783575057983,
+      "distance_to_other_sentences": 1.181126356124878
+    },
+    {
+      "speaker": "jvs098",
+      "seconds": 2,
+      "status": "ok",
+      "distance_to_full": 0.945270299911499,
+      "distance_to_other_sentences": 1.2613941431045532
+    },
+    {
+      "speaker": "jvs098",
+      "seconds": 4,
+      "status": "ok",
+      "distance_to_full": 0.8206887245178223,
+      "distance_to_other_sentences": 1.306307315826416
+    }
+  ],
+  "note": "Center crops, 20 held-out speakers, fixed selected model; stability only, not perceptual accuracy or real-time latency"
+}

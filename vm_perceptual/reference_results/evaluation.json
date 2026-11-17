@@ -1,0 +1,825 @@
+{
+  "winner": {
+    "name": "acoustic_d16",
+    "kind": "trained",
+    "dev_spearman": 0.35076234279917945,
+    "alpha": 0.3509426414966583,
+    "beta": 0.7762916088104248
+  },
+  "best_baseline": {
+    "name": "wavlm3_baseline_16",
+    "kind": "baseline",
+    "dev_spearman": 0.27296494823286604,
+    "alpha": -0.04242849237859268,
+    "beta": 0.19781823664517725
+  },
+  "models": {
+    "acoustic_baseline_full": {
+      "kind": "baseline",
+      "development_spearman": 0.20730460482115187,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.5685457518762257,
+          "pearson": 0.6033115248789792,
+          "mae": 0.49253833388675095
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.4665639034931556,
+          "pearson": 0.4680807611762026,
+          "mae": 0.5277578123063318
+        },
+        "mean_spearman": 0.5175548276846906
+      }
+    },
+    "acoustic_baseline_3": {
+      "kind": "baseline",
+      "development_spearman": -0.004053257296957136,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.40747977437254324,
+          "pearson": 0.47776936993795716,
+          "mae": 0.5398229600541744
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.45798614823164935,
+          "pearson": 0.4393303765854489,
+          "mae": 0.526172918414955
+        },
+        "mean_spearman": 0.43273296130209626
+      }
+    },
+    "acoustic_baseline_8": {
+      "kind": "baseline",
+      "development_spearman": 0.08453401405219597,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.3828779686359038,
+          "pearson": 0.557171232036817,
+          "mae": 0.5185841914999758
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.482993603955579,
+          "pearson": 0.4558601795371719,
+          "mae": 0.5142938418998835
+        },
+        "mean_spearman": 0.43293578629574136
+      }
+    },
+    "acoustic_baseline_16": {
+      "kind": "baseline",
+      "development_spearman": 0.08742786814840875,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.48135114816620606,
+          "pearson": 0.5904009076934366,
+          "mae": 0.5151677293766197
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.4969159605723313,
+          "pearson": 0.4787454542871714,
+          "mae": 0.5122911320421967
+        },
+        "mean_spearman": 0.48913355436926864
+      }
+    },
+    "ecapa_baseline_full": {
+      "kind": "baseline",
+      "development_spearman": 0.10108700697341111,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.39316719570002107,
+          "pearson": 0.48412130209064586,
+          "mae": 0.5047833199890849
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.1504406307402623,
+          "pearson": 0.09694856887230412,
+          "mae": 0.5709251592868557
+        },
+        "mean_spearman": 0.2718039132201417
+      }
+    },
+    "ecapa_baseline_3": {
+      "kind": "baseline",
+      "development_spearman": -0.03915627626050844,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": -0.043861128189987254,
+          "pearson": -0.06718186710424932,
+          "mae": 0.581405678693208
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.3440999514519596,
+          "pearson": 0.2465859640475539,
+          "mae": 0.572325804375686
+        },
+        "mean_spearman": 0.15011941163098616
+      }
+    },
+    "ecapa_baseline_8": {
+      "kind": "baseline",
+      "development_spearman": -0.01609704459940059,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.21745885660509473,
+          "pearson": 0.2200131081362206,
+          "mae": 0.5916083873705121
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.36613818420075245,
+          "pearson": 0.27572956301863893,
+          "mae": 0.5582786951072808
+        },
+        "mean_spearman": 0.2917985204029236
+      }
+    },
+    "ecapa_baseline_16": {
+      "kind": "baseline",
+      "development_spearman": 0.020075132742086797,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.19688040247686006,
+          "pearson": 0.28202908081364847,
+          "mae": 0.571921376883215
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.24486192134961113,
+          "pearson": 0.17909332155541557,
+          "mae": 0.5821293085449684
+        },
+        "mean_spearman": 0.22087116191323558
+      }
+    },
+    "fusion_baseline_full": {
+      "kind": "baseline",
+      "development_spearman": 0.189873526159262,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.5468460358243373,
+          "pearson": 0.6325795864694087,
+          "mae": 0.4760242039774317
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.36178332383721856,
+          "pearson": 0.3262263387349137,
+          "mae": 0.5626543571414417
+        },
+        "mean_spearman": 0.45431467983077795
+      }
+    },
+    "fusion_baseline_3": {
+      "kind": "baseline",
+      "development_spearman": 0.006901779875443083,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.18072103945949636,
+          "pearson": 0.020629346756215843,
+          "mae": 0.5791266249816677
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.48622675786183894,
+          "pearson": 0.43909690027156273,
+          "mae": 0.5126495402787565
+        },
+        "mean_spearman": 0.3334738986606677
+      }
+    },
+    "fusion_baseline_8": {
+      "kind": "baseline",
+      "development_spearman": 0.07314242683558157,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.5067444329077776,
+          "pearson": 0.6009866570698292,
+          "mae": 0.5447205248367221
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.48220181116220917,
+          "pearson": 0.43291183159106594,
+          "mae": 0.5185648478662794
+        },
+        "mean_spearman": 0.4944731220349934
+      }
+    },
+    "fusion_baseline_16": {
+      "kind": "baseline",
+      "development_spearman": 0.06677551100025703,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.5835838529699356,
+          "pearson": 0.6345915588020006,
+          "mae": 0.5469341731276649
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.45528085618763586,
+          "pearson": 0.41465804796521144,
+          "mae": 0.5415498194605604
+        },
+        "mean_spearman": 0.5194323545787858
+      }
+    },
+    "wavlm3_baseline_full": {
+      "kind": "baseline",
+      "development_spearman": 0.2549049994943198,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.3835375344733472,
+          "pearson": 0.4740834216558646,
+          "mae": 0.5314647434424993
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.44571335993441746,
+          "pearson": 0.416974769324469,
+          "mae": 0.5260990387712559
+        },
+        "mean_spearman": 0.41462544720388234
+      }
+    },
+    "wavlm3_baseline_3": {
+      "kind": "baseline",
+      "development_spearman": 0.23395171455581737,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.3456124988203507,
+          "pearson": 0.4384056783462954,
+          "mae": 0.5237127529018789
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.38943008887238073,
+          "pearson": 0.3291738515822798,
+          "mae": 0.559270188390916
+        },
+        "mean_spearman": 0.3675212938463657
+      }
+    },
+    "wavlm3_baseline_8": {
+      "kind": "baseline",
+      "development_spearman": 0.24262083084200053,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.37588657075900356,
+          "pearson": 0.44700317816754476,
+          "mae": 0.545627941160081
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.5159849703459873,
+          "pearson": 0.4808380771168939,
+          "mae": 0.5241330169498049
+        },
+        "mean_spearman": 0.44593577055249545
+      }
+    },
+    "wavlm3_baseline_16": {
+      "kind": "baseline",
+      "development_spearman": 0.27296494823286604,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.35293367961597266,
+          "pearson": 0.45891967412375284,
+          "mae": 0.5507175103385885
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.5036461993159747,
+          "pearson": 0.475513691172947,
+          "mae": 0.5343011090120188
+        },
+        "mean_spearman": 0.42828993946597366
+      }
+    },
+    "acoustic_d3": {
+      "kind": "trained",
+      "development_spearman": 0.23088802418985105,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.3524060269460179,
+          "pearson": 0.4379119410195854,
+          "mae": 0.7890124157733388
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.6366673886021014,
+          "pearson": 0.6399550232423988,
+          "mae": 0.6476759819189707
+        },
+        "mean_spearman": 0.49453670777405967
+      }
+    },
+    "acoustic_d8": {
+      "kind": "trained",
+      "development_spearman": 0.16355952318795883,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.5060189104865899,
+          "pearson": 0.5573156997991219,
+          "mae": 1.1459710088703368
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.48655667152574306,
+          "pearson": 0.4793898030620074,
+          "mae": 0.884435383313232
+        },
+        "mean_spearman": 0.4962877910061665
+      }
+    },
+    "acoustic_d16": {
+      "kind": "trained",
+      "development_spearman": 0.35076234279917945,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.4531217303236278,
+          "pearson": 0.4316280483067044,
+          "mae": 0.6081394565602144
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.3733303020738614,
+          "pearson": 0.33197053985860586,
+          "mae": 0.9080315796534221
+        },
+        "mean_spearman": 0.4132260161987446
+      }
+    },
+    "ecapa_d3": {
+      "kind": "trained",
+      "development_spearman": 0.08890635636465222,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": -0.12485581302803891,
+          "pearson": -0.05522647009032415,
+          "mae": 1.2279953578466343
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.22651872163654407,
+          "pearson": 0.16888967321443596,
+          "mae": 1.1504947516673971
+        },
+        "mean_spearman": 0.05083145430425258
+      }
+    },
+    "ecapa_d8": {
+      "kind": "trained",
+      "development_spearman": 0.08242994695433602,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.10975175535058465,
+          "pearson": 0.08874293201511219,
+          "mae": 0.8917345698964264
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.3008812614805246,
+          "pearson": 0.21988342668129168,
+          "mae": 0.8393629223604997
+        },
+        "mean_spearman": 0.2053165084155546
+      }
+    },
+    "ecapa_d16": {
+      "kind": "trained",
+      "development_spearman": 0.0556845066098309,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.22135029504601086,
+          "pearson": 0.23972862510717177,
+          "mae": 1.126276003205114
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.22077822388461302,
+          "pearson": 0.17215363065138792,
+          "mae": 1.0861995588739715
+        },
+        "mean_spearman": 0.22106425946531194
+      }
+    },
+    "wavlm3_d3": {
+      "kind": "trained",
+      "development_spearman": 0.33404474891949854,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.2687071221744482,
+          "pearson": 0.3333849535800119,
+          "mae": 0.9829649072099064
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.6216893082608559,
+          "pearson": 0.5605587347270382,
+          "mae": 0.9678089200456939
+        },
+        "mean_spearman": 0.445198215217652
+      }
+    },
+    "wavlm3_d8": {
+      "kind": "trained",
+      "development_spearman": 0.32520762373224993,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.4049734241902583,
+          "pearson": 0.450736282949785,
+          "mae": 1.1370655689968001
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.6127816393354456,
+          "pearson": 0.5935459641992953,
+          "mae": 0.974977154466841
+        },
+        "mean_spearman": 0.508877531762852
+      }
+    },
+    "wavlm3_d16": {
+      "kind": "trained",
+      "development_spearman": 0.30021458534839696,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.43274114594662616,
+          "pearson": 0.500545335477591,
+          "mae": 0.9375979848371611
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.574115757925887,
+          "pearson": 0.5651801357438648,
+          "mae": 0.942591337012127
+        },
+        "mean_spearman": 0.5034284519362566
+      }
+    },
+    "fusion_d3": {
+      "kind": "trained",
+      "development_spearman": 0.11009497054504312,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.3126342069481799,
+          "pearson": 0.406654352266064,
+          "mae": 0.6803290190630489
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.5068793532222347,
+          "pearson": 0.45091357694107753,
+          "mae": 0.682106313408456
+        },
+        "mean_spearman": 0.4097567800852073
+      }
+    },
+    "fusion_d8": {
+      "kind": "trained",
+      "development_spearman": 0.17360902378292312,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.5522544756913734,
+          "pearson": 0.6294182969264565,
+          "mae": 1.0797649051414597
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.5826935131873932,
+          "pearson": 0.53005354959404,
+          "mae": 0.951267370743056
+        },
+        "mean_spearman": 0.5674739944393833
+      }
+    },
+    "fusion_d16": {
+      "kind": "trained",
+      "development_spearman": 0.160302356771013,
+      "test": {
+        "male": {
+          "n": 45,
+          "spearman": 0.5929496878616322,
+          "pearson": 0.6634261574341309,
+          "mae": 1.0717546183822881
+        },
+        "female": {
+          "n": 45,
+          "spearman": 0.5646142444054493,
+          "pearson": 0.5164562792761542,
+          "mae": 1.005952090687222
+        },
+        "mean_spearman": 0.5787819661335407
+      }
+    }
+  },
+  "selected_node_bootstrap": {
+    "interval": [
+      0.0885053514385019,
+      0.6376580501797866
+    ],
+    "valid_resamples": 2000,
+    "difference_vs_locked_baseline": [
+      -0.3888550619856553,
+      0.3795344854040961
+    ],
+    "method": "stratified speaker-node bootstrap, induced edge multiplicity; descriptive small-sample interval"
+  },
+  "projection": {
+    "effective_dimension": 2.7387521266937256,
+    "views": {
+      "1": {
+        "neighbor_recall": 0.69,
+        "distance_spearman": 0.881221378052461,
+        "stress": 0.4521009922027588
+      },
+      "2": {
+        "neighbor_recall": 0.69,
+        "distance_spearman": 0.9155322862129146,
+        "stress": 0.34276923537254333
+      },
+      "3": {
+        "neighbor_recall": 0.71,
+        "distance_spearman": 0.9207530169227607,
+        "stress": 0.2983156144618988
+      },
+      "5": {
+        "neighbor_recall": 0.78,
+        "distance_spearman": 0.9527702327371659,
+        "stress": 0.1977224498987198
+      },
+      "8": {
+        "neighbor_recall": 0.8300000000000001,
+        "distance_spearman": 0.9690237810932217,
+        "stress": 0.12410443276166916
+      },
+      "16": {
+        "neighbor_recall": 1.0,
+        "distance_spearman": 1.0,
+        "stress": 5.995214280574146e-08
+      }
+    }
+  },
+  "pair_counts": {
+    "train": 871,
+    "dev": 90,
+    "test": 90
+  },
+  "split_counts": {
+    "train": 60,
+    "dev": 20,
+    "test": 20
+  },
+  "normal_leave_one_clip_out": {
+    "n": 80,
+    "median": 0.5000906735658646,
+    "p90": 0.7410045921802522
+  },
+  "falsetto_challenge": {
+    "n": 40,
+    "median": 1.3088425993919373,
+    "rows": [
+      {
+        "speaker": "jvs004",
+        "path": "jvs004/falset10/wav24kHz16bit/BASIC5000_1438.wav",
+        "distance_to_normal": 1.1241180896759033
+      },
+      {
+        "speaker": "jvs004",
+        "path": "jvs004/falset10/wav24kHz16bit/BASIC5000_1802.wav",
+        "distance_to_normal": 1.2271016836166382
+      },
+      {
+        "speaker": "jvs008",
+        "path": "jvs008/falset10/wav24kHz16bit/BASIC5000_0316.wav",
+        "distance_to_normal": 1.3068004846572876
+      },
+      {
+        "speaker": "jvs008",
+        "path": "jvs008/falset10/wav24kHz16bit/BASIC5000_2097.wav",
+        "distance_to_normal": 1.294599175453186
+      },
+      {
+        "speaker": "jvs020",
+        "path": "jvs020/falset10/wav24kHz16bit/BASIC5000_0254.wav",
+        "distance_to_normal": 1.3948569297790527
+      },
+      {
+        "speaker": "jvs020",
+        "path": "jvs020/falset10/wav24kHz16bit/BASIC5000_2041.wav",
+        "distance_to_normal": 1.5794156789779663
+      },
+      {
+        "speaker": "jvs022",
+        "path": "jvs022/falset10/wav24kHz16bit/BASIC5000_1304.wav",
+        "distance_to_normal": 1.6565510034561157
+      },
+      {
+        "speaker": "jvs022",
+        "path": "jvs022/falset10/wav24kHz16bit/BASIC5000_1418.wav",
+        "distance_to_normal": 1.572253704071045
+      },
+      {
+        "speaker": "jvs029",
+        "path": "jvs029/falset10/wav24kHz16bit/BASIC5000_1119.wav",
+        "distance_to_normal": 1.2888022661209106
+      },
+      {
+        "speaker": "jvs029",
+        "path": "jvs029/falset10/wav24kHz16bit/BASIC5000_2412.wav",
+        "distance_to_normal": 1.2711933851242065
+      },
+      {
+        "speaker": "jvs034",
+        "path": "jvs034/falset10/wav24kHz16bit/BASIC5000_1835.wav",
+        "distance_to_normal": 1.3831156492233276
+      },
+      {
+        "speaker": "jvs034",
+        "path": "jvs034/falset10/wav24kHz16bit/BASIC5000_2100.wav",
+        "distance_to_normal": 1.3467899560928345
+      },
+      {
+        "speaker": "jvs036",
+        "path": "jvs036/falset10/wav24kHz16bit/BASIC5000_0171.wav",
+        "distance_to_normal": 0.9202632904052734
+      },
+      {
+        "speaker": "jvs036",
+        "path": "jvs036/falset10/wav24kHz16bit/BASIC5000_1127.wav",
+        "distance_to_normal": 1.0828857421875
+      },
+      {
+        "speaker": "jvs039",
+        "path": "jvs039/falset10/wav24kHz16bit/BASIC5000_0571.wav",
+        "distance_to_normal": 1.1347110271453857
+      },
+      {
+        "speaker": "jvs039",
+        "path": "jvs039/falset10/wav24kHz16bit/BASIC5000_1471.wav",
+        "distance_to_normal": 1.181172490119934
+      },
+      {
+        "speaker": "jvs044",
+        "path": "jvs044/falset10/wav24kHz16bit/BASIC5000_0924.wav",
+        "distance_to_normal": 1.5875518321990967
+      },
+      {
+        "speaker": "jvs044",
+        "path": "jvs044/falset10/wav24kHz16bit/BASIC5000_1873.wav",
+        "distance_to_normal": 1.5795350074768066
+      },
+      {
+        "speaker": "jvs047",
+        "path": "jvs047/falset10/wav24kHz16bit/BASIC5000_0390.wav",
+        "distance_to_normal": 1.3884252309799194
+      },
+      {
+        "speaker": "jvs047",
+        "path": "jvs047/falset10/wav24kHz16bit/BASIC5000_0482.wav",
+        "distance_to_normal": 1.310884714126587
+      },
+      {
+        "speaker": "jvs057",
+        "path": "jvs057/falset10/wav24kHz16bit/BASIC5000_1276.wav",
+        "distance_to_normal": 1.1469453573226929
+      },
+      {
+        "speaker": "jvs057",
+        "path": "jvs057/falset10/wav24kHz16bit/BASIC5000_2123.wav",
+        "distance_to_normal": 1.033324122428894
+      },
+      {
+        "speaker": "jvs059",
+        "path": "jvs059/falset10/wav24kHz16bit/BASIC5000_0538.wav",
+        "distance_to_normal": 1.336035132408142
+      },
+      {
+        "speaker": "jvs059",
+        "path": "jvs059/falset10/wav24kHz16bit/ONOMATOPEE300_179.wav",
+        "distance_to_normal": 1.3161605596542358
+      },
+      {
+        "speaker": "jvs065",
+        "path": "jvs065/falset10/wav24kHz16bit/BASIC5000_0154.wav",
+        "distance_to_normal": 1.1987756490707397
+      },
+      {
+        "speaker": "jvs065",
+        "path": "jvs065/falset10/wav24kHz16bit/BASIC5000_2139.wav",
+        "distance_to_normal": 1.1205847263336182
+      },
+      {
+        "speaker": "jvs069",
+        "path": "jvs069/falset10/wav24kHz16bit/BASIC5000_0614.wav",
+        "distance_to_normal": 0.8931397795677185
+      },
+      {
+        "speaker": "jvs069",
+        "path": "jvs069/falset10/wav24kHz16bit/BASIC5000_2786.wav",
+        "distance_to_normal": 1.2528234720230103
+      },
+      {
+        "speaker": "jvs071",
+        "path": "jvs071/falset10/wav24kHz16bit/BASIC5000_0392.wav",
+        "distance_to_normal": 1.2062857151031494
+      },
+      {
+        "speaker": "jvs071",
+        "path": "jvs071/falset10/wav24kHz16bit/BASIC5000_0509.wav",
+        "distance_to_normal": 1.3431546688079834
+      },
+      {
+        "speaker": "jvs074",
+        "path": "jvs074/falset10/wav24kHz16bit/BASIC5000_0234.wav",
+        "distance_to_normal": 1.4333261251449585
+      },
+      {
+        "speaker": "jvs074",
+        "path": "jvs074/falset10/wav24kHz16bit/BASIC5000_1522.wav",
+        "distance_to_normal": 1.6628820896148682
+      },
+      {
+        "speaker": "jvs078",
+        "path": "jvs078/falset10/wav24kHz16bit/BASIC5000_0955.wav",
+        "distance_to_normal": 1.697595238685608
+      },
+      {
+        "speaker": "jvs078",
+        "path": "jvs078/falset10/wav24kHz16bit/BASIC5000_2462.wav",
+        "distance_to_normal": 1.621488094329834
+      },
+      {
+        "speaker": "jvs095",
+        "path": "jvs095/falset10/wav24kHz16bit/BASIC5000_0565.wav",
+        "distance_to_normal": 1.2324601411819458
+      },
+      {
+        "speaker": "jvs095",
+        "path": "jvs095/falset10/wav24kHz16bit/BASIC5000_1429.wav",
+        "distance_to_normal": 1.252526879310608
+      },
+      {
+        "speaker": "jvs097",
+        "path": "jvs097/falset10/wav24kHz16bit/BASIC5000_1562.wav",
+        "distance_to_normal": 1.3507524728775024
+      },
+      {
+        "speaker": "jvs097",
+        "path": "jvs097/falset10/wav24kHz16bit/BASIC5000_1805.wav",
+        "distance_to_normal": 1.222718596458435
+      },
+      {
+        "speaker": "jvs098",
+        "path": "jvs098/falset10/wav24kHz16bit/BASIC5000_2864.wav",
+        "distance_to_normal": 1.587233304977417
+      },
+      {
+        "speaker": "jvs098",
+        "path": "jvs098/falset10/wav24kHz16bit/TRAVEL1000_0069.wav",
+        "distance_to_normal": 1.5127379894256592
+      }
+    ],
+    "note": "No human falsetto similarity labels: displacement is diagnostic, neither accuracy nor desired separation"
+  },
+  "caveats": [
+    "Only same-gender normal-voice ratings; cross-gender map distances not validated",
+    "Four clips per normal voice profile; published ratings refer to corpus voice pairs, not these exact clips",
+    "Research-only dataset; not product-ready or a tone-normalization model"
+  ],
+  "data_hash": "f63e3d89b05d0ef7a5bdc9829a7b779ddce4b1d8fd7cd27c2901bd7ea36305f9"
+}
