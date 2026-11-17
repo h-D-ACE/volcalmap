@@ -1,0 +1,4892 @@
+{
+  "summary": {
+    "blend_1_to_full": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 1.2422308494015952,
+      "test_median": 1.063600420207266,
+      "test_covered": 17
+    },
+    "blend_1_to_other_texts": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 1.2882851052642241,
+      "test_median": 1.098849522811371,
+      "test_covered": 19
+    },
+    "blend_2_to_full": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 1.0338368073236468,
+      "test_median": 0.8065244323068999,
+      "test_covered": 20
+    },
+    "blend_2_to_other_texts": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 1.032084822202616,
+      "test_median": 0.9132604048460218,
+      "test_covered": 18
+    },
+    "blend_4_to_full": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 0.7542932263490779,
+      "test_median": 0.5204711594065359,
+      "test_covered": 20
+    },
+    "blend_4_to_other_texts": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 0.8821565828522663,
+      "test_median": 0.8073777951912751,
+      "test_covered": 15
+    },
+    "selected_1_to_full": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 1.4199296236038208,
+      "test_median": 0.9983380734920502,
+      "test_covered": 17
+    },
+    "selected_1_to_other_texts": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 1.5545780658721924,
+      "test_median": 1.0561341047286987,
+      "test_covered": 17
+    },
+    "selected_2_to_full": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 1.3281160593032837,
+      "test_median": 0.6801890432834625,
+      "test_covered": 20
+    },
+    "selected_2_to_other_texts": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 1.196518898010254,
+      "test_median": 0.8247448801994324,
+      "test_covered": 18
+    },
+    "selected_4_to_full": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 0.8743516802787781,
+      "test_median": 0.4827026128768921,
+      "test_covered": 20
+    },
+    "selected_4_to_other_texts": {
+      "cal_people": 20,
+      "test_people": 20,
+      "upper90": 0.8996790647506714,
+      "test_median": 0.6752656400203705,
+      "test_covered": 15
+    }
+  },
+  "failures": [],
+  "records": [
+    {
+      "voice": "jvs001",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.103033587465265,
+      "to_other_texts": 1.0985176647552355
+    },
+    {
+      "voice": "jvs001",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.0083847045898438,
+      "to_other_texts": 1.0480563640594482
+    },
+    {
+      "voice": "jvs001",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6958843086279727,
+      "to_other_texts": 0.8279716173281423
+    },
+    {
+      "voice": "jvs001",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.8411182165145874,
+      "to_other_texts": 1.2676622867584229
+    },
+    {
+      "voice": "jvs001",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4806158191491959,
+      "to_other_texts": 0.6952875415351134
+    },
+    {
+      "voice": "jvs001",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.6323672533035278,
+      "to_other_texts": 0.7267598509788513
+    },
+    {
+      "voice": "jvs002",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1305078375645141,
+      "to_other_texts": 1.1835459720638049
+    },
+    {
+      "voice": "jvs002",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.653588056564331,
+      "to_other_texts": 1.840559720993042
+    },
+    {
+      "voice": "jvs002",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.769964086356958,
+      "to_other_texts": 0.8798496273626246
+    },
+    {
+      "voice": "jvs002",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9008612632751465,
+      "to_other_texts": 1.1317014694213867
+    },
+    {
+      "voice": "jvs002",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4970971739592799,
+      "to_other_texts": 0.9506312834079103
+    },
+    {
+      "voice": "jvs002",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.7639493942260742,
+      "to_other_texts": 0.9703078269958496
+    },
+    {
+      "voice": "jvs003",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0253266941599595,
+      "to_other_texts": 0.9918731048379333
+    },
+    {
+      "voice": "jvs003",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.029625415802002,
+      "to_other_texts": 0.8944166302680969
+    },
+    {
+      "voice": "jvs003",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.831639391424386,
+      "to_other_texts": 0.8322473579894061
+    },
+    {
+      "voice": "jvs003",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.0471606254577637,
+      "to_other_texts": 0.8151243329048157
+    },
+    {
+      "voice": "jvs003",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5762594378904886,
+      "to_other_texts": 0.708767280692782
+    },
+    {
+      "voice": "jvs003",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.8316986560821533,
+      "to_other_texts": 0.6457549333572388
+    },
+    {
+      "voice": "jvs004",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0938546214545493,
+      "to_other_texts": 1.0401394789720948
+    },
+    {
+      "voice": "jvs004",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.969441831111908,
+      "to_other_texts": 0.9167468547821045
+    },
+    {
+      "voice": "jvs004",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7536262010012599,
+      "to_other_texts": 0.8587525612302785
+    },
+    {
+      "voice": "jvs004",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.48468950390815735,
+      "to_other_texts": 0.5275607705116272
+    },
+    {
+      "voice": "jvs004",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.40190619484604284,
+      "to_other_texts": 0.6826873453466304
+    },
+    {
+      "voice": "jvs004",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.2461884468793869,
+      "to_other_texts": 0.39398035407066345
+    },
+    {
+      "voice": "jvs005",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.149704962805715,
+      "to_other_texts": 1.181422195740279
+    },
+    {
+      "voice": "jvs005",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.9651522636413574,
+      "to_other_texts": 1.0237270593643188
+    },
+    {
+      "voice": "jvs005",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7029935040760559,
+      "to_other_texts": 0.9430575694940287
+    },
+    {
+      "voice": "jvs005",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.4798562824726105,
+      "to_other_texts": 0.5139367580413818
+    },
+    {
+      "voice": "jvs005",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4949444239326352,
+      "to_other_texts": 0.8686914605312791
+    },
+    {
+      "voice": "jvs005",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4464556872844696,
+      "to_other_texts": 0.36259201169013977
+    },
+    {
+      "voice": "jvs006",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.853882765862382,
+      "to_other_texts": 0.8498427921470633
+    },
+    {
+      "voice": "jvs006",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.49726778268814087,
+      "to_other_texts": 0.5263301730155945
+    },
+    {
+      "voice": "jvs006",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6703880842305162,
+      "to_other_texts": 0.7221305833024164
+    },
+    {
+      "voice": "jvs006",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6650822162628174,
+      "to_other_texts": 0.6031112670898438
+    },
+    {
+      "voice": "jvs006",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4388024192005233,
+      "to_other_texts": 0.6232309358759502
+    },
+    {
+      "voice": "jvs006",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.44820407032966614,
+      "to_other_texts": 0.454190731048584
+    },
+    {
+      "voice": "jvs007",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.08890364900417,
+      "to_other_texts": 1.0755647174220258
+    },
+    {
+      "voice": "jvs007",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.228680968284607,
+      "to_other_texts": 1.0071748495101929
+    },
+    {
+      "voice": "jvs007",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8699487662612063,
+      "to_other_texts": 0.9797290931020755
+    },
+    {
+      "voice": "jvs007",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7484238147735596,
+      "to_other_texts": 0.826867938041687
+    },
+    {
+      "voice": "jvs007",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5290601534124981,
+      "to_other_texts": 0.8713235694453294
+    },
+    {
+      "voice": "jvs007",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.46629565954208374,
+      "to_other_texts": 0.7944987416267395
+    },
+    {
+      "voice": "jvs008",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.03289018818761,
+      "to_other_texts": 1.1023330728962903
+    },
+    {
+      "voice": "jvs008",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.8199310302734375,
+      "to_other_texts": 1.0827467441558838
+    },
+    {
+      "voice": "jvs008",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8143600204920234,
+      "to_other_texts": 0.9141074428658109
+    },
+    {
+      "voice": "jvs008",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6891174912452698,
+      "to_other_texts": 0.5999494194984436
+    },
+    {
+      "voice": "jvs008",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5047982750948223,
+      "to_other_texts": 0.8220336140367429
+    },
+    {
+      "voice": "jvs008",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.3618118464946747,
+      "to_other_texts": 0.9066108465194702
+    },
+    {
+      "voice": "jvs009",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9531436172551124,
+      "to_other_texts": 1.0332296631676532
+    },
+    {
+      "voice": "jvs009",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.6334651112556458,
+      "to_other_texts": 0.6648064851760864
+    },
+    {
+      "voice": "jvs009",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7701634681138919,
+      "to_other_texts": 0.8815154679019003
+    },
+    {
+      "voice": "jvs009",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7449528574943542,
+      "to_other_texts": 0.5581611394882202
+    },
+    {
+      "voice": "jvs009",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5288432063889968,
+      "to_other_texts": 0.7588662896794177
+    },
+    {
+      "voice": "jvs009",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5340520739555359,
+      "to_other_texts": 0.35454261302948
+    },
+    {
+      "voice": "jvs010",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.288948061480895,
+      "to_other_texts": 1.2937569319014859
+    },
+    {
+      "voice": "jvs010",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.6275218725204468,
+      "to_other_texts": 1.5649943351745605
+    },
+    {
+      "voice": "jvs010",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.732558523038107,
+      "to_other_texts": 0.8337160574212595
+    },
+    {
+      "voice": "jvs010",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5259611010551453,
+      "to_other_texts": 0.6394346356391907
+    },
+    {
+      "voice": "jvs010",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4412169650158748,
+      "to_other_texts": 0.6361233630328852
+    },
+    {
+      "voice": "jvs010",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.33727332949638367,
+      "to_other_texts": 0.5841419696807861
+    },
+    {
+      "voice": "jvs011",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0869957351782245,
+      "to_other_texts": 1.052840289435189
+    },
+    {
+      "voice": "jvs011",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4156816005706787,
+      "to_other_texts": 0.8755806088447571
+    },
+    {
+      "voice": "jvs011",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 1.0046292415051643,
+      "to_other_texts": 0.9916916755198311
+    },
+    {
+      "voice": "jvs011",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.3454625606536865,
+      "to_other_texts": 0.8062015771865845
+    },
+    {
+      "voice": "jvs011",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5646178649911954,
+      "to_other_texts": 0.8871030956652239
+    },
+    {
+      "voice": "jvs011",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.7430707812309265,
+      "to_other_texts": 1.2090517282485962
+    },
+    {
+      "voice": "jvs012",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0542910981557945,
+      "to_other_texts": 1.0849973896382257
+    },
+    {
+      "voice": "jvs012",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.0941344499588013,
+      "to_other_texts": 0.9157736301422119
+    },
+    {
+      "voice": "jvs012",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.875717996187472,
+      "to_other_texts": 0.931031300148782
+    },
+    {
+      "voice": "jvs012",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.3281160593032837,
+      "to_other_texts": 1.0025769472122192
+    },
+    {
+      "voice": "jvs012",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5890622221080725,
+      "to_other_texts": 0.8043680744227626
+    },
+    {
+      "voice": "jvs012",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.8743516802787781,
+      "to_other_texts": 1.0541599988937378
+    },
+    {
+      "voice": "jvs013",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1014435854557607,
+      "to_other_texts": 1.1645520640316658
+    },
+    {
+      "voice": "jvs013",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.1139041185379028,
+      "to_other_texts": 1.1300278902053833
+    },
+    {
+      "voice": "jvs013",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7952763924260438,
+      "to_other_texts": 0.9505297735143817
+    },
+    {
+      "voice": "jvs013",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7396096587181091,
+      "to_other_texts": 0.9526089429855347
+    },
+    {
+      "voice": "jvs013",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5725773673484867,
+      "to_other_texts": 0.808911659485876
+    },
+    {
+      "voice": "jvs013",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5109109878540039,
+      "to_other_texts": 0.8110159039497375
+    },
+    {
+      "voice": "jvs014",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.324384265599329,
+      "to_other_texts": 1.3105287595463064
+    },
+    {
+      "voice": "jvs014",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.57803213596344,
+      "to_other_texts": 1.645465612411499
+    },
+    {
+      "voice": "jvs014",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8673992171726151,
+      "to_other_texts": 0.9511370687212614
+    },
+    {
+      "voice": "jvs014",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.3926464319229126,
+      "to_other_texts": 1.3158340454101562
+    },
+    {
+      "voice": "jvs014",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.47706919123251024,
+      "to_other_texts": 0.6857212052252365
+    },
+    {
+      "voice": "jvs014",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4973623752593994,
+      "to_other_texts": 0.7908071279525757
+    },
+    {
+      "voice": "jvs015",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.144233482441155,
+      "to_other_texts": 1.133450210913166
+    },
+    {
+      "voice": "jvs015",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4284759759902954,
+      "to_other_texts": 1.4016740322113037
+    },
+    {
+      "voice": "jvs015",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8444415323829081,
+      "to_other_texts": 0.8577514189550075
+    },
+    {
+      "voice": "jvs015",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.2031396627426147,
+      "to_other_texts": 1.2385462522506714
+    },
+    {
+      "voice": "jvs015",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4590690516048321,
+      "to_other_texts": 0.8243000643527149
+    },
+    {
+      "voice": "jvs015",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5650069713592529,
+      "to_other_texts": 0.8216990828514099
+    },
+    {
+      "voice": "jvs016",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2590021340271411,
+      "to_other_texts": 1.267192154190038
+    },
+    {
+      "voice": "jvs016",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.8287770748138428,
+      "to_other_texts": 1.836146593093872
+    },
+    {
+      "voice": "jvs016",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.801480912257264,
+      "to_other_texts": 1.0130552195913562
+    },
+    {
+      "voice": "jvs016",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.8537687063217163,
+      "to_other_texts": 1.139230489730835
+    },
+    {
+      "voice": "jvs016",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5307116027123161,
+      "to_other_texts": 0.8667219516515194
+    },
+    {
+      "voice": "jvs016",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.6433493494987488,
+      "to_other_texts": 0.9845550656318665
+    },
+    {
+      "voice": "jvs017",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9225421511534235,
+      "to_other_texts": 0.9606939588867013
+    },
+    {
+      "voice": "jvs017",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.3874002695083618,
+      "to_other_texts": 1.2481571435928345
+    },
+    {
+      "voice": "jvs017",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6396061894329067,
+      "to_other_texts": 0.7809968813087633
+    },
+    {
+      "voice": "jvs017",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.0260661840438843,
+      "to_other_texts": 0.8375375270843506
+    },
+    {
+      "voice": "jvs017",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.3774465559252858,
+      "to_other_texts": 0.6880418395729184
+    },
+    {
+      "voice": "jvs017",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4066599905490875,
+      "to_other_texts": 0.5177753567695618
+    },
+    {
+      "voice": "jvs018",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2177633280448112,
+      "to_other_texts": 1.1757818205713895
+    },
+    {
+      "voice": "jvs018",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.2130111455917358,
+      "to_other_texts": 1.3048036098480225
+    },
+    {
+      "voice": "jvs018",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 1.0583381730543404,
+      "to_other_texts": 0.9613310607604671
+    },
+    {
+      "voice": "jvs018",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.0414669513702393,
+      "to_other_texts": 0.9443065524101257
+    },
+    {
+      "voice": "jvs018",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5600763788589094,
+      "to_other_texts": 0.8278193501405545
+    },
+    {
+      "voice": "jvs018",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4638063609600067,
+      "to_other_texts": 0.6262586116790771
+    },
+    {
+      "voice": "jvs019",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.238733978703704,
+      "to_other_texts": 1.2010329615837823
+    },
+    {
+      "voice": "jvs019",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4413495063781738,
+      "to_other_texts": 1.3637652397155762
+    },
+    {
+      "voice": "jvs019",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7536374877462962,
+      "to_other_texts": 0.8473416548376619
+    },
+    {
+      "voice": "jvs019",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5132613182067871,
+      "to_other_texts": 0.554036557674408
+    },
+    {
+      "voice": "jvs019",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4571188101389573,
+      "to_other_texts": 0.7409764985135094
+    },
+    {
+      "voice": "jvs019",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.37223392724990845,
+      "to_other_texts": 0.568935215473175
+    },
+    {
+      "voice": "jvs020",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9737685930492016,
+      "to_other_texts": 0.9517177004849321
+    },
+    {
+      "voice": "jvs020",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7570991516113281,
+      "to_other_texts": 0.829769492149353
+    },
+    {
+      "voice": "jvs020",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6357263876892854,
+      "to_other_texts": 0.7337819891968753
+    },
+    {
+      "voice": "jvs020",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.4525051712989807,
+      "to_other_texts": 0.4957852065563202
+    },
+    {
+      "voice": "jvs020",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.42091035140003563,
+      "to_other_texts": 0.673446330943545
+    },
+    {
+      "voice": "jvs020",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.2632024884223938,
+      "to_other_texts": 0.3945349454879761
+    },
+    {
+      "voice": "jvs021",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9010904019275479,
+      "to_other_texts": 0.9619325368902133
+    },
+    {
+      "voice": "jvs021",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.672825813293457,
+      "to_other_texts": 0.748913586139679
+    },
+    {
+      "voice": "jvs021",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6619440027623085,
+      "to_other_texts": 0.7907303270503978
+    },
+    {
+      "voice": "jvs021",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.68701171875,
+      "to_other_texts": 0.8538500070571899
+    },
+    {
+      "voice": "jvs021",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.39872348780084266,
+      "to_other_texts": 0.708938311010565
+    },
+    {
+      "voice": "jvs021",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.381895512342453,
+      "to_other_texts": 0.7451881170272827
+    },
+    {
+      "voice": "jvs022",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0351940056636733,
+      "to_other_texts": 1.0044020864048249
+    },
+    {
+      "voice": "jvs022",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7147763967514038,
+      "to_other_texts": 0.5516307353973389
+    },
+    {
+      "voice": "jvs022",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8204684964379642,
+      "to_other_texts": 0.8697265026178805
+    },
+    {
+      "voice": "jvs022",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6594818830490112,
+      "to_other_texts": 0.6706820726394653
+    },
+    {
+      "voice": "jvs022",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.516387434298816,
+      "to_other_texts": 0.747747477481014
+    },
+    {
+      "voice": "jvs022",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5095930099487305,
+      "to_other_texts": 0.6332559585571289
+    },
+    {
+      "voice": "jvs023",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0249280327091785,
+      "to_other_texts": 1.006422705710347
+    },
+    {
+      "voice": "jvs023",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.891194224357605,
+      "to_other_texts": 0.8464747071266174
+    },
+    {
+      "voice": "jvs023",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7264595806117539,
+      "to_other_texts": 0.8750746206474234
+    },
+    {
+      "voice": "jvs023",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6032238602638245,
+      "to_other_texts": 0.7022294998168945
+    },
+    {
+      "voice": "jvs023",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5615379039843714,
+      "to_other_texts": 0.8476307278654386
+    },
+    {
+      "voice": "jvs023",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5528764128684998,
+      "to_other_texts": 0.6494812965393066
+    },
+    {
+      "voice": "jvs024",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1548025523941616,
+      "to_other_texts": 1.2387839793809539
+    },
+    {
+      "voice": "jvs024",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.34504234790802,
+      "to_other_texts": 1.305868148803711
+    },
+    {
+      "voice": "jvs024",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8370257725468119,
+      "to_other_texts": 0.9485127949465209
+    },
+    {
+      "voice": "jvs024",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.3854777216911316,
+      "to_other_texts": 0.5788128972053528
+    },
+    {
+      "voice": "jvs024",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5044599997810363,
+      "to_other_texts": 0.7948319995097858
+    },
+    {
+      "voice": "jvs024",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.37252992391586304,
+      "to_other_texts": 0.47949475049972534
+    },
+    {
+      "voice": "jvs025",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.3533645966587873,
+      "to_other_texts": 1.3047095730157572
+    },
+    {
+      "voice": "jvs025",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.7398449182510376,
+      "to_other_texts": 1.7447102069854736
+    },
+    {
+      "voice": "jvs025",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.957779066114306,
+      "to_other_texts": 1.0036684211773912
+    },
+    {
+      "voice": "jvs025",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7611827850341797,
+      "to_other_texts": 0.7418399453163147
+    },
+    {
+      "voice": "jvs025",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5458394570569963,
+      "to_other_texts": 0.887990591128435
+    },
+    {
+      "voice": "jvs025",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4166463315486908,
+      "to_other_texts": 0.5567406415939331
+    },
+    {
+      "voice": "jvs026",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1509648117609947,
+      "to_other_texts": 1.1820258759065354
+    },
+    {
+      "voice": "jvs026",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.697858989238739,
+      "to_other_texts": 1.099541425704956
+    },
+    {
+      "voice": "jvs026",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7351370971546735,
+      "to_other_texts": 0.8886379454900235
+    },
+    {
+      "voice": "jvs026",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5321565866470337,
+      "to_other_texts": 0.7789455056190491
+    },
+    {
+      "voice": "jvs026",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5160814730010993,
+      "to_other_texts": 0.815464213580766
+    },
+    {
+      "voice": "jvs026",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.6146121621131897,
+      "to_other_texts": 0.7830955982208252
+    },
+    {
+      "voice": "jvs027",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.269402176736066,
+      "to_other_texts": 1.2224533492114982
+    },
+    {
+      "voice": "jvs027",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4114608764648438,
+      "to_other_texts": 1.4695032835006714
+    },
+    {
+      "voice": "jvs027",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7624492715242506,
+      "to_other_texts": 0.833196791442577
+    },
+    {
+      "voice": "jvs027",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7569326758384705,
+      "to_other_texts": 1.0496212244033813
+    },
+    {
+      "voice": "jvs027",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4628981037881408,
+      "to_other_texts": 0.750315205254637
+    },
+    {
+      "voice": "jvs027",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4840991199016571,
+      "to_other_texts": 0.855455219745636
+    },
+    {
+      "voice": "jvs028",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.00225289183705,
+      "to_other_texts": 1.0077734601967387
+    },
+    {
+      "voice": "jvs028",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.0450971126556396,
+      "to_other_texts": 0.9420596361160278
+    },
+    {
+      "voice": "jvs028",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6081344896868218,
+      "to_other_texts": 0.7813099324946042
+    },
+    {
+      "voice": "jvs028",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.4560214877128601,
+      "to_other_texts": 0.8738127946853638
+    },
+    {
+      "voice": "jvs028",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4101660542842838,
+      "to_other_texts": 0.7132729102966293
+    },
+    {
+      "voice": "jvs028",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5121055245399475,
+      "to_other_texts": 0.6860604286193848
+    },
+    {
+      "voice": "jvs029",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2229055674573857,
+      "to_other_texts": 1.261660295876637
+    },
+    {
+      "voice": "jvs029",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.786991000175476,
+      "to_other_texts": 1.7666847705841064
+    },
+    {
+      "voice": "jvs029",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7424045740029296,
+      "to_other_texts": 0.9337909927684799
+    },
+    {
+      "voice": "jvs029",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.8209275007247925,
+      "to_other_texts": 0.8431448340415955
+    },
+    {
+      "voice": "jvs029",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4895046612674193,
+      "to_other_texts": 0.8417946925930869
+    },
+    {
+      "voice": "jvs029",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.2685420513153076,
+      "to_other_texts": 0.6445052623748779
+    },
+    {
+      "voice": "jvs030",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1960378187970977,
+      "to_other_texts": 1.1126206874180038
+    },
+    {
+      "voice": "jvs030",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.35267174243927,
+      "to_other_texts": 1.3172004222869873
+    },
+    {
+      "voice": "jvs030",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.9584236425581398,
+      "to_other_texts": 0.9683345601684707
+    },
+    {
+      "voice": "jvs030",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.0192255973815918,
+      "to_other_texts": 1.2075070142745972
+    },
+    {
+      "voice": "jvs030",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5960112821795928,
+      "to_other_texts": 0.7188489638176826
+    },
+    {
+      "voice": "jvs030",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4426638185977936,
+      "to_other_texts": 0.5770779252052307
+    },
+    {
+      "voice": "jvs031",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9224998330703152,
+      "to_other_texts": 1.0435698928928243
+    },
+    {
+      "voice": "jvs031",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7027328014373779,
+      "to_other_texts": 0.8235557675361633
+    },
+    {
+      "voice": "jvs031",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7670970651732395,
+      "to_other_texts": 0.9323827400000252
+    },
+    {
+      "voice": "jvs031",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9007682204246521,
+      "to_other_texts": 0.8232857584953308
+    },
+    {
+      "voice": "jvs031",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.573754781394954,
+      "to_other_texts": 0.8496151113973932
+    },
+    {
+      "voice": "jvs031",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.7411778569221497,
+      "to_other_texts": 0.7451010942459106
+    },
+    {
+      "voice": "jvs032",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0725172370149416,
+      "to_other_texts": 1.0865346357908696
+    },
+    {
+      "voice": "jvs032",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.8963517546653748,
+      "to_other_texts": 0.8180962800979614
+    },
+    {
+      "voice": "jvs032",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7793477087490495,
+      "to_other_texts": 0.9222578701466435
+    },
+    {
+      "voice": "jvs032",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5043483376502991,
+      "to_other_texts": 0.8851496577262878
+    },
+    {
+      "voice": "jvs032",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5774465837476044,
+      "to_other_texts": 0.8618718301718018
+    },
+    {
+      "voice": "jvs032",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5601757168769836,
+      "to_other_texts": 0.6890454888343811
+    },
+    {
+      "voice": "jvs033",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0151150246559253,
+      "to_other_texts": 1.113788622425187
+    },
+    {
+      "voice": "jvs033",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7561551332473755,
+      "to_other_texts": 1.0082372426986694
+    },
+    {
+      "voice": "jvs033",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8264732527619592,
+      "to_other_texts": 0.936111954862886
+    },
+    {
+      "voice": "jvs033",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5958274006843567,
+      "to_other_texts": 0.779374897480011
+    },
+    {
+      "voice": "jvs033",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5001185588521428,
+      "to_other_texts": 0.8416533882128495
+    },
+    {
+      "voice": "jvs033",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5563214421272278,
+      "to_other_texts": 0.8251037001609802
+    },
+    {
+      "voice": "jvs034",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9904505372620171,
+      "to_other_texts": 0.9754494200078969
+    },
+    {
+      "voice": "jvs034",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.5954710841178894,
+      "to_other_texts": 0.6555049419403076
+    },
+    {
+      "voice": "jvs034",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.9183919075868768,
+      "to_other_texts": 0.9646823129947047
+    },
+    {
+      "voice": "jvs034",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.2519363164901733,
+      "to_other_texts": 1.3076086044311523
+    },
+    {
+      "voice": "jvs034",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5245548845142557,
+      "to_other_texts": 0.8109706538337518
+    },
+    {
+      "voice": "jvs034",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.6669178605079651,
+      "to_other_texts": 0.8891576528549194
+    },
+    {
+      "voice": "jvs035",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1695517323961417,
+      "to_other_texts": 1.1286555949070458
+    },
+    {
+      "voice": "jvs035",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.298095703125,
+      "to_other_texts": 0.9934086203575134
+    },
+    {
+      "voice": "jvs035",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 1.0814137052813813,
+      "to_other_texts": 1.0017954972951661
+    },
+    {
+      "voice": "jvs035",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.1709848642349243,
+      "to_other_texts": 0.8546406626701355
+    },
+    {
+      "voice": "jvs035",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 1.034914231963902,
+      "to_other_texts": 0.8821565828522663
+    },
+    {
+      "voice": "jvs035",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 1.1281806230545044,
+      "to_other_texts": 0.8503768444061279
+    },
+    {
+      "voice": "jvs036",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.265385813837406,
+      "to_other_texts": 1.3321562183717381
+    },
+    {
+      "voice": "jvs036",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.2684632539749146,
+      "to_other_texts": 1.313071846961975
+    },
+    {
+      "voice": "jvs036",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.915225705377069,
+      "to_other_texts": 1.0957642418151268
+    },
+    {
+      "voice": "jvs036",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5016468167304993,
+      "to_other_texts": 0.8634071946144104
+    },
+    {
+      "voice": "jvs036",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.6512122302656921,
+      "to_other_texts": 0.9239717406098816
+    },
+    {
+      "voice": "jvs036",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.6106329560279846,
+      "to_other_texts": 0.9362921714782715
+    },
+    {
+      "voice": "jvs037",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9645552181316112,
+      "to_other_texts": 0.9612862279534532
+    },
+    {
+      "voice": "jvs037",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7871840596199036,
+      "to_other_texts": 0.8476930856704712
+    },
+    {
+      "voice": "jvs037",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6452989885260719,
+      "to_other_texts": 0.9086199012415822
+    },
+    {
+      "voice": "jvs037",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.450008749961853,
+      "to_other_texts": 0.9787113666534424
+    },
+    {
+      "voice": "jvs037",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4895997505721863,
+      "to_other_texts": 0.8787465565013294
+    },
+    {
+      "voice": "jvs037",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.3744971454143524,
+      "to_other_texts": 1.0185705423355103
+    },
+    {
+      "voice": "jvs038",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.111107347181952,
+      "to_other_texts": 1.1666026375222305
+    },
+    {
+      "voice": "jvs038",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.1657757759094238,
+      "to_other_texts": 1.2540332078933716
+    },
+    {
+      "voice": "jvs038",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7318950157026833,
+      "to_other_texts": 0.9623609154480243
+    },
+    {
+      "voice": "jvs038",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.2976817190647125,
+      "to_other_texts": 0.8681362271308899
+    },
+    {
+      "voice": "jvs038",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.46891507321244014,
+      "to_other_texts": 0.8623430429356896
+    },
+    {
+      "voice": "jvs038",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.2567068636417389,
+      "to_other_texts": 0.7524798512458801
+    },
+    {
+      "voice": "jvs039",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.3298496592844065,
+      "to_other_texts": 1.267219699381818
+    },
+    {
+      "voice": "jvs039",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.7040846347808838,
+      "to_other_texts": 1.6791784763336182
+    },
+    {
+      "voice": "jvs039",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7920443144205416,
+      "to_other_texts": 0.9607182216011063
+    },
+    {
+      "voice": "jvs039",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6712605953216553,
+      "to_other_texts": 0.8209918141365051
+    },
+    {
+      "voice": "jvs039",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5294696319933763,
+      "to_other_texts": 0.8398424977924627
+    },
+    {
+      "voice": "jvs039",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.6071258187294006,
+      "to_other_texts": 0.9352949857711792
+    },
+    {
+      "voice": "jvs040",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2423591946981907,
+      "to_other_texts": 1.2535782338048056
+    },
+    {
+      "voice": "jvs040",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.2760987281799316,
+      "to_other_texts": 1.6235729455947876
+    },
+    {
+      "voice": "jvs040",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7452501585625592,
+      "to_other_texts": 0.8554551825823787
+    },
+    {
+      "voice": "jvs040",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.8079407215118408,
+      "to_other_texts": 0.43310752511024475
+    },
+    {
+      "voice": "jvs040",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.48528489954104426,
+      "to_other_texts": 0.8078656833133395
+    },
+    {
+      "voice": "jvs040",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.707594096660614,
+      "to_other_texts": 1.0729140043258667
+    },
+    {
+      "voice": "jvs041",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0928924194681948,
+      "to_other_texts": 1.1409386447333414
+    },
+    {
+      "voice": "jvs041",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.5970929265022278,
+      "to_other_texts": 1.1293286085128784
+    },
+    {
+      "voice": "jvs041",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8265576240084557,
+      "to_other_texts": 1.0192100773617607
+    },
+    {
+      "voice": "jvs041",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.646247148513794,
+      "to_other_texts": 1.059055209159851
+    },
+    {
+      "voice": "jvs041",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5220442439387253,
+      "to_other_texts": 0.9352699946742229
+    },
+    {
+      "voice": "jvs041",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.40766918659210205,
+      "to_other_texts": 0.9494562745094299
+    },
+    {
+      "voice": "jvs042",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1267979489591042,
+      "to_other_texts": 1.0020537981674063
+    },
+    {
+      "voice": "jvs042",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.8597679138183594,
+      "to_other_texts": 0.7537581920623779
+    },
+    {
+      "voice": "jvs042",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8155860625142924,
+      "to_other_texts": 0.8337724139968864
+    },
+    {
+      "voice": "jvs042",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6350356936454773,
+      "to_other_texts": 0.5954694151878357
+    },
+    {
+      "voice": "jvs042",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5044747581138007,
+      "to_other_texts": 0.7304161928607106
+    },
+    {
+      "voice": "jvs042",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4275898337364197,
+      "to_other_texts": 0.44322121143341064
+    },
+    {
+      "voice": "jvs043",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0515024141914788,
+      "to_other_texts": 1.087090895701996
+    },
+    {
+      "voice": "jvs043",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.6041810512542725,
+      "to_other_texts": 1.5805414915084839
+    },
+    {
+      "voice": "jvs043",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6637234478041424,
+      "to_other_texts": 0.9211936977286415
+    },
+    {
+      "voice": "jvs043",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.18836671113967896,
+      "to_other_texts": 0.7451618909835815
+    },
+    {
+      "voice": "jvs043",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4757991892459018,
+      "to_other_texts": 0.8078897865341111
+    },
+    {
+      "voice": "jvs043",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.455021470785141,
+      "to_other_texts": 0.8053735494613647
+    },
+    {
+      "voice": "jvs044",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.983471104234562,
+      "to_other_texts": 0.9792678419565407
+    },
+    {
+      "voice": "jvs044",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.6579484939575195,
+      "to_other_texts": 0.5674799084663391
+    },
+    {
+      "voice": "jvs044",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7199832320456692,
+      "to_other_texts": 0.7915896293657348
+    },
+    {
+      "voice": "jvs044",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5490784049034119,
+      "to_other_texts": 0.39430469274520874
+    },
+    {
+      "voice": "jvs044",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5471002988394117,
+      "to_other_texts": 0.7203873745199528
+    },
+    {
+      "voice": "jvs044",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4802868068218231,
+      "to_other_texts": 0.37820708751678467
+    },
+    {
+      "voice": "jvs045",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9429954649008647,
+      "to_other_texts": 0.9612851778437383
+    },
+    {
+      "voice": "jvs045",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.3830087184906006,
+      "to_other_texts": 0.5446947813034058
+    },
+    {
+      "voice": "jvs045",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7291782275301564,
+      "to_other_texts": 0.8480206603764346
+    },
+    {
+      "voice": "jvs045",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.3939839005470276,
+      "to_other_texts": 0.6223921179771423
+    },
+    {
+      "voice": "jvs045",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.49267926469017426,
+      "to_other_texts": 0.7436770980125247
+    },
+    {
+      "voice": "jvs045",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4074081778526306,
+      "to_other_texts": 0.6078953742980957
+    },
+    {
+      "voice": "jvs046",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9492950738110967,
+      "to_other_texts": 0.9618289537653816
+    },
+    {
+      "voice": "jvs046",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.8956421613693237,
+      "to_other_texts": 0.8336994051933289
+    },
+    {
+      "voice": "jvs046",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6824821999564749,
+      "to_other_texts": 0.8094823079637252
+    },
+    {
+      "voice": "jvs046",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.4085194170475006,
+      "to_other_texts": 0.3700816333293915
+    },
+    {
+      "voice": "jvs046",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.41315377760420835,
+      "to_other_texts": 0.69429189507789
+    },
+    {
+      "voice": "jvs046",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.23772625625133514,
+      "to_other_texts": 0.3281846344470978
+    },
+    {
+      "voice": "jvs047",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.070893402965736,
+      "to_other_texts": 0.9949706703189579
+    },
+    {
+      "voice": "jvs047",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7416516542434692,
+      "to_other_texts": 0.6334757208824158
+    },
+    {
+      "voice": "jvs047",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8433552326698017,
+      "to_other_texts": 0.84696276004004
+    },
+    {
+      "voice": "jvs047",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.39351731538772583,
+      "to_other_texts": 0.4912693500518799
+    },
+    {
+      "voice": "jvs047",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5860924177505477,
+      "to_other_texts": 0.8037849365487983
+    },
+    {
+      "voice": "jvs047",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.3504059314727783,
+      "to_other_texts": 0.4912695288658142
+    },
+    {
+      "voice": "jvs048",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9655509819324558,
+      "to_other_texts": 0.9552556919281068
+    },
+    {
+      "voice": "jvs048",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.001491904258728,
+      "to_other_texts": 0.9835159778594971
+    },
+    {
+      "voice": "jvs048",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6389828163181448,
+      "to_other_texts": 0.7536626210575088
+    },
+    {
+      "voice": "jvs048",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.712651789188385,
+      "to_other_texts": 0.6905969977378845
+    },
+    {
+      "voice": "jvs048",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.46025438005926483,
+      "to_other_texts": 0.6884378017112402
+    },
+    {
+      "voice": "jvs048",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5376949310302734,
+      "to_other_texts": 0.6285225749015808
+    },
+    {
+      "voice": "jvs049",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.040666257103803,
+      "to_other_texts": 1.0004669534364734
+    },
+    {
+      "voice": "jvs049",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.0364714860916138,
+      "to_other_texts": 0.9330717325210571
+    },
+    {
+      "voice": "jvs049",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7417103045833857,
+      "to_other_texts": 0.8256684733227403
+    },
+    {
+      "voice": "jvs049",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6776116490364075,
+      "to_other_texts": 0.766427755355835
+    },
+    {
+      "voice": "jvs049",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4466272865985758,
+      "to_other_texts": 0.7147765742614485
+    },
+    {
+      "voice": "jvs049",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.30265313386917114,
+      "to_other_texts": 0.5504254102706909
+    },
+    {
+      "voice": "jvs050",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9109673044756037,
+      "to_other_texts": 0.9995921642329401
+    },
+    {
+      "voice": "jvs050",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7045506238937378,
+      "to_other_texts": 0.8330606818199158
+    },
+    {
+      "voice": "jvs050",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6688189919296504,
+      "to_other_texts": 0.8202476065932898
+    },
+    {
+      "voice": "jvs050",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.8758741617202759,
+      "to_other_texts": 0.7297244668006897
+    },
+    {
+      "voice": "jvs050",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.44989598241533085,
+      "to_other_texts": 0.7490186474585083
+    },
+    {
+      "voice": "jvs050",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.728550374507904,
+      "to_other_texts": 0.6052252054214478
+    },
+    {
+      "voice": "jvs051",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2338356779890767,
+      "to_other_texts": 1.2388376884676735
+    },
+    {
+      "voice": "jvs051",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4491355419158936,
+      "to_other_texts": 1.3716318607330322
+    },
+    {
+      "voice": "jvs051",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8330487062394065,
+      "to_other_texts": 0.9930360794923639
+    },
+    {
+      "voice": "jvs051",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.881347119808197,
+      "to_other_texts": 0.9081647396087646
+    },
+    {
+      "voice": "jvs051",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5176220937455223,
+      "to_other_texts": 0.8120883004141926
+    },
+    {
+      "voice": "jvs051",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4851284325122833,
+      "to_other_texts": 0.6489294171333313
+    },
+    {
+      "voice": "jvs052",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1191717643240626,
+      "to_other_texts": 1.1368901854045301
+    },
+    {
+      "voice": "jvs052",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.1981698274612427,
+      "to_other_texts": 1.1744905710220337
+    },
+    {
+      "voice": "jvs052",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.9468166865416938,
+      "to_other_texts": 1.032084822202616
+    },
+    {
+      "voice": "jvs052",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.2264163494110107,
+      "to_other_texts": 1.196518898010254
+    },
+    {
+      "voice": "jvs052",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5965344215850626,
+      "to_other_texts": 0.8592210511376281
+    },
+    {
+      "voice": "jvs052",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5800005793571472,
+      "to_other_texts": 0.6140989661216736
+    },
+    {
+      "voice": "jvs053",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0674084858834516,
+      "to_other_texts": 1.0412522053626652
+    },
+    {
+      "voice": "jvs053",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.5281535387039185,
+      "to_other_texts": 1.4033480882644653
+    },
+    {
+      "voice": "jvs053",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7980639040157633,
+      "to_other_texts": 0.9000051110331464
+    },
+    {
+      "voice": "jvs053",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.0205121040344238,
+      "to_other_texts": 0.8596949577331543
+    },
+    {
+      "voice": "jvs053",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5496252400612591,
+      "to_other_texts": 0.8310597327723572
+    },
+    {
+      "voice": "jvs053",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.7750583291053772,
+      "to_other_texts": 0.6132638454437256
+    },
+    {
+      "voice": "jvs054",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0887788015684545,
+      "to_other_texts": 1.0813690141520105
+    },
+    {
+      "voice": "jvs054",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.9190926551818848,
+      "to_other_texts": 0.870617151260376
+    },
+    {
+      "voice": "jvs054",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7800949086747684,
+      "to_other_texts": 0.9981993278477761
+    },
+    {
+      "voice": "jvs054",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5337095856666565,
+      "to_other_texts": 0.8491336703300476
+    },
+    {
+      "voice": "jvs054",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.49703700380354987,
+      "to_other_texts": 0.8540436922293672
+    },
+    {
+      "voice": "jvs054",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.29188230633735657,
+      "to_other_texts": 0.638523280620575
+    },
+    {
+      "voice": "jvs055",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1577672061337667,
+      "to_other_texts": 1.1736733033342113
+    },
+    {
+      "voice": "jvs055",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4809068441390991,
+      "to_other_texts": 1.4062250852584839
+    },
+    {
+      "voice": "jvs055",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7021473446218448,
+      "to_other_texts": 0.8401946417017007
+    },
+    {
+      "voice": "jvs055",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6650103330612183,
+      "to_other_texts": 0.8866304159164429
+    },
+    {
+      "voice": "jvs055",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4710318142406024,
+      "to_other_texts": 0.7620794001722763
+    },
+    {
+      "voice": "jvs055",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4982776939868927,
+      "to_other_texts": 0.6478087902069092
+    },
+    {
+      "voice": "jvs056",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2226237568233318,
+      "to_other_texts": 1.2527806496908378
+    },
+    {
+      "voice": "jvs056",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.143582820892334,
+      "to_other_texts": 1.6824290752410889
+    },
+    {
+      "voice": "jvs056",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.732422045836339,
+      "to_other_texts": 0.8904472697018424
+    },
+    {
+      "voice": "jvs056",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6333140730857849,
+      "to_other_texts": 0.8941306471824646
+    },
+    {
+      "voice": "jvs056",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4599684838085887,
+      "to_other_texts": 0.7611147088043743
+    },
+    {
+      "voice": "jvs056",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4423050880432129,
+      "to_other_texts": 0.7573402523994446
+    },
+    {
+      "voice": "jvs057",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.171762316042955,
+      "to_other_texts": 1.2397047089259847
+    },
+    {
+      "voice": "jvs057",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.0272343158721924,
+      "to_other_texts": 1.3787236213684082
+    },
+    {
+      "voice": "jvs057",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7133553394053019,
+      "to_other_texts": 1.0293494831326602
+    },
+    {
+      "voice": "jvs057",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.662361741065979,
+      "to_other_texts": 0.913898766040802
+    },
+    {
+      "voice": "jvs057",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.48908647011396256,
+      "to_other_texts": 0.930401051154577
+    },
+    {
+      "voice": "jvs057",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.48511841893196106,
+      "to_other_texts": 0.7796580195426941
+    },
+    {
+      "voice": "jvs058",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.227540563941166,
+      "to_other_texts": 1.203724439965443
+    },
+    {
+      "voice": "jvs058",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4690603017807007,
+      "to_other_texts": 1.3857557773590088
+    },
+    {
+      "voice": "jvs058",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8252575179697766,
+      "to_other_texts": 0.9397504355762616
+    },
+    {
+      "voice": "jvs058",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9115338325500488,
+      "to_other_texts": 1.0669947862625122
+    },
+    {
+      "voice": "jvs058",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5152926141343995,
+      "to_other_texts": 0.7657896269290133
+    },
+    {
+      "voice": "jvs058",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.40183645486831665,
+      "to_other_texts": 0.8194563984870911
+    },
+    {
+      "voice": "jvs059",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.115162015128009,
+      "to_other_texts": 1.1318260358549401
+    },
+    {
+      "voice": "jvs059",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.5412342548370361,
+      "to_other_texts": 1.6442033052444458
+    },
+    {
+      "voice": "jvs059",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8191963453136425,
+      "to_other_texts": 0.8765711522846212
+    },
+    {
+      "voice": "jvs059",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7627385258674622,
+      "to_other_texts": 0.852168083190918
+    },
+    {
+      "voice": "jvs059",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5050032612575432,
+      "to_other_texts": 0.7764458428999257
+    },
+    {
+      "voice": "jvs059",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.49730294942855835,
+      "to_other_texts": 0.9879237413406372
+    },
+    {
+      "voice": "jvs060",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1444870372743499,
+      "to_other_texts": 1.1853124205190626
+    },
+    {
+      "voice": "jvs060",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.2560124397277832,
+      "to_other_texts": 1.1715654134750366
+    },
+    {
+      "voice": "jvs060",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8126901902790089,
+      "to_other_texts": 0.9489360450329142
+    },
+    {
+      "voice": "jvs060",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9856603145599365,
+      "to_other_texts": 0.7356899976730347
+    },
+    {
+      "voice": "jvs060",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5604444474140393,
+      "to_other_texts": 0.8302165247290278
+    },
+    {
+      "voice": "jvs060",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.6488359570503235,
+      "to_other_texts": 0.7967702746391296
+    },
+    {
+      "voice": "jvs061",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1701222870602679,
+      "to_other_texts": 1.0974298893925436
+    },
+    {
+      "voice": "jvs061",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.7567081451416016,
+      "to_other_texts": 1.6065315008163452
+    },
+    {
+      "voice": "jvs061",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.916162361907882,
+      "to_other_texts": 0.9799948877580925
+    },
+    {
+      "voice": "jvs061",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.367430329322815,
+      "to_other_texts": 1.139115810394287
+    },
+    {
+      "voice": "jvs061",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.6303875934359138,
+      "to_other_texts": 0.8805892629288781
+    },
+    {
+      "voice": "jvs061",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.7486335635185242,
+      "to_other_texts": 0.6915202140808105
+    },
+    {
+      "voice": "jvs062",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2018304277236895,
+      "to_other_texts": 1.1486868362781666
+    },
+    {
+      "voice": "jvs062",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.5866795778274536,
+      "to_other_texts": 1.3539756536483765
+    },
+    {
+      "voice": "jvs062",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.9277591530079264,
+      "to_other_texts": 1.0146338906734416
+    },
+    {
+      "voice": "jvs062",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.8543692827224731,
+      "to_other_texts": 1.118830919265747
+    },
+    {
+      "voice": "jvs062",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5368552555539701,
+      "to_other_texts": 0.8535637542480957
+    },
+    {
+      "voice": "jvs062",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5100592374801636,
+      "to_other_texts": 0.7911238074302673
+    },
+    {
+      "voice": "jvs063",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1364518802870176,
+      "to_other_texts": 1.1539078769946478
+    },
+    {
+      "voice": "jvs063",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.575536847114563,
+      "to_other_texts": 1.5637750625610352
+    },
+    {
+      "voice": "jvs063",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7265859317277626,
+      "to_other_texts": 0.9038185857203666
+    },
+    {
+      "voice": "jvs063",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5751451253890991,
+      "to_other_texts": 0.7691839337348938
+    },
+    {
+      "voice": "jvs063",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5190052590704758,
+      "to_other_texts": 0.8077242603194295
+    },
+    {
+      "voice": "jvs063",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4119766652584076,
+      "to_other_texts": 0.5225565433502197
+    },
+    {
+      "voice": "jvs064",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.08713402663083,
+      "to_other_texts": 1.0490575441615662
+    },
+    {
+      "voice": "jvs064",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.8462260365486145,
+      "to_other_texts": 0.7853454947471619
+    },
+    {
+      "voice": "jvs064",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8455973029794165,
+      "to_other_texts": 0.9500784278449536
+    },
+    {
+      "voice": "jvs064",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6639281511306763,
+      "to_other_texts": 0.7514710426330566
+    },
+    {
+      "voice": "jvs064",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4787142644894276,
+      "to_other_texts": 0.8056282205502036
+    },
+    {
+      "voice": "jvs064",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.25824034214019775,
+      "to_other_texts": 0.5002660155296326
+    },
+    {
+      "voice": "jvs065",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0251446124913415,
+      "to_other_texts": 1.095365972726452
+    },
+    {
+      "voice": "jvs065",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.1177945137023926,
+      "to_other_texts": 1.0295214653015137
+    },
+    {
+      "voice": "jvs065",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7780024451040404,
+      "to_other_texts": 0.8830007792123061
+    },
+    {
+      "voice": "jvs065",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5743655562400818,
+      "to_other_texts": 0.5401750802993774
+    },
+    {
+      "voice": "jvs065",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5592542270530036,
+      "to_other_texts": 0.7763026407762986
+    },
+    {
+      "voice": "jvs065",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.7744143605232239,
+      "to_other_texts": 0.706026017665863
+    },
+    {
+      "voice": "jvs066",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2841011588526858,
+      "to_other_texts": 1.2727521494590779
+    },
+    {
+      "voice": "jvs066",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.6352418661117554,
+      "to_other_texts": 1.58491051197052
+    },
+    {
+      "voice": "jvs066",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.820043268572029,
+      "to_other_texts": 0.8962933535234016
+    },
+    {
+      "voice": "jvs066",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7783284187316895,
+      "to_other_texts": 0.7952835559844971
+    },
+    {
+      "voice": "jvs066",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5156407376428038,
+      "to_other_texts": 0.7294450098887069
+    },
+    {
+      "voice": "jvs066",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.48499584197998047,
+      "to_other_texts": 0.7067197561264038
+    },
+    {
+      "voice": "jvs067",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1325176914714294,
+      "to_other_texts": 1.1857456091705991
+    },
+    {
+      "voice": "jvs067",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4686287641525269,
+      "to_other_texts": 1.6065434217453003
+    },
+    {
+      "voice": "jvs067",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8314191964926001,
+      "to_other_texts": 0.9117927224309326
+    },
+    {
+      "voice": "jvs067",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7408321499824524,
+      "to_other_texts": 0.9144271612167358
+    },
+    {
+      "voice": "jvs067",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4530014187333301,
+      "to_other_texts": 0.7026636338955127
+    },
+    {
+      "voice": "jvs067",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.27181485295295715,
+      "to_other_texts": 0.37158438563346863
+    },
+    {
+      "voice": "jvs068",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0343601609275361,
+      "to_other_texts": 1.109470972006605
+    },
+    {
+      "voice": "jvs068",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.9231367707252502,
+      "to_other_texts": 0.9137409925460815
+    },
+    {
+      "voice": "jvs068",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8408626587178638,
+      "to_other_texts": 0.9520175221417415
+    },
+    {
+      "voice": "jvs068",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5165164470672607,
+      "to_other_texts": 0.734738290309906
+    },
+    {
+      "voice": "jvs068",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.6352886934194293,
+      "to_other_texts": 0.9124832677378596
+    },
+    {
+      "voice": "jvs068",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5646166205406189,
+      "to_other_texts": 0.806556224822998
+    },
+    {
+      "voice": "jvs069",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2661432391355631,
+      "to_other_texts": 1.2603789694680418
+    },
+    {
+      "voice": "jvs069",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.1647921800613403,
+      "to_other_texts": 1.3271404504776
+    },
+    {
+      "voice": "jvs069",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8374060984716347,
+      "to_other_texts": 1.010730640103596
+    },
+    {
+      "voice": "jvs069",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7763550281524658,
+      "to_other_texts": 0.9273992776870728
+    },
+    {
+      "voice": "jvs069",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5075595340269505,
+      "to_other_texts": 0.8866064451231805
+    },
+    {
+      "voice": "jvs069",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.3775393068790436,
+      "to_other_texts": 0.5705400109291077
+    },
+    {
+      "voice": "jvs070",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0678187266423647,
+      "to_other_texts": 1.0220442271231525
+    },
+    {
+      "voice": "jvs070",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.10378098487854,
+      "to_other_texts": 0.9335137009620667
+    },
+    {
+      "voice": "jvs070",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8368614139808188,
+      "to_other_texts": 0.9644190796674414
+    },
+    {
+      "voice": "jvs070",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9540148973464966,
+      "to_other_texts": 0.771068274974823
+    },
+    {
+      "voice": "jvs070",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.580749368156747,
+      "to_other_texts": 0.8577804287091167
+    },
+    {
+      "voice": "jvs070",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5585739612579346,
+      "to_other_texts": 0.6025944352149963
+    },
+    {
+      "voice": "jvs071",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.046000704851654,
+      "to_other_texts": 1.165585061157014
+    },
+    {
+      "voice": "jvs071",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7929784655570984,
+      "to_other_texts": 0.9173571467399597
+    },
+    {
+      "voice": "jvs071",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.9465001674585888,
+      "to_other_texts": 1.0791087353949849
+    },
+    {
+      "voice": "jvs071",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.007381796836853,
+      "to_other_texts": 1.0949538946151733
+    },
+    {
+      "voice": "jvs071",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5396353479166728,
+      "to_other_texts": 0.6877026004695207
+    },
+    {
+      "voice": "jvs071",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.458595335483551,
+      "to_other_texts": 0.6232908368110657
+    },
+    {
+      "voice": "jvs072",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2422308494015952,
+      "to_other_texts": 1.217636827551808
+    },
+    {
+      "voice": "jvs072",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.1899073123931885,
+      "to_other_texts": 1.4148492813110352
+    },
+    {
+      "voice": "jvs072",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8781259344826868,
+      "to_other_texts": 0.9733403838392765
+    },
+    {
+      "voice": "jvs072",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9176889657974243,
+      "to_other_texts": 1.0095508098602295
+    },
+    {
+      "voice": "jvs072",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.43569866602617796,
+      "to_other_texts": 0.7913663817766363
+    },
+    {
+      "voice": "jvs072",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.2953904867172241,
+      "to_other_texts": 0.6692155599594116
+    },
+    {
+      "voice": "jvs073",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1255227860005417,
+      "to_other_texts": 1.028084998217586
+    },
+    {
+      "voice": "jvs073",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.92441725730896,
+      "to_other_texts": 0.6779497861862183
+    },
+    {
+      "voice": "jvs073",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.9037204461680396,
+      "to_other_texts": 0.9087960921656443
+    },
+    {
+      "voice": "jvs073",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9462882876396179,
+      "to_other_texts": 0.8110324144363403
+    },
+    {
+      "voice": "jvs073",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5399989241498293,
+      "to_other_texts": 0.7959177452533638
+    },
+    {
+      "voice": "jvs073",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.330454558134079,
+      "to_other_texts": 0.6202197074890137
+    },
+    {
+      "voice": "jvs074",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0241167850891604,
+      "to_other_texts": 1.0310725230941002
+    },
+    {
+      "voice": "jvs074",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.8052472472190857,
+      "to_other_texts": 1.1069718599319458
+    },
+    {
+      "voice": "jvs074",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8485840678472523,
+      "to_other_texts": 0.9124133668262328
+    },
+    {
+      "voice": "jvs074",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.002617597579956,
+      "to_other_texts": 0.8284979462623596
+    },
+    {
+      "voice": "jvs074",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.6075333719889291,
+      "to_other_texts": 0.8468156487928321
+    },
+    {
+      "voice": "jvs074",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.6866195797920227,
+      "to_other_texts": 0.6309859156608582
+    },
+    {
+      "voice": "jvs075",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1241254759988508,
+      "to_other_texts": 1.0952217717009218
+    },
+    {
+      "voice": "jvs075",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.9087508320808411,
+      "to_other_texts": 0.9228695034980774
+    },
+    {
+      "voice": "jvs075",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.9282168077428565,
+      "to_other_texts": 1.0904600778805211
+    },
+    {
+      "voice": "jvs075",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.285193681716919,
+      "to_other_texts": 1.288137674331665
+    },
+    {
+      "voice": "jvs075",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.538150629793533,
+      "to_other_texts": 0.9177576917361322
+    },
+    {
+      "voice": "jvs075",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5769239068031311,
+      "to_other_texts": 0.8172768354415894
+    },
+    {
+      "voice": "jvs076",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0144107127988677,
+      "to_other_texts": 1.0082397132861303
+    },
+    {
+      "voice": "jvs076",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.34637632966041565,
+      "to_other_texts": 0.29266226291656494
+    },
+    {
+      "voice": "jvs076",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7945802248270285,
+      "to_other_texts": 0.8766527300925958
+    },
+    {
+      "voice": "jvs076",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.3395973742008209,
+      "to_other_texts": 0.34750935435295105
+    },
+    {
+      "voice": "jvs076",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.573313254331142,
+      "to_other_texts": 0.774496001966631
+    },
+    {
+      "voice": "jvs076",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4790235757827759,
+      "to_other_texts": 0.5242717862129211
+    },
+    {
+      "voice": "jvs077",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9101456804453727,
+      "to_other_texts": 0.9662933952521499
+    },
+    {
+      "voice": "jvs077",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.5137998461723328,
+      "to_other_texts": 0.6777777075767517
+    },
+    {
+      "voice": "jvs077",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.5620872956109133,
+      "to_other_texts": 0.8499139740035837
+    },
+    {
+      "voice": "jvs077",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.36227738857269287,
+      "to_other_texts": 0.6041222810745239
+    },
+    {
+      "voice": "jvs077",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.3960336690212532,
+      "to_other_texts": 0.790845053116998
+    },
+    {
+      "voice": "jvs077",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.2818252742290497,
+      "to_other_texts": 0.5148761868476868
+    },
+    {
+      "voice": "jvs078",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0093895259736112,
+      "to_other_texts": 1.0786276547134355
+    },
+    {
+      "voice": "jvs078",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.6672250032424927,
+      "to_other_texts": 0.8143794536590576
+    },
+    {
+      "voice": "jvs078",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7986888441217762,
+      "to_other_texts": 0.9019556245274871
+    },
+    {
+      "voice": "jvs078",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7928518056869507,
+      "to_other_texts": 0.7119069695472717
+    },
+    {
+      "voice": "jvs078",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4913459948827605,
+      "to_other_texts": 0.7800461394663621
+    },
+    {
+      "voice": "jvs078",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.45070427656173706,
+      "to_other_texts": 0.49034959077835083
+    },
+    {
+      "voice": "jvs079",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9784241097454421,
+      "to_other_texts": 1.0418482283370678
+    },
+    {
+      "voice": "jvs079",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7235482931137085,
+      "to_other_texts": 0.9776219129562378
+    },
+    {
+      "voice": "jvs079",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7591958509414075,
+      "to_other_texts": 0.8479062732664626
+    },
+    {
+      "voice": "jvs079",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5513615608215332,
+      "to_other_texts": 0.6864970922470093
+    },
+    {
+      "voice": "jvs079",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.49142120326812644,
+      "to_other_texts": 0.7459108463859702
+    },
+    {
+      "voice": "jvs079",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.42368656396865845,
+      "to_other_texts": 0.663397490978241
+    },
+    {
+      "voice": "jvs080",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.046542513427313,
+      "to_other_texts": 1.0632607310741602
+    },
+    {
+      "voice": "jvs080",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.8167061805725098,
+      "to_other_texts": 1.0647916793823242
+    },
+    {
+      "voice": "jvs080",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7535896264103517,
+      "to_other_texts": 0.8952837366528299
+    },
+    {
+      "voice": "jvs080",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6483582854270935,
+      "to_other_texts": 0.837624192237854
+    },
+    {
+      "voice": "jvs080",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4741033741668069,
+      "to_other_texts": 0.8218745025490408
+    },
+    {
+      "voice": "jvs080",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.4199099838733673,
+      "to_other_texts": 0.6268129348754883
+    },
+    {
+      "voice": "jvs081",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0479747734422495,
+      "to_other_texts": 1.079072383476179
+    },
+    {
+      "voice": "jvs081",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7739560604095459,
+      "to_other_texts": 0.9631567597389221
+    },
+    {
+      "voice": "jvs081",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7662378447387473,
+      "to_other_texts": 1.0109635616876456
+    },
+    {
+      "voice": "jvs081",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.083742618560791,
+      "to_other_texts": 1.2481435537338257
+    },
+    {
+      "voice": "jvs081",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5760905345425279,
+      "to_other_texts": 0.9374990213040755
+    },
+    {
+      "voice": "jvs081",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.7538996934890747,
+      "to_other_texts": 1.120666742324829
+    },
+    {
+      "voice": "jvs082",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0489205765395118,
+      "to_other_texts": 1.1922324085887368
+    },
+    {
+      "voice": "jvs082",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.281365990638733,
+      "to_other_texts": 1.4513040781021118
+    },
+    {
+      "voice": "jvs082",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8132193071468325,
+      "to_other_texts": 1.0314594796205847
+    },
+    {
+      "voice": "jvs082",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.065483808517456,
+      "to_other_texts": 1.086622953414917
+    },
+    {
+      "voice": "jvs082",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.536477879020172,
+      "to_other_texts": 0.8673462287218919
+    },
+    {
+      "voice": "jvs082",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5171974301338196,
+      "to_other_texts": 0.7877458333969116
+    },
+    {
+      "voice": "jvs083",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.052747475215052,
+      "to_other_texts": 1.1398480874892454
+    },
+    {
+      "voice": "jvs083",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.8760973215103149,
+      "to_other_texts": 1.0194438695907593
+    },
+    {
+      "voice": "jvs083",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8064333245992432,
+      "to_other_texts": 0.9885582570445828
+    },
+    {
+      "voice": "jvs083",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.3963838219642639,
+      "to_other_texts": 0.6873465180397034
+    },
+    {
+      "voice": "jvs083",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5702811946950929,
+      "to_other_texts": 0.8179643118178144
+    },
+    {
+      "voice": "jvs083",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.2678047716617584,
+      "to_other_texts": 0.5747260451316833
+    },
+    {
+      "voice": "jvs084",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.2044164766741612,
+      "to_other_texts": 1.2882851052642241
+    },
+    {
+      "voice": "jvs084",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7326499223709106,
+      "to_other_texts": 0.8206692337989807
+    },
+    {
+      "voice": "jvs084",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 1.0338368073236468,
+      "to_other_texts": 1.0928026523563998
+    },
+    {
+      "voice": "jvs084",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.0931236743927002,
+      "to_other_texts": 1.1327654123306274
+    },
+    {
+      "voice": "jvs084",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.7542932263490779,
+      "to_other_texts": 0.9122696722260557
+    },
+    {
+      "voice": "jvs084",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.7782905101776123,
+      "to_other_texts": 0.8996790647506714
+    },
+    {
+      "voice": "jvs085",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0828717978755427,
+      "to_other_texts": 1.2483433873761622
+    },
+    {
+      "voice": "jvs085",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.999985933303833,
+      "to_other_texts": 1.5545780658721924
+    },
+    {
+      "voice": "jvs085",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.9016130771083988,
+      "to_other_texts": 1.0115484411039564
+    },
+    {
+      "voice": "jvs085",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.8169811964035034,
+      "to_other_texts": 0.8444631099700928
+    },
+    {
+      "voice": "jvs085",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5287335791341994,
+      "to_other_texts": 0.8725539462205528
+    },
+    {
+      "voice": "jvs085",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.3110276758670807,
+      "to_other_texts": 0.8304226398468018
+    },
+    {
+      "voice": "jvs086",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1352706313444039,
+      "to_other_texts": 1.1518262492095717
+    },
+    {
+      "voice": "jvs086",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.1244754791259766,
+      "to_other_texts": 0.9687034487724304
+    },
+    {
+      "voice": "jvs086",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.9344035369383852,
+      "to_other_texts": 0.9603380133213787
+    },
+    {
+      "voice": "jvs086",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.2142177820205688,
+      "to_other_texts": 0.7477465271949768
+    },
+    {
+      "voice": "jvs086",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5821014092975525,
+      "to_other_texts": 0.8694654499453854
+    },
+    {
+      "voice": "jvs086",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.7618522047996521,
+      "to_other_texts": 0.80211341381073
+    },
+    {
+      "voice": "jvs087",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.068855248102139,
+      "to_other_texts": 1.0788294492293775
+    },
+    {
+      "voice": "jvs087",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.7286326289176941,
+      "to_other_texts": 0.795825719833374
+    },
+    {
+      "voice": "jvs087",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7600958962960885,
+      "to_other_texts": 0.8690769773999122
+    },
+    {
+      "voice": "jvs087",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.4190298914909363,
+      "to_other_texts": 0.4888685643672943
+    },
+    {
+      "voice": "jvs087",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5253835073843336,
+      "to_other_texts": 0.7631789245371917
+    },
+    {
+      "voice": "jvs087",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.45682957768440247,
+      "to_other_texts": 0.5400974750518799
+    },
+    {
+      "voice": "jvs088",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0265685135097768,
+      "to_other_texts": 0.9900441108142933
+    },
+    {
+      "voice": "jvs088",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.4832058250904083,
+      "to_other_texts": 0.43290701508522034
+    },
+    {
+      "voice": "jvs088",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7924697006399481,
+      "to_other_texts": 0.8938975755527913
+    },
+    {
+      "voice": "jvs088",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6882856488227844,
+      "to_other_texts": 0.5410551428794861
+    },
+    {
+      "voice": "jvs088",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5318588871857434,
+      "to_other_texts": 0.8221031375006268
+    },
+    {
+      "voice": "jvs088",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.46921390295028687,
+      "to_other_texts": 0.5461656451225281
+    },
+    {
+      "voice": "jvs089",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0834910021057822,
+      "to_other_texts": 1.0632887566254485
+    },
+    {
+      "voice": "jvs089",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.0289844274520874,
+      "to_other_texts": 0.963376522064209
+    },
+    {
+      "voice": "jvs089",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.73750723359483,
+      "to_other_texts": 0.8931639872709575
+    },
+    {
+      "voice": "jvs089",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7395512461662292,
+      "to_other_texts": 0.77323979139328
+    },
+    {
+      "voice": "jvs089",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.47318064474537713,
+      "to_other_texts": 0.8462356837925769
+    },
+    {
+      "voice": "jvs089",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.44275474548339844,
+      "to_other_texts": 0.7811694741249084
+    },
+    {
+      "voice": "jvs090",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.111999615011728,
+      "to_other_texts": 1.13192896234651
+    },
+    {
+      "voice": "jvs090",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4199296236038208,
+      "to_other_texts": 1.3588956594467163
+    },
+    {
+      "voice": "jvs090",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7888446224042638,
+      "to_other_texts": 0.839223646001822
+    },
+    {
+      "voice": "jvs090",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9915969967842102,
+      "to_other_texts": 0.9001919627189636
+    },
+    {
+      "voice": "jvs090",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4616963190215316,
+      "to_other_texts": 0.7017152761347591
+    },
+    {
+      "voice": "jvs090",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.25971752405166626,
+      "to_other_texts": 0.4985756576061249
+    },
+    {
+      "voice": "jvs091",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.130735586607041,
+      "to_other_texts": 1.1411585001590383
+    },
+    {
+      "voice": "jvs091",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4365628957748413,
+      "to_other_texts": 1.356561303138733
+    },
+    {
+      "voice": "jvs091",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8425117872851795,
+      "to_other_texts": 1.022195962243247
+    },
+    {
+      "voice": "jvs091",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.7560762166976929,
+      "to_other_texts": 1.219905138015747
+    },
+    {
+      "voice": "jvs091",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4968329904838971,
+      "to_other_texts": 0.8430859674076042
+    },
+    {
+      "voice": "jvs091",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5474579930305481,
+      "to_other_texts": 0.7966923117637634
+    },
+    {
+      "voice": "jvs092",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1123040757808238,
+      "to_other_texts": 1.1348944242090064
+    },
+    {
+      "voice": "jvs092",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.0928548574447632,
+      "to_other_texts": 1.166670322418213
+    },
+    {
+      "voice": "jvs092",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8314872070244714,
+      "to_other_texts": 0.9588511715429456
+    },
+    {
+      "voice": "jvs092",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5824719071388245,
+      "to_other_texts": 0.694782555103302
+    },
+    {
+      "voice": "jvs092",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5081927010982465,
+      "to_other_texts": 0.8704682539318463
+    },
+    {
+      "voice": "jvs092",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5198673009872437,
+      "to_other_texts": 0.6755627989768982
+    },
+    {
+      "voice": "jvs093",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0776958358022446,
+      "to_other_texts": 1.0726677677582177
+    },
+    {
+      "voice": "jvs093",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.2415393590927124,
+      "to_other_texts": 1.3186085224151611
+    },
+    {
+      "voice": "jvs093",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7341057505449432,
+      "to_other_texts": 0.8328370683229199
+    },
+    {
+      "voice": "jvs093",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6497080326080322,
+      "to_other_texts": 0.8088083863258362
+    },
+    {
+      "voice": "jvs093",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4316162253921922,
+      "to_other_texts": 0.6543379456865906
+    },
+    {
+      "voice": "jvs093",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.35944312810897827,
+      "to_other_texts": 0.5250985026359558
+    },
+    {
+      "voice": "jvs094",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0436539351406386,
+      "to_other_texts": 1.143322151638436
+    },
+    {
+      "voice": "jvs094",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.9877524375915527,
+      "to_other_texts": 0.9506974220275879
+    },
+    {
+      "voice": "jvs094",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8546361649990976,
+      "to_other_texts": 1.0009899694209339
+    },
+    {
+      "voice": "jvs094",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.6813545823097229,
+      "to_other_texts": 0.8212066292762756
+    },
+    {
+      "voice": "jvs094",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5293200079012257,
+      "to_other_texts": 0.7620460416983972
+    },
+    {
+      "voice": "jvs094",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.2150096297264099,
+      "to_other_texts": 0.5950399041175842
+    },
+    {
+      "voice": "jvs095",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.1561900662113371,
+      "to_other_texts": 1.1042796651109639
+    },
+    {
+      "voice": "jvs095",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.2697477340698242,
+      "to_other_texts": 1.3091679811477661
+    },
+    {
+      "voice": "jvs095",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.6944984574853911,
+      "to_other_texts": 0.8332656808884783
+    },
+    {
+      "voice": "jvs095",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.8103906512260437,
+      "to_other_texts": 1.1071767807006836
+    },
+    {
+      "voice": "jvs095",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4585278979797132,
+      "to_other_texts": 0.7266632015189646
+    },
+    {
+      "voice": "jvs095",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5776435732841492,
+      "to_other_texts": 0.8563819527626038
+    },
+    {
+      "voice": "jvs096",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0973910149679524,
+      "to_other_texts": 1.118768753407393
+    },
+    {
+      "voice": "jvs096",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.4291026592254639,
+      "to_other_texts": 1.3709481954574585
+    },
+    {
+      "voice": "jvs096",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.742327440185769,
+      "to_other_texts": 0.8763177898810838
+    },
+    {
+      "voice": "jvs096",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 1.100447654724121,
+      "to_other_texts": 1.0695708990097046
+    },
+    {
+      "voice": "jvs096",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.4962389857642502,
+      "to_other_texts": 0.7606946135818122
+    },
+    {
+      "voice": "jvs096",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.42282798886299133,
+      "to_other_texts": 0.7217596769332886
+    },
+    {
+      "voice": "jvs097",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.0563074374487962,
+      "to_other_texts": 1.0463159635533488
+    },
+    {
+      "voice": "jvs097",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.165380835533142,
+      "to_other_texts": 0.8595852851867676
+    },
+    {
+      "voice": "jvs097",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7821268589983273,
+      "to_other_texts": 0.9855613189852815
+    },
+    {
+      "voice": "jvs097",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.4538237154483795,
+      "to_other_texts": 0.7450841069221497
+    },
+    {
+      "voice": "jvs097",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5993177643676838,
+      "to_other_texts": 0.9102328828148935
+    },
+    {
+      "voice": "jvs097",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.42342808842658997,
+      "to_other_texts": 0.7476236820220947
+    },
+    {
+      "voice": "jvs098",
+      "split": "test",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 1.127518755635278,
+      "to_other_texts": 1.158168536689859
+    },
+    {
+      "voice": "jvs098",
+      "split": "test",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.2337778806686401,
+      "to_other_texts": 1.1811273097991943
+    },
+    {
+      "voice": "jvs098",
+      "split": "test",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8153898894376996,
+      "to_other_texts": 1.0244420244692733
+    },
+    {
+      "voice": "jvs098",
+      "split": "test",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9452694058418274,
+      "to_other_texts": 1.2613935470581055
+    },
+    {
+      "voice": "jvs098",
+      "split": "test",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5824453495190318,
+      "to_other_texts": 0.9864158196794156
+    },
+    {
+      "voice": "jvs098",
+      "split": "test",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.820688784122467,
+      "to_other_texts": 1.306308388710022
+    },
+    {
+      "voice": "jvs099",
+      "split": "dev",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9943673157630449,
+      "to_other_texts": 1.020387405175399
+    },
+    {
+      "voice": "jvs099",
+      "split": "dev",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 1.1022545099258423,
+      "to_other_texts": 1.1158889532089233
+    },
+    {
+      "voice": "jvs099",
+      "split": "dev",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.7461681393284743,
+      "to_other_texts": 0.9166864873627834
+    },
+    {
+      "voice": "jvs099",
+      "split": "dev",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.5135504603385925,
+      "to_other_texts": 0.8320828080177307
+    },
+    {
+      "voice": "jvs099",
+      "split": "dev",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5987665776183599,
+      "to_other_texts": 0.858760186559826
+    },
+    {
+      "voice": "jvs099",
+      "split": "dev",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.5045518279075623,
+      "to_other_texts": 0.7433858513832092
+    },
+    {
+      "voice": "jvs100",
+      "split": "train",
+      "duration": 1,
+      "model": "blend",
+      "to_full": 0.9728168220595225,
+      "to_other_texts": 1.0145219918883888
+    },
+    {
+      "voice": "jvs100",
+      "split": "train",
+      "duration": 1,
+      "model": "selected",
+      "to_full": 0.6997712850570679,
+      "to_other_texts": 0.8568403124809265
+    },
+    {
+      "voice": "jvs100",
+      "split": "train",
+      "duration": 2,
+      "model": "blend",
+      "to_full": 0.8122214381846118,
+      "to_other_texts": 0.9258024501843932
+    },
+    {
+      "voice": "jvs100",
+      "split": "train",
+      "duration": 2,
+      "model": "selected",
+      "to_full": 0.9664549827575684,
+      "to_other_texts": 0.8324176669120789
+    },
+    {
+      "voice": "jvs100",
+      "split": "train",
+      "duration": 4,
+      "model": "blend",
+      "to_full": 0.5992589648286814,
+      "to_other_texts": 0.8607860870170636
+    },
+    {
+      "voice": "jvs100",
+      "split": "train",
+      "duration": 4,
+      "model": "selected",
+      "to_full": 0.43100205063819885,
+      "to_other_texts": 0.6384234428405762
+    }
+  ],
+  "target": "Normal JVS center crops, unit-sphere distance. Development speakers previously used for model research; exploratory coverage."
+}

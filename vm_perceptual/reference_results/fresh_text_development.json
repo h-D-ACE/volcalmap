@@ -1,0 +1,31 @@
+{
+  "voices": 20,
+  "texts": [
+    "VOICEACTRESS100_005.wav",
+    "VOICEACTRESS100_006.wav",
+    "VOICEACTRESS100_007.wav",
+    "VOICEACTRESS100_008.wav",
+    "VOICEACTRESS100_009.wav",
+    "VOICEACTRESS100_010.wav",
+    "VOICEACTRESS100_011.wav",
+    "VOICEACTRESS100_012.wav"
+  ],
+  "rows": 90,
+  "results": {
+    "1": {
+      "same_texts": 0.28460375775900815,
+      "different_texts": 0.2383795068270716,
+      "disjoint_assignments": 56
+    },
+    "2": {
+      "same_texts": 0.332301955590619,
+      "different_texts": 0.3059794558669529,
+      "disjoint_assignments": 12
+    },
+    "4": {
+      "same_texts": 0.33998354153332533,
+      "different_texts": 0.31499275801989285,
+      "disjoint_assignments": 2
+    }
+  }
+}

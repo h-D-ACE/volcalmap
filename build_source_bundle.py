@@ -8,8 +8,14 @@ def main():
     for module in ('vm_acoustic','vm_perceptual'):
         for pattern in ('*.py','*.md','requirements.txt','.gitignore'):
             paths.extend((ROOT/module).glob(pattern))
-    for name in ('REPORT.md','evaluation.json','rating_geometry.json','short_clip_check.json','adapter_check.json','resume_check.json','dev_text_check.json','dev_whitening.json'):
+    for name in ('REPORT.md','evaluation.json','rating_geometry.json','short_clip_check.json','adapter_check.json','resume_check.json','dev_text_check.json','dev_whitening.json',
+                 'raw5090_comparison.json','fixed5090_comparison.json','precision_error_breakdown.json',
+                 'fresh_text_development.json','cross_text_development.json','diagonal_metric_dev.json',
+                 'content_conditioning.json','layer_metric_dev.json','frozen_new_texts.json','vctk_map_stability.json',
+                 'blend_projection.json','crop_stability.json'):
         p=ROOT/'vm_perceptual/results'/name
+        if not p.is_file():
+            p=ROOT/'vm_perceptual/reference_results'/name
         if p.is_file():paths.append(p)
     for folder in ('results_reference','results_confirmation','results_sentence_validation'):
         base=ROOT/'vm_acoustic'/folder

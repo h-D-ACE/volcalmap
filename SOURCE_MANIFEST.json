@@ -8,8 +8,8 @@
     "sha256": "35e4016dece2798886229d53672e03859e3cfd016ffa9accc13f1eff2bbcabfb"
   },
   "build_source_bundle.py": {
-    "bytes": 2897,
-    "sha256": "f790ab5551a42cc2f5db50b4f9fca4fa2ba6f61e28e77ee733c88b959c004fb1"
+    "bytes": 3383,
+    "sha256": "7743275e707d739877700ebca5baaff61f3e6c6ce28af2d5a99e36af232057c9"
   },
   "MIGRATION.md": {
     "bytes": 2570,
@@ -220,12 +220,36 @@
     "sha256": "bdb6c1ecf1e66ae73313f7b28a0700ac64a805effa76058637c5829e11ca3b2d"
   },
   "vm_perceptual/AUTODL.md": {
-    "bytes": 4636,
-    "sha256": "a6ac69f6e9962a41383771fa2dc20c6230d5daf70e8ecacd2d700a34d34c0b5e"
+    "bytes": 4744,
+    "sha256": "167dd85199e616a04f27ddfa0f9cbe3805c9407813de8d253e9b931be8355e80"
+  },
+  "vm_perceptual/blend_projection.py": {
+    "bytes": 1581,
+    "sha256": "ab52fa8d549e0eaac6cea811849d25daa0416f6c4c9bd3a78b249d77427c8d0a"
+  },
+  "vm_perceptual/CLOUD_RESULTS.md": {
+    "bytes": 4209,
+    "sha256": "a2c45a991462cb304f2d64d40bae04303da75187edfa479f8f32411941b4053e"
+  },
+  "vm_perceptual/compare_reruns.py": {
+    "bytes": 2438,
+    "sha256": "6261b0203009ce210915f2a7d9a844dd8223608204e99bd7486af69eb1df1b76"
+  },
+  "vm_perceptual/content_conditioning.py": {
+    "bytes": 4490,
+    "sha256": "22d0973125518837164d212b39a0e847c34743849cb630821a27b0c235bb9f57"
   },
   "vm_perceptual/COORDINATE_STANDARD.md": {
     "bytes": 3037,
     "sha256": "7946c5f44e755221d8d18f298f425c727a9e460a9c3a629139036cdbf619fdca"
+  },
+  "vm_perceptual/crop_stability.py": {
+    "bytes": 3063,
+    "sha256": "da2176e7ab9f76748df35b5465f22b48a1b277b099c706bc32a70043ccca527d"
+  },
+  "vm_perceptual/cross_text_training.py": {
+    "bytes": 2364,
+    "sha256": "edc24c3477c377f0eddbbe5c0ef9e0b4cd79feb4a8403975d48e9cea87f260aa"
   },
   "vm_perceptual/DATA_SOURCES.md": {
     "bytes": 1559,
@@ -243,13 +267,25 @@
     "bytes": 1619,
     "sha256": "0908c162ddea1c31f7419414e7be02133ed7974b3abf43141c532368b414e22e"
   },
+  "vm_perceptual/development_layers.py": {
+    "bytes": 1683,
+    "sha256": "68a3a67012c793da86eaba70abb105034202ae0237148136b8e5a5a2b9298d45"
+  },
+  "vm_perceptual/diagonal_metric_dev.py": {
+    "bytes": 2480,
+    "sha256": "274fa3cfa2e86f51915ae622582990276f267c2f664b2f2d1e4f1d5b999ba9d9"
+  },
   "vm_perceptual/evaluate_map.py": {
     "bytes": 10763,
     "sha256": "de1c0c2ed24fd2a119325943a1e08305d9f5cd2ee08d9a372309edf41ae56b73"
   },
   "vm_perceptual/extract_features.py": {
-    "bytes": 5245,
-    "sha256": "47955dcee0caaf80f1bdefa6d849444fcaa42fa1e2f746d78485e687aaae3254"
+    "bytes": 5656,
+    "sha256": "9855108d41cae76280e2d336ba98886b289e9f5a56af97b1ca80d0c2e4e90240"
+  },
+  "vm_perceptual/fetch_dev_texts.py": {
+    "bytes": 1350,
+    "sha256": "caf544e7c929cf5e8a1af65b4a10adc1f9d97a4dbd86ff1a28a2d2f1d355e95f"
   },
   "vm_perceptual/fetch_jvs.py": {
     "bytes": 3980,
@@ -259,9 +295,29 @@
     "bytes": 775,
     "sha256": "4b5f8d8d1c69b3ec5687c0e2c948471092146607551fd7357084f2480170ef9e"
   },
+  "vm_perceptual/fresh_text_development.py": {
+    "bytes": 2081,
+    "sha256": "db0a42f9fecaf32c99d9a38d2e8220eeaa35a9c80ed5d4d707fcf41fe4bce77d"
+  },
+  "vm_perceptual/FRESH_TEXT_PROTOCOL.md": {
+    "bytes": 1037,
+    "sha256": "3b9a60457b9b92f59ad14e575c2b139a9169fd6d01e94b37bcea270a577a9530"
+  },
+  "vm_perceptual/frozen_new_texts.py": {
+    "bytes": 3324,
+    "sha256": "118d24087f3a1776e08b76da2c6d6d513d6e047472f1023f949c9f19bd6cef86"
+  },
   "vm_perceptual/infer.py": {
     "bytes": 2907,
     "sha256": "d98269b5ba3fc0f09bd2d168f65e85aba45aa6cd285bbcaa5ba48a144f0e1f0e"
+  },
+  "vm_perceptual/layer_blend_map.py": {
+    "bytes": 3493,
+    "sha256": "9d448df129d21575516aa5aebddd79e5149cc3c8392635319bee6416878a1ff1"
+  },
+  "vm_perceptual/layer_metric_dev.py": {
+    "bytes": 3721,
+    "sha256": "6c464069c886188769343238cf3aca30573cd77a28db1e78ab1f6e3c598ec7a2"
   },
   "vm_perceptual/map_index.py": {
     "bytes": 4094,
@@ -295,6 +351,22 @@
     "bytes": 1576,
     "sha256": "50464e47bad78d44a9e32fcd9a81675cdedfb0610dd8f4acd98433ac2b91620b"
   },
+  "vm_perceptual/reference_results/blend_projection.json": {
+    "bytes": 956,
+    "sha256": "241a57f5fbb2cd5ea5fa621a2bfc025db418fe74005b97735dcd4f790e826740"
+  },
+  "vm_perceptual/reference_results/content_conditioning.json": {
+    "bytes": 1074,
+    "sha256": "dd2b752ff50c08817721df05e32562087002ea7d6903158eb3c73fd1cf80b02c"
+  },
+  "vm_perceptual/reference_results/crop_stability.json": {
+    "bytes": 115062,
+    "sha256": "ddcfdfcf7caf07e0e17b853a15f6c45cfc30132ab0bb63edff9e40e306c7bff9"
+  },
+  "vm_perceptual/reference_results/cross_text_development.json": {
+    "bytes": 812,
+    "sha256": "b15bb1f50c4ee21812df7eed848159106001e56a13c18985d252974b18ad7555"
+  },
   "vm_perceptual/reference_results/dev_text_check.json": {
     "bytes": 1048,
     "sha256": "baadb7601a91c4b5b4c030c4af864ba5da11e08134e116e27c6558d417cb2391"
@@ -303,13 +375,41 @@
     "bytes": 627,
     "sha256": "173f797b7008fef946b7183d0c8291f911ef76b14062ed0d7a384cdde15a97de"
   },
+  "vm_perceptual/reference_results/diagonal_metric_dev.json": {
+    "bytes": 869,
+    "sha256": "cb6119c2ae997b8142317ca89eecc653d76ba9b59dedaf4d0f9426f8a0d81f26"
+  },
   "vm_perceptual/reference_results/evaluation.json": {
     "bytes": 24246,
     "sha256": "295093131d39640a7d9b730c63ba613a8b7061d2bea1dda8b6b860ecdd47ff08"
   },
+  "vm_perceptual/reference_results/fixed5090_comparison.json": {
+    "bytes": 752,
+    "sha256": "30c9d30b25797d975fb3d36b3b157008c44915a679859e43ff9960592aeeba9d"
+  },
+  "vm_perceptual/reference_results/fresh_text_development.json": {
+    "bytes": 725,
+    "sha256": "dc61a5fcfc84bffa3de27a9e08962f5fba3d395b803512e5f631c3cf60e8353f"
+  },
+  "vm_perceptual/reference_results/frozen_new_texts.json": {
+    "bytes": 1431,
+    "sha256": "c2f0fdfd2f12a291ee456e207ded7960d07dddd0be231b09470bc51b708fbe0b"
+  },
+  "vm_perceptual/reference_results/layer_metric_dev.json": {
+    "bytes": 4280,
+    "sha256": "4e60fdd9a951aba378d5b5a2dd63ef027e2905cf9b332d18b0dc8ac00f455794"
+  },
+  "vm_perceptual/reference_results/precision_error_breakdown.json": {
+    "bytes": 721,
+    "sha256": "987a816815aa216e04d8a57847578b130c31de0e48f0de194110ed4faaf5eefb"
+  },
   "vm_perceptual/reference_results/rating_geometry.json": {
     "bytes": 1172,
     "sha256": "0020c0974e5e7c4fab7164a07506c7d0433d05ab64331cf2a690f7355a3a2368"
+  },
+  "vm_perceptual/reference_results/raw5090_comparison.json": {
+    "bytes": 753,
+    "sha256": "52e49688dbe408a71f5890c7809227f422ffc04df2ca89d3d8a8434b64a0eaf1"
   },
   "vm_perceptual/reference_results/REPORT.md": {
     "bytes": 2600,
@@ -322,6 +422,10 @@
   "vm_perceptual/reference_results/short_clip_check.json": {
     "bytes": 12254,
     "sha256": "7c26da0e31104f2236cf58f4368af995a65336d9328bbd02b9d77298a7b6c51a"
+  },
+  "vm_perceptual/reference_results/vctk_map_stability.json": {
+    "bytes": 756,
+    "sha256": "eff22ff8a2466d7b521d6f8682b14d952b27a379f6eea89d2c60c7d507b8245a"
   },
   "vm_perceptual/runtime.py": {
     "bytes": 598,
@@ -338,5 +442,9 @@
   "vm_perceptual/train_map.py": {
     "bytes": 6591,
     "sha256": "7b34cf72c9c5a2d24147748d77fd3a39dd1f07e0bbf793e933bb6932c63f4934"
+  },
+  "vm_perceptual/vctk_map_stability.py": {
+    "bytes": 2860,
+    "sha256": "ba6bca2e004d2582a20bb9de7e34a6435526d19f5216c47c05189cea4d4dc4ae"
   }
 }

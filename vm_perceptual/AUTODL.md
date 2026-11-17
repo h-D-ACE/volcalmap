@@ -1,6 +1,6 @@
 # AutoDL：感知坐标实验的可复现训练
 
-本轮已在Windows CPU执行真实JVS感知监督训练、冻结测试、单音频定位和恢复检查。Linux/CUDA/AutoDL尚未实际执行；本文件提供待部署步骤，不表示已经开通云实例。当前不是商用模型。
+本轮已在Windows CPU执行真实JVS感知监督训练、冻结测试、单音频定位和恢复检查。已在 AutoDL RTX 5090 上用 440 条原始录音完成全流程；已测环境和对照结果见 [CLOUD_RESULTS.md](CLOUD_RESULTS.md)。当前不是商用模型。
 
 ## 环境
 

@@ -1,0 +1,35 @@
+{
+  "train_folds": [
+    {
+      "global": 0.14424691985628763,
+      "conditioned4": 0.24015176826005946,
+      "combined4": 0.20970740186979037,
+      "conditioned12": 0.22663255619565434,
+      "combined12": 0.21425305694835872
+    },
+    {
+      "global": 0.1376010586955054,
+      "conditioned4": 0.17434827461377372,
+      "combined4": 0.1783967420089694,
+      "conditioned12": 0.20370941475153084,
+      "combined12": 0.19064473923548936
+    },
+    {
+      "global": 0.31621057689376925,
+      "conditioned4": 0.4218816142140052,
+      "combined4": 0.42958657708302356,
+      "conditioned12": 0.39729862298013247,
+      "combined12": 0.4108518440172399
+    }
+  ],
+  "train_selected": "conditioned4",
+  "selected_dev": 0.09969776048322676,
+  "dev": {
+    "global": 0.12275335371150958,
+    "conditioned4": 0.09969776048322676,
+    "combined4": 0.1246874626078041,
+    "conditioned12": 0.07028409120953391,
+    "combined12": 0.11660127092471925
+  },
+  "scope": "JVS voice ratings; acoustic clusters unsupervised; different-text single recordings, train-only fitting"
+}

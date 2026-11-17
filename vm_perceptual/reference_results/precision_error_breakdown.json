@@ -1,0 +1,18 @@
+[
+  {
+    "run": "deliverables\\raw-5090\\vm_perceptual",
+    "same_model_median_coordinate_error": 0.0003202057618407431,
+    "same_model_max_coordinate_error": 0.020255757675868798,
+    "pair_prediction_max_difference": 0.08929443359375,
+    "pair_prediction_rms": 0.03526389987273191,
+    "largest_candidate_test_srcc_change": 0.047926335688147526
+  },
+  {
+    "run": "deliverables\\fixed-5090\\vm_perceptual",
+    "same_model_median_coordinate_error": 7.245699690631828e-07,
+    "same_model_max_coordinate_error": 3.458243888276159e-06,
+    "pair_prediction_max_difference": 1.049041748046875e-05,
+    "pair_prediction_rms": 3.3862576890807902e-06,
+    "largest_candidate_test_srcc_change": 0.0
+  }
+]

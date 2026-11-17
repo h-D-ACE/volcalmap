@@ -1,0 +1,32 @@
+{
+  "recordings": 440,
+  "features": {
+    "acoustic": {
+      "max_absolute": 1.8596649169921875e-05,
+      "rms": 3.0932061155388037e-06
+    },
+    "ecapa": {
+      "max_absolute": 0.0005512237548828125,
+      "rms": 5.992807232006331e-05
+    },
+    "wavlm3": {
+      "max_absolute": 1.301988959312439e-06,
+      "rms": 1.2588844539701373e-07
+    }
+  },
+  "coordinate_l2_median": 7.401666246396629e-06,
+  "coordinate_l2_max": 1.651208855565897e-05,
+  "distance_srcc": 0.9999999999396583,
+  "matching_top1": 440,
+  "mean_top5_overlap": 1.0,
+  "evaluations": [
+    {
+      "winner": "acoustic_d16",
+      "test": 0.4132260161987446
+    },
+    {
+      "winner": "acoustic_d16",
+      "test": 0.4132260161987446
+    }
+  ]
+}

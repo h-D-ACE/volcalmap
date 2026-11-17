@@ -29,6 +29,11 @@ class Frontend:
         if use_wavlm:
             from transformers import WavLMModel
             self.wavlm=WavLMModel.from_pretrained(str(models/'wavlm'),local_files_only=True).to(device).eval()
+        # SpeechBrain can enable TF32 during initialization. Set precision after
+        # all optional frontends load so training and single-query MFCCs agree.
+        if torch.device(device).type == 'cuda':
+            torch.backends.cuda.matmul.allow_tf32 = False
+            torch.backends.cudnn.allow_tf32 = False
         self.mfcc=torchaudio.transforms.MFCC(sample_rate=16000,n_mfcc=20,
             melkwargs=dict(n_fft=512,win_length=400,hop_length=160,n_mels=40)).to(device)
 
