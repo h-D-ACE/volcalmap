@@ -1,0 +1,176 @@
+{
+  "paths": 80,
+  "voices": 20,
+  "methods": {
+    "current": [
+      {
+        "fraction": 0.0,
+        "target_first": 0.1,
+        "target_top3": 0.325,
+        "largest_improvement_is_target": 0.11111111111111113,
+        "target_gain_above_median_distractor": 0.0,
+        "mean_target_rank": 5.3
+      },
+      {
+        "fraction": 0.25,
+        "target_first": 0.225,
+        "target_top3": 0.4625,
+        "largest_improvement_is_target": 0.3125,
+        "target_gain_above_median_distractor": 0.06507527828216553,
+        "mean_target_rank": 4.275
+      },
+      {
+        "fraction": 0.5,
+        "target_first": 0.3625,
+        "target_top3": 0.725,
+        "largest_improvement_is_target": 0.45,
+        "target_gain_above_median_distractor": 0.15889351069927216,
+        "mean_target_rank": 2.7625
+      },
+      {
+        "fraction": 0.75,
+        "target_first": 0.6,
+        "target_top3": 0.9375,
+        "largest_improvement_is_target": 0.65,
+        "target_gain_above_median_distractor": 0.2772228270769119,
+        "mean_target_rank": 1.7
+      },
+      {
+        "fraction": 1.0,
+        "target_first": 0.7625,
+        "target_top3": 0.9625,
+        "largest_improvement_is_target": 0.7125,
+        "target_gain_above_median_distractor": 0.3195963352918625,
+        "mean_target_rank": 1.425
+      }
+    ],
+    "student": [
+      {
+        "fraction": 0.0,
+        "target_first": 0.1625,
+        "target_top3": 0.3875,
+        "largest_improvement_is_target": 0.11111111111111113,
+        "target_gain_above_median_distractor": 0.0,
+        "mean_target_rank": 4.7125
+      },
+      {
+        "fraction": 0.25,
+        "target_first": 0.275,
+        "target_top3": 0.55,
+        "largest_improvement_is_target": 0.625,
+        "target_gain_above_median_distractor": 0.05804314464330673,
+        "mean_target_rank": 3.8
+      },
+      {
+        "fraction": 0.5,
+        "target_first": 0.4375,
+        "target_top3": 0.8375,
+        "largest_improvement_is_target": 0.6875,
+        "target_gain_above_median_distractor": 0.1488838493824005,
+        "mean_target_rank": 2.425
+      },
+      {
+        "fraction": 0.75,
+        "target_first": 0.75,
+        "target_top3": 0.9375,
+        "largest_improvement_is_target": 0.7875,
+        "target_gain_above_median_distractor": 0.22548764944076538,
+        "mean_target_rank": 1.4875
+      },
+      {
+        "fraction": 1.0,
+        "target_first": 0.8875,
+        "target_top3": 0.9875,
+        "largest_improvement_is_target": 0.7875,
+        "target_gain_above_median_distractor": 0.2889617830514908,
+        "mean_target_rank": 1.15
+      }
+    ],
+    "own": [
+      {
+        "fraction": 0.0,
+        "target_first": 0.125,
+        "target_top3": 0.425,
+        "largest_improvement_is_target": 0.11111111111111113,
+        "target_gain_above_median_distractor": 0.0,
+        "mean_target_rank": 4.6875
+      },
+      {
+        "fraction": 0.25,
+        "target_first": 0.25,
+        "target_top3": 0.6125,
+        "largest_improvement_is_target": 0.3625,
+        "target_gain_above_median_distractor": 0.1052255779504776,
+        "mean_target_rank": 3.2625
+      },
+      {
+        "fraction": 0.5,
+        "target_first": 0.5875,
+        "target_top3": 0.875,
+        "largest_improvement_is_target": 0.65,
+        "target_gain_above_median_distractor": 0.27213791012763977,
+        "mean_target_rank": 1.925
+      },
+      {
+        "fraction": 0.75,
+        "target_first": 0.95,
+        "target_top3": 0.9875,
+        "largest_improvement_is_target": 0.875,
+        "target_gain_above_median_distractor": 0.48941150307655334,
+        "mean_target_rank": 1.0875
+      },
+      {
+        "fraction": 1.0,
+        "target_first": 0.9875,
+        "target_top3": 1.0,
+        "largest_improvement_is_target": 0.875,
+        "target_gain_above_median_distractor": 0.639826625585556,
+        "mean_target_rank": 1.0125
+      }
+    ],
+    "identity": [
+      {
+        "fraction": 0.0,
+        "target_first": 0.125,
+        "target_top3": 0.2625,
+        "largest_improvement_is_target": 0.11111111111111113,
+        "target_gain_above_median_distractor": 0.0,
+        "mean_target_rank": 5.2625
+      },
+      {
+        "fraction": 0.25,
+        "target_first": 0.2375,
+        "target_top3": 0.5875,
+        "largest_improvement_is_target": 0.825,
+        "target_gain_above_median_distractor": 0.08487005531787872,
+        "mean_target_rank": 3.3625
+      },
+      {
+        "fraction": 0.5,
+        "target_first": 0.875,
+        "target_top3": 0.9875,
+        "largest_improvement_is_target": 0.9625,
+        "target_gain_above_median_distractor": 0.23851370811462402,
+        "mean_target_rank": 1.175
+      },
+      {
+        "fraction": 0.75,
+        "target_first": 1.0,
+        "target_top3": 1.0,
+        "largest_improvement_is_target": 1.0,
+        "target_gain_above_median_distractor": 0.43509453535079956,
+        "mean_target_rank": 1.0
+      },
+      {
+        "fraction": 1.0,
+        "target_first": 1.0,
+        "target_top3": 1.0,
+        "largest_improvement_is_target": 1.0,
+        "target_gain_above_median_distractor": 0.5627396702766418,
+        "mean_target_rank": 1.0
+      }
+    ]
+  },
+  "setup": "Same-sex nine-candidate gallery excludes source voice. Candidate profiles average the other three sentences.",
+  "scope": "WORLD synthesizer manipulates pitch, spectrum and aperiodicity toward a known reference. No natural imitation labels."
+}

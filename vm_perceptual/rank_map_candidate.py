@@ -8,7 +8,7 @@ import soundfile as sf
 import torch
 from torch.nn import functional as F
 from scipy.signal import resample_poly
-from dataset import load_data,unit
+from dataset import load_data, load_rating_graph, unit
 from runtime import ROOT,write_json,file_hash
 from perceptual_rank import bank,train_triples,metrics
 from wave_folds import paired_labels
@@ -30,7 +30,7 @@ def encode(values,p):
     return unit(preprocess(values,p)@p['weight'].T)
 
 
-def fit(data,names,blocks,nblock):
+def fit(data,names,blocks,nblock,output_dir=None):
     tr=np.array([i for i,s in enumerate(names) if data['manifest']['split'][s]=='train'])
     va=np.array([i for i,s in enumerate(names) if data['manifest']['split'][s]=='dev'])
     params={'keys':np.array(KEYS[:nblock])};parts=[]
@@ -67,7 +67,10 @@ def fit(data,names,blocks,nblock):
     mean=z.mean(0);_,_,view=np.linalg.svd(z-mean,full_matrices=False)
     params['view_mean']=mean;params['view_axes']=view
     tag='combined' if nblock==4 else 'own'
-    path=ROOT/'runs'/f'rank_map_{tag}.npz';np.savez_compressed(path,**params)
+    directory = ROOT/'runs' if output_dir is None else Path(output_dir)
+    directory.mkdir(parents=True, exist_ok=True)
+    path = directory / f'rank_map_{tag}.npz'
+    np.savez_compressed(path, **params)
     return params,dict(dev_history=history,selected_step=chosen,model_version=file_hash(path))
 
 
@@ -101,7 +104,22 @@ def main():
     ap=argparse.ArgumentParser()
     ap.add_argument('--query',type=Path);ap.add_argument('--variant',choices=('own','combined'),default='own')
     ap.add_argument('--output',type=Path,default=ROOT/'results/rank_map_query.json')
+    ap.add_argument('--fit-only',action='store_true',help='Fit the selected map using development features and exit.')
+    ap.add_argument('--output-dir',type=Path,help='Destination directory for a fit-only run.')
     a=ap.parse_args()
+    if a.output_dir is not None and not a.fit_only:
+        ap.error('--output-dir requires --fit-only')
+    if a.query and a.fit_only:
+        ap.error('--query and --fit-only are mutually exclusive')
+    if a.fit_only:
+        data = load_rating_graph(('train','dev'))
+        use_reference = a.variant == 'combined'
+        names, blocks = bank(data, include_reference=use_reference)
+        directory = a.output_dir or ROOT/'runs'
+        _, report = fit(data, names, blocks, len(blocks), output_dir=directory)
+        write_json(directory / f'rank_map_{a.variant}_selection.json', report)
+        print(json.dumps(report), flush=True)
+        return
     if a.query:
         p=ROOT/'runs'/f'rank_map_{a.variant}.npz'
         with np.load(p) as params:

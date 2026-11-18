@@ -1,0 +1,222 @@
+{
+  "groups": {
+    "dev": {
+      "n_speakers": 20,
+      "gender_pairs": [
+        45,
+        45
+      ],
+      "models": {
+        "current": {
+          "single": {
+            "srcc": 0.24185280406144816,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.3283987880377849,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1500
+          }
+        },
+        "robust_student": {
+          "single": {
+            "srcc": 0.3536022954234443,
+            "difference_vs_current": 0.11174949136199613,
+            "paired_95": [
+              -0.20196041506594292,
+              0.3765452304117479
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.4107708768165146,
+            "difference_vs_current": 0.0823720887787297,
+            "paired_95": [
+              -0.34435976212323094,
+              0.4529442306098935
+            ],
+            "valid_bootstrap": 1500
+          }
+        },
+        "unaugmented_student": {
+          "single": {
+            "srcc": 0.3292521540372152,
+            "difference_vs_current": 0.08739934997576704,
+            "paired_95": [
+              -0.20445742799453545,
+              0.3592422257431905
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.4000442992305206,
+            "difference_vs_current": 0.07164551119273571,
+            "paired_95": [
+              -0.33042230705971753,
+              0.43977846619654704
+            ],
+            "valid_bootstrap": 1500
+          }
+        }
+      }
+    },
+    "test": {
+      "n_speakers": 20,
+      "gender_pairs": [
+        45,
+        45
+      ],
+      "models": {
+        "current": {
+          "single": {
+            "srcc": 0.28698303097838407,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.4251293622065633,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1500
+          },
+          "gallery_hit3": 0.4875
+        },
+        "robust_student": {
+          "single": {
+            "srcc": 0.5389638939408095,
+            "difference_vs_current": 0.2519808629624254,
+            "paired_95": [
+              -0.16423412050916478,
+              0.5568718998899538
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.5773681967426605,
+            "difference_vs_current": 0.1522388345360972,
+            "paired_95": [
+              -0.2969278656891006,
+              0.5333664599212704
+            ],
+            "valid_bootstrap": 1500
+          },
+          "gallery_hit3": 0.4375
+        },
+        "unaugmented_student": {
+          "single": {
+            "srcc": 0.5138925143573245,
+            "difference_vs_current": 0.22690948337894046,
+            "paired_95": [
+              -0.19018163630883766,
+              0.52044538588547
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.557074139523468,
+            "difference_vs_current": 0.13194477731690468,
+            "paired_95": [
+              -0.30121707105868045,
+              0.5078006888788723
+            ],
+            "valid_bootstrap": 1500
+          },
+          "gallery_hit3": 0.5
+        }
+      }
+    },
+    "fresh": {
+      "n_speakers": 14,
+      "gender_pairs": [
+        36,
+        10
+      ],
+      "models": {
+        "current": {
+          "single": {
+            "srcc": 0.14853811723089583,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1354
+          },
+          "profile": {
+            "srcc": 0.278857507676097,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1354
+          },
+          "gallery_hit3": 0.44642857142857145
+        },
+        "robust_student": {
+          "single": {
+            "srcc": 0.28519266177652186,
+            "difference_vs_current": 0.13665454454562603,
+            "paired_95": [
+              -0.383101686557586,
+              0.7273923831376599
+            ],
+            "valid_bootstrap": 1354
+          },
+          "profile": {
+            "srcc": 0.3217177868152471,
+            "difference_vs_current": 0.04286027913915008,
+            "paired_95": [
+              -0.7884721169748926,
+              0.839628477740466
+            ],
+            "valid_bootstrap": 1354
+          },
+          "gallery_hit3": 0.48214285714285715
+        },
+        "unaugmented_student": {
+          "single": {
+            "srcc": 0.18860380712762267,
+            "difference_vs_current": 0.04006568989672685,
+            "paired_95": [
+              -0.4492522455261603,
+              0.7119632906923501
+            ],
+            "valid_bootstrap": 1354
+          },
+          "profile": {
+            "srcc": 0.19445074176277927,
+            "difference_vs_current": -0.08440676591331775,
+            "paired_95": [
+              -0.8740749694196032,
+              0.7922616872641505
+            ],
+            "valid_bootstrap": 1354
+          },
+          "gallery_hit3": 0.5
+        }
+      }
+    }
+  },
+  "versions": {
+    "robust_student": "39466909459a085da1c340da8035f94e8eaa73d71c9e23517f8a03e14036765f",
+    "unaugmented_student": "f14946a1115b6a45d9dc88c24ecdd9286b685097f1da9c24a9972b69fa12b964"
+  },
+  "scope": "Deployed single-file float32 path. Same existing JVS labels. Fresh gallery is restricted to last four texts to exclude gallery reference texts."
+}

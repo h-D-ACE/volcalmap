@@ -1,0 +1,457 @@
+{
+  "summary": {
+    "cpps": {
+      "teacher": 0.296370276056225,
+      "blend": 0.2906653883925044,
+      "physical_only": 0.031162032548044012,
+      "positive_weight": 6
+    },
+    "four_measures": {
+      "teacher": 0.296370276056225,
+      "blend": 0.29160853497858624,
+      "physical_only": 0.11044663655110946,
+      "positive_weight": 16
+    }
+  },
+  "folds": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "teacher": 0.2553438094650367,
+      "variants": {
+        "cpps": {
+          "weight": 0.15,
+          "outer": 0.23831092037726495,
+          "physical_only": -0.006951538469164835
+        },
+        "four_measures": {
+          "weight": 0.3,
+          "outer": 0.26285464102252576,
+          "physical_only": 0.11850699865134062
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "teacher": 0.16780468634947046,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.16780468634947046,
+          "physical_only": 0.16664334227406052
+        },
+        "four_measures": {
+          "weight": 0.0,
+          "outer": 0.16780468634947046,
+          "physical_only": 0.15206321280235613
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "teacher": 0.4152909196728053,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.4152909196728053,
+          "physical_only": -0.008405121007405151
+        },
+        "four_measures": {
+          "weight": 0.0,
+          "outer": 0.4152909196728053,
+          "physical_only": 0.020924009561900735
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "fold": 3,
+      "teacher": 0.2941631195154978,
+      "variants": {
+        "cpps": {
+          "weight": 0.05,
+          "outer": 0.282455063608938,
+          "physical_only": 0.026880361871942697
+        },
+        "four_measures": {
+          "weight": 0.5,
+          "outer": 0.3033541863131986,
+          "physical_only": 0.11580189806188669
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "fold": 4,
+      "teacher": 0.4694058886948392,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.4694058886948392,
+          "physical_only": 0.16403788143359374
+        },
+        "four_measures": {
+          "weight": 0.15,
+          "outer": 0.4847624840339869,
+          "physical_only": 0.19492948947261968
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "teacher": 0.3785572351148192,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.3785572351148192,
+          "physical_only": 0.04335480187842361
+        },
+        "four_measures": {
+          "weight": 0.15,
+          "outer": 0.37776450911164594,
+          "physical_only": 0.16175216828223735
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "teacher": 0.20271901652541313,
+      "variants": {
+        "cpps": {
+          "weight": 0.05,
+          "outer": 0.18343006583129418,
+          "physical_only": -0.16200425183246966
+        },
+        "four_measures": {
+          "weight": 0.3,
+          "outer": 0.1472112028555068,
+          "physical_only": -0.09235961665209923
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "teacher": 0.4410755832985668,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.4410755832985668,
+          "physical_only": 0.12235676601105358
+        },
+        "four_measures": {
+          "weight": 0.15,
+          "outer": 0.4473984447471807,
+          "physical_only": 0.2059515404373734
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 3,
+      "teacher": 0.12770905352964482,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.12770905352964482,
+          "physical_only": 0.06319306704706808
+        },
+        "four_measures": {
+          "weight": 0.0,
+          "outer": 0.12770905352964482,
+          "physical_only": 0.08142707088108547
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 4,
+      "teacher": 0.28512002722765206,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.28512002722765206,
+          "physical_only": -0.017097827278865857
+        },
+        "four_measures": {
+          "weight": 0.3,
+          "outer": 0.30666440942738726,
+          "physical_only": 0.20401475465759286
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "teacher": 0.22915608650484995,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.22915608650484995,
+          "physical_only": 0.21665669914342295
+        },
+        "four_measures": {
+          "weight": 0.05,
+          "outer": 0.24112790337923684,
+          "physical_only": 0.3688560402749202
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "teacher": 0.2262359412827367,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.2262359412827367,
+          "physical_only": -0.016812569502079513
+        },
+        "four_measures": {
+          "weight": 0.05,
+          "outer": 0.22685819388578612,
+          "physical_only": 0.1436456688380522
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "teacher": 0.3458993438697376,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.3458993438697376,
+          "physical_only": -0.04736004966902714
+        },
+        "four_measures": {
+          "weight": 0.05,
+          "outer": 0.33810209126980606,
+          "physical_only": 0.021748440771637872
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 3,
+      "teacher": 0.28424342743782016,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.28424342743782016,
+          "physical_only": 0.09773784794506316
+        },
+        "four_measures": {
+          "weight": 0.15,
+          "outer": 0.28789056650520994,
+          "physical_only": 0.1375080372066135
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 4,
+      "teacher": 0.4120477774127568,
+      "variants": {
+        "cpps": {
+          "weight": 0.05,
+          "outer": 0.39789486682652186,
+          "physical_only": -0.03745688923870116
+        },
+        "four_measures": {
+          "weight": 0.5,
+          "outer": 0.33548112870494007,
+          "physical_only": 0.06097507397226515
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "fold": 0,
+      "teacher": 0.24754305243358093,
+      "variants": {
+        "cpps": {
+          "weight": 0.05,
+          "outer": 0.2516983967977855,
+          "physical_only": 0.012729520084459225
+        },
+        "four_measures": {
+          "weight": 0.0,
+          "outer": 0.24754305243358093,
+          "physical_only": 0.04216901550832842
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "fold": 1,
+      "teacher": 0.355186595777348,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.355186595777348,
+          "physical_only": 0.08036173469786358
+        },
+        "four_measures": {
+          "weight": 0.0,
+          "outer": 0.355186595777348,
+          "physical_only": 0.1375170310731576
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "fold": 2,
+      "teacher": 0.4503157097020112,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.4503157097020112,
+          "physical_only": 0.11352823729174716
+        },
+        "four_measures": {
+          "weight": 0.0,
+          "outer": 0.4503157097020112,
+          "physical_only": 0.2373680085228169
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "fold": 3,
+      "teacher": 0.2904264620392571,
+      "variants": {
+        "cpps": {
+          "weight": 0.3,
+          "outer": 0.20583173235672308,
+          "physical_only": -0.034458546783704344
+        },
+        "four_measures": {
+          "weight": 0.5,
+          "outer": 0.2301642753252517,
+          "physical_only": 0.01982848344464929
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "fold": 4,
+      "teacher": 0.17410960997813185,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.17410960997813185,
+          "physical_only": 0.03117470271875014
+        },
+        "four_measures": {
+          "weight": 0.0,
+          "outer": 0.17410960997813185,
+          "physical_only": 0.1516035175836945
+        }
+      }
+    },
+    {
+      "repeat": 4,
+      "fold": 0,
+      "teacher": 0.22296036326704607,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.22296036326704607,
+          "physical_only": -0.04637417646789081
+        },
+        "four_measures": {
+          "weight": 0.0,
+          "outer": 0.22296036326704607,
+          "physical_only": 0.07862342795979613
+        }
+      }
+    },
+    {
+      "repeat": 4,
+      "fold": 1,
+      "teacher": 0.3511672881523744,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.3511672881523744,
+          "physical_only": -0.07046672045846897
+        },
+        "four_measures": {
+          "weight": 0.15,
+          "outer": 0.35050345716687087,
+          "physical_only": 0.012625775492448622
+        }
+      }
+    },
+    {
+      "repeat": 4,
+      "fold": 2,
+      "teacher": 0.2636123400569494,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.2636123400569494,
+          "physical_only": -0.016574356311463437
+        },
+        "four_measures": {
+          "weight": 0.05,
+          "outer": 0.27001561433437543,
+          "physical_only": 0.12809821664436283
+        }
+      }
+    },
+    {
+      "repeat": 4,
+      "fold": 3,
+      "teacher": 0.14534998667170723,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.14534998667170723,
+          "physical_only": 0.0610208807378921
+        },
+        "four_measures": {
+          "weight": 0.05,
+          "outer": 0.1453266982461368,
+          "physical_only": 0.11722703422619965
+        }
+      }
+    },
+    {
+      "repeat": 4,
+      "fold": 4,
+      "teacher": 0.37381357742557264,
+      "variants": {
+        "cpps": {
+          "weight": 0.0,
+          "outer": 0.37381357742557264,
+          "physical_only": 0.04333701758500068
+        },
+        "four_measures": {
+          "weight": 0.0,
+          "outer": 0.37381357742557264,
+          "physical_only": -0.0596393838974997
+        }
+      }
+    }
+  ],
+  "fields": [
+    "cpps_db",
+    "median_hnr_db",
+    "median_log_f0",
+    "median_voiced_f3_hz"
+  ],
+  "clips": 960,
+  "missing": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "scope": "80 development speakers only. Shared people across 25 folds. Fixed 5500 Hz F3 ceiling."
+}

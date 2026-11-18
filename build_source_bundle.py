@@ -19,7 +19,10 @@ def main():
                  'window_aggregation_test.json','redim_reference.json','rank_map_candidate.json','display_geometry.json',
                  'rank_confirmation.json','repeated_fold_studies.json','distilled_confirmation.json','rating_repeatability.json',
                  'crop_uncertainty.json','morph_paths.json','rank_cross_hardware.json','map_consensus.json',
-                 'final_study_summary.json','robust_ssl_summary.json'):
+                 'final_study_summary.json','robust_ssl_summary.json','listener_geometry.json',
+                 'channel_style_check.json','repeat_neighbor_sets.json','robust_cross_hardware.json',
+                 'nested_ssl_summary.json','channel_folds_summary.json','physical_voice_quality.json','acoustic_axis_probe.json','morph_target_retrieval.json',
+                 'centroid_geometry.json','listener_label_control.json','english_listener_check.json','robust_retrieval_check.json'):
         p=ROOT/'vm_perceptual/results'/name
         if not p.is_file():
             p=ROOT/'vm_perceptual/reference_results'/name

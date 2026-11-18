@@ -1,0 +1,251 @@
+{
+  "people": [
+    "p225",
+    "p228",
+    "p229",
+    "p230",
+    "p231",
+    "p233",
+    "p236",
+    "p239",
+    "p240",
+    "p244",
+    "p250"
+  ],
+  "pairs": 55,
+  "files": 192,
+  "primary_files": 44,
+  "skipped_under_one_second": [],
+  "additional_texts": {
+    "scores": {
+      "mic1": {
+        "current": 0.1931199150749595,
+        "student": 0.2338014373720584,
+        "own": 0.23640043435998312,
+        "ecapa": 0.34869876254656235,
+        "robust_student": 0.6936434183327891,
+        "unaugmented_student": 0.511677531997673
+      },
+      "mic2": {
+        "current": 0.3229975701104182,
+        "student": 0.3079089487082999,
+        "own": 0.2698986177599013,
+        "ecapa": 0.4111829817979184,
+        "robust_student": 0.7055554878607772,
+        "unaugmented_student": 0.606577019237312
+      }
+    },
+    "min_per_pair": 2,
+    "max_per_pair": 4,
+    "protocol": "Exclude primary sentences; for each pair use up to four matching transcript IDs, average all cross-text dot products, then score the 55 voice pairs."
+  },
+  "texts": [
+    "003",
+    "005"
+  ],
+  "results": {
+    "mic1": {
+      "current": {
+        "srcc": 0.21448944742389048,
+        "people_resampled_95": [
+          -0.12558664204138342,
+          0.5133783739285566
+        ],
+        "paired_delta_vs_current_95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_out": [
+          0.13739455869572414,
+          0.2998912971115445
+        ]
+      },
+      "student": {
+        "srcc": 0.13114105730242243,
+        "people_resampled_95": [
+          -0.24246250001198646,
+          0.4639417839516999
+        ],
+        "paired_delta_vs_current_95": [
+          -0.5658028428308993,
+          0.3693890532015654
+        ],
+        "leave_one_out": [
+          0.05211631413098366,
+          0.22356976631317016
+        ]
+      },
+      "own": {
+        "srcc": 0.21046461178138565,
+        "people_resampled_95": [
+          -0.14715244019478832,
+          0.5725216809292827
+        ],
+        "paired_delta_vs_current_95": [
+          -0.32853284261259375,
+          0.34581128143436196
+        ],
+        "leave_one_out": [
+          0.11530858117025983,
+          0.32154516920763027
+        ]
+      },
+      "ecapa": {
+        "srcc": 0.4271920844055927,
+        "people_resampled_95": [
+          0.01989113721182407,
+          0.7141555534930404
+        ],
+        "paired_delta_vs_current_95": [
+          -0.19290807971470736,
+          0.621069049604855
+        ],
+        "leave_one_out": [
+          0.33052083871662785,
+          0.5057506007214114
+        ]
+      },
+      "robust_student": {
+        "srcc": 0.6445693062815046,
+        "people_resampled_95": [
+          0.2022846841545574,
+          0.8225447891281686
+        ],
+        "paired_delta_vs_current_95": [
+          -0.07478647802895735,
+          0.7646123675792244
+        ],
+        "leave_one_out": [
+          0.5300325052675228,
+          0.7480553552020317
+        ],
+        "paired_delta_vs_unaugmented_95": [
+          -0.08363256539049468,
+          0.23443813797408505
+        ]
+      },
+      "unaugmented_student": {
+        "srcc": 0.5895933001511469,
+        "people_resampled_95": [
+          0.15983805236345755,
+          0.8046338794117667
+        ],
+        "paired_delta_vs_current_95": [
+          -0.11711122182591756,
+          0.7467756950915899
+        ],
+        "leave_one_out": [
+          0.44326514901275726,
+          0.6778746893039518
+        ]
+      }
+    },
+    "mic2": {
+      "current": {
+        "srcc": 0.1632855966714858,
+        "people_resampled_95": [
+          -0.18526612292046438,
+          0.433830816315731
+        ],
+        "paired_delta_vs_current_95": [
+          0.0,
+          0.0
+        ],
+        "leave_one_out": [
+          0.0738067219097232,
+          0.21902913647476108
+        ]
+      },
+      "student": {
+        "srcc": 0.304912884952811,
+        "people_resampled_95": [
+          -0.2210673060393078,
+          0.6278120151858168
+        ],
+        "paired_delta_vs_current_95": [
+          -0.4837122310989529,
+          0.5818360284969375
+        ],
+        "leave_one_out": [
+          0.039823315484710006,
+          0.3800092829241104
+        ]
+      },
+      "own": {
+        "srcc": 0.36499664214518157,
+        "people_resampled_95": [
+          -0.0588384109258866,
+          0.6262860829173761
+        ],
+        "paired_delta_vs_current_95": [
+          -0.24293532824730737,
+          0.6067405536022423
+        ],
+        "leave_one_out": [
+          0.24396764129247944,
+          0.4320280917145298
+        ]
+      },
+      "ecapa": {
+        "srcc": 0.4701477293794113,
+        "people_resampled_95": [
+          0.0796171085858881,
+          0.7568084581319614
+        ],
+        "paired_delta_vs_current_95": [
+          -0.1451185310703119,
+          0.6993914168747252
+        ],
+        "leave_one_out": [
+          0.3805302405960328,
+          0.5461856034636524
+        ]
+      },
+      "robust_student": {
+        "srcc": 0.6051872821920625,
+        "people_resampled_95": [
+          0.14646227235177425,
+          0.7940784638958243
+        ],
+        "paired_delta_vs_current_95": [
+          0.01356031117868617,
+          0.7010657068606342
+        ],
+        "leave_one_out": [
+          0.5208005357086721,
+          0.7036856152777407
+        ],
+        "paired_delta_vs_unaugmented_95": [
+          -0.1365905199898915,
+          0.08909950213808894
+        ]
+      },
+      "unaugmented_student": {
+        "srcc": 0.6213588191233825,
+        "people_resampled_95": [
+          0.12820004154142017,
+          0.800062969362539
+        ],
+        "paired_delta_vs_current_95": [
+          -0.01045026230410196,
+          0.7241276406401407
+        ],
+        "leave_one_out": [
+          0.5413042342472375,
+          0.7102454802442592
+        ]
+      }
+    }
+  },
+  "model_versions": {
+    "current": "9fe92958697a6b8567e429e1fd9f3b2cdf812efd11305b8cf558f1859b9ce192",
+    "student": "634d6aee38031ea659a5aeefcb924590f27bfcc27261626514f8a2499f85e923",
+    "own": "00e7cc610c4a319007377470f7e0809220b041e62cf203b0a78a61fd8f934fa6",
+    "robust_student": "39466909459a085da1c340da8035f94e8eaa73d71c9e23517f8a03e14036765f",
+    "unaugmented_student": "f14946a1115b6a45d9dc88c24ecdd9286b685097f1da9c24a9972b69fa12b964"
+  },
+  "matrix_sha256": "d9a96a8be57cb6599cfb91d4a3cfa8c6c61b9d9e56159c2bf9b8d64e9b2f0980",
+  "speakers_sha256": "31948cef901d0c7235973126aa3b565d1720ef9d9f08b558aec944e862a20b3e",
+  "source": "https://sython.org/demo/JSPS-DC1/index.html",
+  "scope": "Previously available VCTK speakers appearing in the published female listener matrix. Two verified common texts, two separate microphones, frozen models. Ratings describe voices, not these particular clip pairs. VCTK microphones had been examined in channel diagnostics."
+}

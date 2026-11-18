@@ -3,21 +3,28 @@ import json,hashlib
 from runtime import ROOT
 import numpy as np
 
-def load_data():
+def load_rating_graph(groups=None):
     manifest=json.loads((ROOT/'data_jvs/manifest.json').read_text())
-    features=json.loads((ROOT/'features/jvs_features.json').read_text())
-    edge_policies={f.get('edge_policy','preserve') for f in features.values()}
-    if len(edge_policies)!=1:raise ValueError('Mixed waveform edge policies in feature cache')
-    speakers=sorted(manifest['split']);idx={s:i for i,s in enumerate(speakers)}
+    speakers=sorted(s for s, group in manifest['split'].items() if groups is None or group in groups)
+    idx={s:i for i,s in enumerate(speakers)}
     rows=[]
     for gender in ('male','female'):
         scores=json.loads((ROOT/f'data_sources/jvs_{gender}_raw_similarity_data.json').read_text())
         for key,ratings in scores.items():
             a,b=key.split('-');sa,sb=manifest['split'][a],manifest['split'][b]
-            if a==b:continue
+            if a==b or a not in idx or b not in idx:continue
             rows.append(dict(a=idx[a],b=idx[b],speaker_a=a,speaker_b=b,gender=gender,
                 split=sa if sa==sb else 'cross_split_unused',score=float(np.mean(ratings)),
                 variance=float(np.var(ratings,ddof=1)),n=len(ratings),ratings=ratings))
+    return dict(manifest=manifest, speakers=speakers, pairs=rows)
+
+
+def load_data():
+    graph=load_rating_graph()
+    manifest,speakers,rows=graph['manifest'],graph['speakers'],graph['pairs']
+    features=json.loads((ROOT/'features/jvs_features.json').read_text())
+    edge_policies={f.get('edge_policy','preserve') for f in features.values()}
+    if len(edge_policies)!=1:raise ValueError('Mixed waveform edge policies in feature cache')
     clips={s:sorted([f for f in features if f.startswith(s+'/parallel100/')]) for s in speakers}
     if any(len(v)!=4 for v in clips.values()):raise ValueError('Expected all four predetermined normal clips')
     split=np.array([manifest['split'][s] for s in speakers])

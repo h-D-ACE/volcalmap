@@ -16,14 +16,34 @@ POLICY='mono-float32-polyphase16k-whole-singleton-v1'
 
 
 class WaveEncoder:
-    def __init__(self,checkpoint,device):
+    def __init__(self, checkpoint, device, variant='student'):
         self.device=torch.device(device)
         state=torch.load(checkpoint,weights_only=True,map_location='cpu')
-        self.model=WaveMap().eval().to(device)
-        self.model.load_state_dict(state['state'],strict=True)
+        components = [file_hash(checkpoint), POLICY]
+        if variant == 'student':
+            self.model = WaveMap()
+            self.model.load_state_dict(state['state'], strict=True)
+        elif variant in ('robust_student', 'unaugmented_student'):
+            from ssl_rank_student import SSLMap
+            self.model = SSLMap('frozen')
+            learned = {k: p for k, p in self.model.named_parameters() if p.requires_grad}
+            recipe = 'consistency' if variant == 'robust_student' else 'unaugmented'
+            if set(learned) != set(state['state']) or state.get('recipe') != recipe:
+                raise ValueError(f'Expected a {recipe} head for the frozen WavLM backbone')
+            with torch.no_grad():
+                for k, p in learned.items():
+                    p.copy_(state['state'][k])
+            model_dir = ROOT.parent / 'claude_baselines/models/wavlm'
+            weights = model_dir / 'model.safetensors'
+            if not weights.exists():
+                weights = model_dir / 'pytorch_model.bin'
+            components.extend([variant, 'fp32', file_hash(model_dir/'config.json'), file_hash(weights)])
+        else:
+            raise ValueError(f'Unknown waveform encoder: {variant}')
+        self.model.eval().to(device)
         if self.device.type=='cuda':
             torch.backends.cuda.matmul.allow_tf32=False;torch.backends.cudnn.allow_tf32=False
-        self.version=hashlib.sha256((file_hash(checkpoint)+'/'+POLICY).encode()).hexdigest()
+        self.version=hashlib.sha256('/'.join(components).encode()).hexdigest()
 
     @torch.inference_mode()
     def vector(self,path):
@@ -65,16 +85,27 @@ def build(encoder,root):
 
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('--checkpoint',type=Path,default=ROOT/'runs/wave_431_noise/best.pt')
+    ap.add_argument('--variant', choices=('student','robust_student'), default='student')
+    ap.add_argument('--checkpoint', type=Path)
     ap.add_argument('--device',default='cpu')
     sub=ap.add_subparsers(dest='command',required=True)
     b=sub.add_parser('build');b.add_argument('--data',type=Path,default=ROOT/'data_jvs')
-    b.add_argument('--output',type=Path,default=ROOT/'results/wave_index.json')
+    b.add_argument('--output',type=Path)
     q=sub.add_parser('query');q.add_argument('audio',type=Path)
-    q.add_argument('--index',type=Path,default=ROOT/'results/wave_index.json')
+    q.add_argument('--index',type=Path)
     q.add_argument('--display-dimensions',type=int,choices=(1,2,3),default=2)
-    q.add_argument('--neighbors',type=int,default=5);q.add_argument('--output',type=Path,default=ROOT/'results/wave_query.json')
-    a=ap.parse_args();encoder=WaveEncoder(a.checkpoint,a.device)
+    q.add_argument('--neighbors',type=int,default=5);q.add_argument('--output',type=Path)
+    a=ap.parse_args()
+    robust = a.variant == 'robust_student'
+    prefix = 'robust_student' if robust else 'wave'
+    run = 'robust_ssl_consistency_177_1800' if robust else 'wave_431_noise'
+    encoder = WaveEncoder(a.checkpoint or ROOT/'runs'/run/'best.pt', a.device, a.variant)
+    default_index = ROOT/'results'/f'{prefix}_index.json'
+    if a.command == 'build':
+        a.output = a.output or default_index
+    else:
+        a.index = a.index or default_index
+        a.output = a.output or ROOT/'results'/f'{prefix}_query.json'
     if a.command=='build':
         result=build(encoder,a.data)
         print(f"Built {len(result['records'])} recording coordinates")

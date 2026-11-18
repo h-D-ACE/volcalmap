@@ -1,0 +1,77 @@
+{
+  "groups": {
+    "female": {
+      "people": 51,
+      "dimensions": {
+        "1": 0.44962826469856126,
+        "2": 0.48472841979546333,
+        "3": 0.49510666297400513,
+        "4": 0.508163843431208,
+        "8": 0.47958735370338684,
+        "16": 0.48745782230293444,
+        "32": 0.4881655076140428
+      },
+      "dev_selected_mean": 0.49205698818536875,
+      "additive_mean": 0.3632599429483309,
+      "selected": [
+        "d3_l0.01",
+        "d4_l0.1",
+        "d1_l1.0",
+        "d3_l0.1",
+        "d4_l0.1",
+        "d3_l0.01",
+        "d3_l1.0",
+        "d4_l0.01",
+        "d4_l0.1",
+        "d1_l1.0",
+        "d3_l0.1",
+        "d8_l0.1"
+      ]
+    },
+    "male": {
+      "people": 49,
+      "dimensions": {
+        "1": 0.40206242337875914,
+        "2": 0.48448858929676475,
+        "3": 0.4749150551508156,
+        "4": 0.4799285270904994,
+        "8": 0.45689738590696494,
+        "16": 0.4571017664372992,
+        "32": 0.45308006095930936
+      },
+      "dev_selected_mean": 0.47494111036343845,
+      "additive_mean": 0.34809488485706047,
+      "selected": [
+        "d4_l0.1",
+        "d2_l0.1",
+        "d4_l1.0",
+        "d8_l0.1",
+        "d8_l0.1",
+        "d3_l0.01",
+        "d2_l0.1",
+        "d2_l0.01",
+        "d32_l1.0",
+        "d2_l0.1",
+        "d2_l0.1",
+        "d4_l0.1"
+      ]
+    }
+  },
+  "cross_group_ambiguity": {
+    "align_centroids": {
+      "median_cross_group_distance": 1.2689951152024017,
+      "cross_group_first_neighbor_retained": 0.16326530612244897,
+      "maximum_within_group_dot_change": 1.5593379854017542e-07
+    },
+    "oppose_centroids": {
+      "median_cross_group_distance": 1.5458497331863932,
+      "cross_group_first_neighbor_retained": 0.1836734693877551,
+      "maximum_within_group_dot_change": 1.5593379854017542e-07
+    },
+    "voices": [
+      49,
+      51
+    ]
+  },
+  "scope": "Ratings-only edge holdout on known voices. This experiment cannot identify the optimal audio embedding dimension."
+}

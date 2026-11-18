@@ -1,27 +1,27 @@
 {
   ".github/workflows/validate.yml": {
-    "bytes": 796,
-    "sha256": "42e74a125e137027ea15b8d7e2c1d061a123efaf933d9d4607d72a4faee6787a"
+    "bytes": 849,
+    "sha256": "13933f43b31995aec8d744e9601955ea22af7fb6c2b2b173295913df6e87506a"
   },
   ".gitignore": {
     "bytes": 245,
     "sha256": "e87f6503a2ff5d9d545f0743cf2f87b3a148e169390c54594631f68830bf4bb0"
   },
   "build_source_bundle.py": {
-    "bytes": 4597,
-    "sha256": "166340c53574e3b18cd05291669cb84a16059504993ba99c194fd02d14c75b87"
+    "bytes": 5017,
+    "sha256": "b8343702f5ee1c0a6e71a66af9e9733ce184a9dbf393fff3dcb7ac3525bad152"
   },
   "MIGRATION.md": {
     "bytes": 2570,
     "sha256": "a7265d38ed2b518d1bac6aee56df98c4da347863750f7d9ad3c9bd05e3d424b7"
   },
   "Open_VocalMap.ipynb": {
-    "bytes": 6815,
-    "sha256": "506536eb8bb36533f2ed387233b9f0c2902ae8d9e08659b4550078e3154424da"
+    "bytes": 6997,
+    "sha256": "1cf83b306dddaa83a8dad863020c58d8f1340bd1832b64b1f6724ba027583019"
   },
   "README.md": {
-    "bytes": 3429,
-    "sha256": "ae64e5e59867a7a3b83df48a76ba8c75adad36ce874db2719bb84189d0cf4325"
+    "bytes": 3927,
+    "sha256": "2ea7b0858551d3c62ad9ebbde391f4e9faab3d8e9b104542d308e8bb05277d01"
   },
   "ROADMAP.md": {
     "bytes": 1863,
@@ -219,6 +219,10 @@
     "bytes": 61,
     "sha256": "930de432c7beb4b0ea449ee4acb9049ad37189705f8f8f9929ecd3f102c07fd3"
   },
+  "vm_perceptual/acoustic_axis_probe.py": {
+    "bytes": 3615,
+    "sha256": "4204705eefc1a81de7f1e9f3d785c048893631a535fe7df4c8366e76e2b20b72"
+  },
   "vm_perceptual/adapter_check.py": {
     "bytes": 3116,
     "sha256": "bdb6c1ecf1e66ae73313f7b28a0700ac64a805effa76058637c5829e11ca3b2d"
@@ -235,13 +239,29 @@
     "bytes": 1580,
     "sha256": "f8b7d35762d45fb205176b6d0f1ab5ca009be0452b816582eed5f745a483983e"
   },
+  "vm_perceptual/centroid_geometry.py": {
+    "bytes": 2117,
+    "sha256": "be623fb128b46573f816bce52bc251087ac9b747621e49720381581562af7356"
+  },
+  "vm_perceptual/channel_folds.py": {
+    "bytes": 5537,
+    "sha256": "84095dd9b8e3dea9ce0b0bdacc36573c01b51b0c88c52096cb8ba7895e224cac"
+  },
+  "vm_perceptual/channel_folds_summary.py": {
+    "bytes": 2032,
+    "sha256": "9d66348165ba9527f566f15672de0c659853c32f72d57ccae1ebfed4ad557570"
+  },
   "vm_perceptual/channel_models.py": {
     "bytes": 2588,
     "sha256": "3dfd31d279f8d39dbd10cc41746b4d9eef522c8f4002501b0594a7f3cb221f4f"
   },
+  "vm_perceptual/channel_style_check.py": {
+    "bytes": 4525,
+    "sha256": "fa54412946369f535c0ff82b91053d52ec8dae1d7a79b511643309c990eed803"
+  },
   "vm_perceptual/CLOUD_RESULTS.md": {
-    "bytes": 4208,
-    "sha256": "1ef61ff9f2b1a27e94542944c23bc0a795014a2cd9ea7b7239338f9d7a4fc974"
+    "bytes": 4678,
+    "sha256": "8c11f9c35bee0158e29a9db9b575d5649238a68e343ddf0a194c78c9405da268"
   },
   "vm_perceptual/compare_indices.py": {
     "bytes": 1948,
@@ -262,6 +282,10 @@
   "vm_perceptual/COORDINATE_STANDARD.md": {
     "bytes": 3037,
     "sha256": "7946c5f44e755221d8d18f298f425c727a9e460a9c3a629139036cdbf619fdca"
+  },
+  "vm_perceptual/covariance_geometry.py": {
+    "bytes": 3616,
+    "sha256": "298a702250c8f8d9cfa284e604b50c18b41f5d751d82afd8cf879cd2b4836fb1"
   },
   "vm_perceptual/crop_estimator.py": {
     "bytes": 4830,
@@ -288,12 +312,12 @@
     "sha256": "238f40ee6c28a73a25cb90573a9769b61475e48f349770c4fe7e32b52909f602"
   },
   "vm_perceptual/DATA_SOURCES.md": {
-    "bytes": 1559,
-    "sha256": "0b8c3c379159affe1ccd243a7d73c1b28f7f9e1b1307cada5265b933b6937371"
+    "bytes": 2061,
+    "sha256": "e6cd4755188fff16c75ba118b164f429cd6dfb307062785515ea1f1d9c461585"
   },
   "vm_perceptual/dataset.py": {
-    "bytes": 3871,
-    "sha256": "965e39b4dd3de2701ec7d81ff5ff62424980420c31eb41672910df96bc63c146"
+    "bytes": 4182,
+    "sha256": "87c410a29c533d6ed660e0963c173c6d665872127ad5c0b1b8fd810bcfbcf424"
   },
   "vm_perceptual/dev_text_check.py": {
     "bytes": 2403,
@@ -322,6 +346,10 @@
   "vm_perceptual/distilled_confirmation.py": {
     "bytes": 4882,
     "sha256": "525e029ee79af2ace8296b4874c03bdee822acb3925dc54bd4b07bfe7370404f"
+  },
+  "vm_perceptual/english_listener_check.py": {
+    "bytes": 6842,
+    "sha256": "ac2f212def908a64c896f128f94d2993dc1f910ebd924de30c4e5a2bd5644573"
   },
   "vm_perceptual/evaluate_map.py": {
     "bytes": 10795,
@@ -379,6 +407,14 @@
     "bytes": 3720,
     "sha256": "36086f460d64b16d8575170a3f012d14711bc7f2d9aa52b5706991b12971e005"
   },
+  "vm_perceptual/listener_geometry.py": {
+    "bytes": 4346,
+    "sha256": "bebc0395e8e878315660dbc2c4aed9c61ea48e84e5a7871ae8d81c60e495b870"
+  },
+  "vm_perceptual/listener_label_control.py": {
+    "bytes": 3271,
+    "sha256": "87d64060c4737e26b4863c1b33d84a2609fe87cdff4d4a58b730f8b293e476e3"
+  },
   "vm_perceptual/listwise_retrieval.py": {
     "bytes": 5045,
     "sha256": "cecab088c5f201e8e9a212814499fb453a840a13a3bf21996027132500345d3c"
@@ -399,6 +435,10 @@
     "bytes": 5906,
     "sha256": "b8b9ab195a6b608aa8ab4ebaf492978197c3462fe2414fe86e913502dc18e0c5"
   },
+  "vm_perceptual/morph_target_retrieval.py": {
+    "bytes": 2898,
+    "sha256": "a98b8aec44f424a5df513eb461a255c703369c888786dbbe254769f5e2069e26"
+  },
   "vm_perceptual/neighbor_margin.py": {
     "bytes": 744,
     "sha256": "860f5b5d5a35e9e164ed18b8860c4ef3ac8a510c064c3b221e9ec7cccf533fd1"
@@ -406,6 +446,14 @@
   "vm_perceptual/nested_people.py": {
     "bytes": 5958,
     "sha256": "dbb9a7acf9525f4936c6cfc37e554e6cc3dee63c8a492e85eb7f296e26a585c3"
+  },
+  "vm_perceptual/nested_ssl_summary.py": {
+    "bytes": 2116,
+    "sha256": "464b902fb00b0dc4f6ab18f29ffa9387259d8dfd4c95e75f35295a59af6c61ce"
+  },
+  "vm_perceptual/nested_ssl_trial.py": {
+    "bytes": 6606,
+    "sha256": "4ed47473b477b8981820e4ae91dce375cf2c35734d3050adec1a437a3aa3ec71"
   },
   "vm_perceptual/ordinal_geometry.py": {
     "bytes": 4572,
@@ -416,12 +464,16 @@
     "sha256": "d38c84b1b6ffabe2d05fb5a999837e5243a32a2988adc2f92e2945ae3ea2f851"
   },
   "vm_perceptual/perceptual_rank.py": {
-    "bytes": 6598,
-    "sha256": "07fae071301a54b156e0d1cd1deab1d837b646ce43a88f4fd59d068602f73fd6"
+    "bytes": 6681,
+    "sha256": "4c0f20a8003d3916eb68d2f9d9d118d3aec6b5fe4a90e8a1c7e3fe86fb28e194"
   },
   "vm_perceptual/perturbed_features.py": {
     "bytes": 2614,
     "sha256": "f396b7d80be29df0aede5bf2b5755d2ac72e34e602a2902fb8b60a1ccda91b6a"
+  },
+  "vm_perceptual/physical_voice_quality.py": {
+    "bytes": 5212,
+    "sha256": "7daa387aa66f0fe8542efdf7002673a100faad46379669390944c0cc52c86451"
   },
   "vm_perceptual/pitch_audit.py": {
     "bytes": 2153,
@@ -435,13 +487,17 @@
     "bytes": 2548,
     "sha256": "451b0645a1f89085fb741dabb87e1f872b8f2231fa340c6f8171637670f0403b"
   },
+  "vm_perceptual/psd_metric.py": {
+    "bytes": 4405,
+    "sha256": "f32fb521e2d59bb25362cb59e15ff73309f388bb14c820b1b9976573a4b8684b"
+  },
   "vm_perceptual/rank_confirmation.py": {
     "bytes": 2967,
     "sha256": "ac0ffacc96e8d2168c0f88cdb7fc2afc571783d547efb3976c5f481b18f3656a"
   },
   "vm_perceptual/rank_map_candidate.py": {
-    "bytes": 7513,
-    "sha256": "54c81aac3774f20c95b49438fe48b9169ae0ca7cbd39394d87a2740111eb177c"
+    "bytes": 8546,
+    "sha256": "b0dec567789d1fd57a9c0d75a6320f656d312ac031b33667ffdd6971cf4f9b21"
   },
   "vm_perceptual/rank_map_cli.py": {
     "bytes": 3218,
@@ -472,8 +528,12 @@
     "sha256": "5310e38c0d42c591c8ad022cbe0568b11e14a002e4a7dc662381cc294535782b"
   },
   "vm_perceptual/reference_student.py": {
-    "bytes": 6175,
-    "sha256": "0cb3a84ed9d4b25ff9dc7f726de6d837d37d17fa78e3fee72609a63acc5cfabc"
+    "bytes": 6545,
+    "sha256": "b7005befd37c759d5e7fb6c94a51969de0c5cf024e6c5359e6efee1376053c33"
+  },
+  "vm_perceptual/repeat_neighbor_sets.py": {
+    "bytes": 4134,
+    "sha256": "a80fe05c128d578d845b9c2ba15603ae099ee909d7c021d3718572528450e161"
   },
   "vm_perceptual/requirements.txt": {
     "bytes": 280,
@@ -483,6 +543,10 @@
     "bytes": 5231,
     "sha256": "75d0061a0e662f875da6f041c62f2b4482318e0498a374bf1b38c0393a572890"
   },
+  "vm_perceptual/reference_results/acoustic_axis_probe.json": {
+    "bytes": 25860,
+    "sha256": "5d3ef8946719b4bbdb4db3cdf805e6dd8927ea4ad0847a4c483e122385731484"
+  },
   "vm_perceptual/reference_results/adapter_check.json": {
     "bytes": 1541,
     "sha256": "c89c90134c0236249436fb6c31b9f589d69481e96e3d36a7abe3c87dbb888a1f"
@@ -490,6 +554,18 @@
   "vm_perceptual/reference_results/blend_projection.json": {
     "bytes": 956,
     "sha256": "241a57f5fbb2cd5ea5fa621a2bfc025db418fe74005b97735dcd4f790e826740"
+  },
+  "vm_perceptual/reference_results/centroid_geometry.json": {
+    "bytes": 8259,
+    "sha256": "039790300d876eeb74758c01ac35fc8f8ad301437605bbefe7107ae034eade24"
+  },
+  "vm_perceptual/reference_results/channel_folds_summary.json": {
+    "bytes": 7651,
+    "sha256": "330bc71c0ba082e95f4d9a92ff1c95a0d661403b9ca429f1a8e97a0c91e4fe6a"
+  },
+  "vm_perceptual/reference_results/channel_style_check.json": {
+    "bytes": 10652,
+    "sha256": "0e4baed35efc90b5909a0413f2f66f60b7be72fd4508b8b66da1a86d1dd3d42e"
   },
   "vm_perceptual/reference_results/content_conditioning.json": {
     "bytes": 1074,
@@ -531,9 +607,17 @@
     "bytes": 11062,
     "sha256": "2f97eeaff82840bb07dd5e12b041d8e4fe6a620eb67327bd9c430c67c47af483"
   },
+  "vm_perceptual/reference_results/english_listener_check.json": {
+    "bytes": 6837,
+    "sha256": "734282dd9f6e00255b14f9ee373bdfb8793e5b3978de4db0a6a9c263ff54b279"
+  },
   "vm_perceptual/reference_results/evaluation.json": {
     "bytes": 23422,
     "sha256": "553f7a5fd31e0ae08600ed5aad61c660a53b762603a95f4d441c021750f02330"
+  },
+  "vm_perceptual/reference_results/final_study_summary.json": {
+    "bytes": 12142,
+    "sha256": "2fa4e1d6bedb189cf6fff71e5e3a6faacdd352bfb9eabaa3e91a89b9982d2f26"
   },
   "vm_perceptual/reference_results/fixed5090_comparison.json": {
     "bytes": 721,
@@ -559,6 +643,14 @@
     "bytes": 4280,
     "sha256": "4e60fdd9a951aba378d5b5a2dd63ef027e2905cf9b332d18b0dc8ac00f455794"
   },
+  "vm_perceptual/reference_results/listener_geometry.json": {
+    "bytes": 1978,
+    "sha256": "a90af45febf738e84fe42b988a026703ab297343962a83f16b5724b7a2c523c8"
+  },
+  "vm_perceptual/reference_results/listener_label_control.json": {
+    "bytes": 30269,
+    "sha256": "e1e636e7b1ff540315d7df9a7c09268eaaa4a94cd10d37f482ec642aab9279cc"
+  },
   "vm_perceptual/reference_results/map_consensus.json": {
     "bytes": 6559,
     "sha256": "7f6f328b923b3e9ebcb59c3a2307cac718925faec6dab4c78df51ea6a0fc5464"
@@ -571,13 +663,25 @@
     "bytes": 1164,
     "sha256": "1f62a9b3bc25b818b46a5b2e315c420b1736e1ef71befc9d30e2f5ed39317918"
   },
+  "vm_perceptual/reference_results/morph_target_retrieval.json": {
+    "bytes": 5448,
+    "sha256": "d25ac0d2f9bad2c2cfed2937a25bcb2da31ea210904d1c8a219473864ddb2642"
+  },
   "vm_perceptual/reference_results/nested_people_summary.json": {
     "bytes": 1562,
     "sha256": "d767a89399e5416afd39235f3a37a14230a5b75df6dd2f4dafc4c9825ef5c938"
   },
+  "vm_perceptual/reference_results/nested_ssl_summary.json": {
+    "bytes": 19355,
+    "sha256": "2b4b9bc1057302186d48a23df6d70c121f8c19607fc9c77a817375fc9c6fa6fe"
+  },
   "vm_perceptual/reference_results/paired_correction.json": {
     "bytes": 7226,
     "sha256": "a3ad05c62e55cdfb3a997885711351e77c4b333ac852866e69d52b85f049fc56"
+  },
+  "vm_perceptual/reference_results/physical_voice_quality.json": {
+    "bytes": 10758,
+    "sha256": "1d2711042c0b27ec6073c83c5c05e840ed245241c2e7c013c37721020414b46f"
   },
   "vm_perceptual/reference_results/pitch_audit.json": {
     "bytes": 2264,
@@ -623,6 +727,10 @@
     "bytes": 5623,
     "sha256": "60ef077ca55c2ca14c3568c779d5f84d00c6e6f13c65f7fc4c699c1f28895cc5"
   },
+  "vm_perceptual/reference_results/repeat_neighbor_sets.json": {
+    "bytes": 9018,
+    "sha256": "81044943a649c84c625fc56e7c2fd10993cac6065d9e1936acc7786cada295f8"
+  },
   "vm_perceptual/reference_results/repeated_fold_studies.json": {
     "bytes": 16835,
     "sha256": "bcfe38914458b7a0563696ba100519638d5641d7ad020ce9634477a16d935978"
@@ -634,6 +742,18 @@
   "vm_perceptual/reference_results/resume_check.json": {
     "bytes": 123,
     "sha256": "d5077320ee1fab9627f5cf52aa3c496c15034373096e08411eef9cfd96a2ecdd"
+  },
+  "vm_perceptual/reference_results/robust_cross_hardware.json": {
+    "bytes": 301,
+    "sha256": "c76b77d0236e98ce94f5c096bf1c98da8bdcd27a7ae06896e21a5cee9fea1a0c"
+  },
+  "vm_perceptual/reference_results/robust_retrieval_check.json": {
+    "bytes": 6076,
+    "sha256": "a257691c23a5cfe1302625ae1b1c0831a1bf15b5c295b92ba1dd2c2c1d4a3b10"
+  },
+  "vm_perceptual/reference_results/robust_ssl_summary.json": {
+    "bytes": 4798,
+    "sha256": "27f677c759d69234a0b0e90fcd1b1657312dc1a45c8e1188d983888974e15fd7"
   },
   "vm_perceptual/reference_results/short_clip_check.json": {
     "bytes": 11807,
@@ -671,13 +791,25 @@
     "bytes": 3476,
     "sha256": "085241bf8334543d7e4fb41d4b387d2c11323caee1792cb7cc3921a9f60d5046"
   },
+  "vm_perceptual/robust_retrieval_check.py": {
+    "bytes": 2998,
+    "sha256": "9e2be43f40ea15414c56bb28dafae537129a5079cac1930939319f07ccf82fb1"
+  },
   "vm_perceptual/robust_ssl.py": {
     "bytes": 4442,
     "sha256": "4a0d80dac965f0f9f00951e7516f973be0b66f7e32d4c57521668c0ef595cb2a"
   },
+  "vm_perceptual/robust_ssl_confirm.py": {
+    "bytes": 3049,
+    "sha256": "e7ce63daa93dec321e2ed898102d58390712558cb648a4fac97c44a7d467f5be"
+  },
   "vm_perceptual/runtime.py": {
-    "bytes": 598,
-    "sha256": "7f0503efe61c013773d4483ce91e4ba55a55dd25097690bcbe02138ca165460d"
+    "bytes": 736,
+    "sha256": "7b0305d30c2825e353f99db859d8c654089d3bdde0169a66f02d97bedab01c5d"
+  },
+  "vm_perceptual/secondary_summary.py": {
+    "bytes": 2535,
+    "sha256": "9cd778928a4f91bac701ef8bae226c7d7fc3c4a71fea1305c03fc8fc7267f8df"
   },
   "vm_perceptual/short_clip_check.py": {
     "bytes": 2438,
@@ -712,8 +844,8 @@
     "sha256": "4aeaba6f2bdab1081769457a1de29a62f4bb1e3bd0d4be60219b6d3ed8b4f44a"
   },
   "vm_perceptual/test_pipeline.py": {
-    "bytes": 3401,
-    "sha256": "e57602a0fcc0fafd134a546b44d95b5d824f20ea375060c0670a228961a61a56"
+    "bytes": 4410,
+    "sha256": "9df15da58bf6c9545830ebfa3c0b7b3e115f2d86590333f2525467b1af2711e3"
   },
   "vm_perceptual/train_map.py": {
     "bytes": 6623,
@@ -736,16 +868,16 @@
     "sha256": "07845f168af1213937f944a6236936df8e0bc0afc3b2953fa2956e907c825041"
   },
   "vm_perceptual/wave_map_cli.py": {
-    "bytes": 4697,
-    "sha256": "b243d383dfc796243a6da92125c2d9a3ac33bd7779d34a4dbedbbb10435932b8"
+    "bytes": 6265,
+    "sha256": "5bdd6b6a3e00e883447ac468caad5030639246d340b34fae26599a40d04fbdb0"
   },
   "vm_perceptual/WAVE_PROTOCOL.md": {
-    "bytes": 3408,
-    "sha256": "9d8fc1a1263c67aedb1e2d7d39ba83c2b924f0dbaf9413ee8a995874eac73c7c"
+    "bytes": 5649,
+    "sha256": "ccf77c98d86990ba6c7b3de10ba5523ab3b3b888c8f848481b53fb6c0a4919ed"
   },
   "vm_perceptual/WAVE_RESULTS.md": {
-    "bytes": 4719,
-    "sha256": "3109488e8cf35b6eb990914d8e196bfdecf11283d2d046ad38aac301592ec95f"
+    "bytes": 12346,
+    "sha256": "8d9f1407983b8d733e609eb6872f53875189f0a3f2d8f3a35e6b2079e1c82e83"
   },
   "vm_perceptual/wave_student.py": {
     "bytes": 7491,

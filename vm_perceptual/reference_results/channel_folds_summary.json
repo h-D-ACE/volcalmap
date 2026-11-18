@@ -1,0 +1,282 @@
+{
+  "completed_fits": 60,
+  "paired_folds": 15,
+  "results": {
+    "outer_srcc": {
+      "unaugmented": 0.2896174240736345,
+      "consistency": 0.28700824085665316,
+      "paired_delta": -0.0026091832169813497,
+      "improved_folds": 4,
+      "repeat_deltas": [
+        -0.0005956442067617251,
+        -0.01302934490682967,
+        0.005797439462647347
+      ]
+    },
+    "paired_l2": {
+      "unaugmented": 0.39386941989262897,
+      "consistency": 0.30654139320055646,
+      "paired_delta": -0.08732802669207256,
+      "improved_folds": 15,
+      "repeat_deltas": [
+        -0.08554773926734924,
+        -0.08055119812488556,
+        -0.09588514268398285
+      ]
+    },
+    "cross_voice_top5_overlap": {
+      "unaugmented": 0.8088888888888889,
+      "consistency": 0.8772222222222222,
+      "paired_delta": 0.06833333333333333,
+      "improved_folds": 14,
+      "repeat_deltas": [
+        0.06916666666666671,
+        0.08833333333333337,
+        0.04749999999999992
+      ]
+    }
+  },
+  "folds": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.38449757166764786,
+          "paired_l2": 0.38749539852142334,
+          "cross_voice_top5_overlap": 0.8083333333333333
+        },
+        "consistency": {
+          "outer_srcc": 0.3636786452316415,
+          "paired_l2": 0.339140847325325,
+          "cross_voice_top5_overlap": 0.8291666666666668
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.14658538560883438,
+          "paired_l2": 0.4878826141357422,
+          "cross_voice_top5_overlap": 0.6416666666666666
+        },
+        "consistency": {
+          "outer_srcc": 0.14571357697716225,
+          "paired_l2": 0.35248078405857086,
+          "cross_voice_top5_overlap": 0.7750000000000001
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.329403603191634,
+          "paired_l2": 0.45516128838062286,
+          "cross_voice_top5_overlap": 0.6541666666666668
+        },
+        "consistency": {
+          "outer_srcc": 0.3273826637599293,
+          "paired_l2": 0.2944064736366272,
+          "cross_voice_top5_overlap": 0.7791666666666668
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "fold": 3,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.29917826219114907,
+          "paired_l2": 0.3559289574623108,
+          "cross_voice_top5_overlap": 0.9166666666666666
+        },
+        "consistency": {
+          "outer_srcc": 0.2686068717216684,
+          "paired_l2": 0.30761685967445374,
+          "cross_voice_top5_overlap": 0.9416666666666665
+        }
+      }
+    },
+    {
+      "repeat": 0,
+      "fold": 4,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.48537943081937174,
+          "paired_l2": 0.3234468996524811,
+          "cross_voice_top5_overlap": 0.8708333333333333
+        },
+        "consistency": {
+          "outer_srcc": 0.5366842747544269,
+          "paired_l2": 0.28853149712085724,
+          "cross_voice_top5_overlap": 0.9125
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.36114487786220184,
+          "paired_l2": 0.42275775969028473,
+          "cross_voice_top5_overlap": 0.6375
+        },
+        "consistency": {
+          "outer_srcc": 0.3565246036534846,
+          "paired_l2": 0.30886194109916687,
+          "cross_voice_top5_overlap": 0.7749999999999999
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.2982412778314497,
+          "paired_l2": 0.33995942771434784,
+          "cross_voice_top5_overlap": 0.8875
+        },
+        "consistency": {
+          "outer_srcc": 0.2920911639239585,
+          "paired_l2": 0.29596270620822906,
+          "cross_voice_top5_overlap": 0.9125
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.38726264248290077,
+          "paired_l2": 0.3278265595436096,
+          "cross_voice_top5_overlap": 0.9166666666666666
+        },
+        "consistency": {
+          "outer_srcc": 0.3568669855006598,
+          "paired_l2": 0.2652532607316971,
+          "cross_voice_top5_overlap": 0.9666666666666668
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 3,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.11511516894258869,
+          "paired_l2": 0.445985347032547,
+          "cross_voice_top5_overlap": 0.7125
+        },
+        "consistency": {
+          "outer_srcc": 0.14399582093527263,
+          "paired_l2": 0.33547911047935486,
+          "cross_voice_top5_overlap": 0.8666666666666667
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "fold": 4,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.33933598646167806,
+          "paired_l2": 0.4343623071908951,
+          "cross_voice_top5_overlap": 0.8041666666666666
+        },
+        "consistency": {
+          "outer_srcc": 0.28647465503329517,
+          "paired_l2": 0.3625783920288086,
+          "cross_voice_top5_overlap": 0.8791666666666667
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.12487610615050274,
+          "paired_l2": 0.34744101762771606,
+          "cross_voice_top5_overlap": 0.8375
+        },
+        "consistency": {
+          "outer_srcc": 0.1620048562818549,
+          "paired_l2": 0.29500681161880493,
+          "cross_voice_top5_overlap": 0.9583333333333333
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.1791434658331021,
+          "paired_l2": 0.37446561455726624,
+          "cross_voice_top5_overlap": 0.8666666666666667
+        },
+        "consistency": {
+          "outer_srcc": 0.2109020643875289,
+          "paired_l2": 0.3058489114046097,
+          "cross_voice_top5_overlap": 0.8875
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.3692463070500697,
+          "paired_l2": 0.411092072725296,
+          "cross_voice_top5_overlap": 0.8791666666666667
+        },
+        "consistency": {
+          "outer_srcc": 0.3529374814518854,
+          "paired_l2": 0.2724590301513672,
+          "cross_voice_top5_overlap": 0.875
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 3,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.38852920708797545,
+          "paired_l2": 0.33531516790390015,
+          "cross_voice_top5_overlap": 0.85
+        },
+        "consistency": {
+          "outer_srcc": 0.3796173444390692,
+          "paired_l2": 0.24211448431015015,
+          "cross_voice_top5_overlap": 0.8916666666666666
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "fold": 4,
+      "methods": {
+        "unaugmented": {
+          "outer_srcc": 0.1363220679234117,
+          "paired_l2": 0.4589208662509918,
+          "cross_voice_top5_overlap": 0.8500000000000001
+        },
+        "consistency": {
+          "outer_srcc": 0.12164260479796002,
+          "paired_l2": 0.3323797881603241,
+          "cross_voice_top5_overlap": 0.9083333333333332
+        }
+      }
+    }
+  ],
+  "interpretation": "Three repeated partitions of the same 80 Japanese voices. All models evaluated on the same 24 English mic pairs from four speakers. Fit selection on clean inner development voices."
+}

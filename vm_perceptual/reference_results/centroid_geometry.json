@@ -1,0 +1,265 @@
+{
+  "models": {
+    "current": {
+      "all_all": {
+        "voices": 100,
+        "coordinates": 16,
+        "effective_dimension": 3.154660698265765,
+        "dimensions_for_90_percent": 10,
+        "leading_two_fraction": 0.619339761187917
+      },
+      "all_male": {
+        "voices": 49,
+        "coordinates": 16,
+        "effective_dimension": 9.825819000946673,
+        "dimensions_for_90_percent": 11,
+        "leading_two_fraction": 0.3288294169731547
+      },
+      "all_female": {
+        "voices": 51,
+        "coordinates": 16,
+        "effective_dimension": 8.94576316607497,
+        "dimensions_for_90_percent": 10,
+        "leading_two_fraction": 0.3583921770841437
+      },
+      "train_all": {
+        "voices": 60,
+        "coordinates": 16,
+        "effective_dimension": 2.7772598233741266,
+        "dimensions_for_90_percent": 10,
+        "leading_two_fraction": 0.6449941033864903
+      },
+      "train_male": {
+        "voices": 29,
+        "coordinates": 16,
+        "effective_dimension": 10.082951130622076,
+        "dimensions_for_90_percent": 11,
+        "leading_two_fraction": 0.33160760402001865
+      },
+      "train_female": {
+        "voices": 31,
+        "coordinates": 16,
+        "effective_dimension": 9.327818729563608,
+        "dimensions_for_90_percent": 10,
+        "leading_two_fraction": 0.3347725488033787
+      },
+      "test_all": {
+        "voices": 20,
+        "coordinates": 16,
+        "effective_dimension": 3.1993840767304844,
+        "dimensions_for_90_percent": 6,
+        "leading_two_fraction": 0.6740395337658162
+      },
+      "test_male": {
+        "voices": 10,
+        "coordinates": 16,
+        "effective_dimension": 4.751462883873788,
+        "dimensions_for_90_percent": 5,
+        "leading_two_fraction": 0.5406728258730814
+      },
+      "test_female": {
+        "voices": 10,
+        "coordinates": 16,
+        "effective_dimension": 3.6069440524875223,
+        "dimensions_for_90_percent": 5,
+        "leading_two_fraction": 0.6638945847548635
+      }
+    },
+    "student": {
+      "all_all": {
+        "voices": 100,
+        "coordinates": 16,
+        "effective_dimension": 2.0967304419661374,
+        "dimensions_for_90_percent": 7,
+        "leading_two_fraction": 0.7396436793757
+      },
+      "all_male": {
+        "voices": 49,
+        "coordinates": 16,
+        "effective_dimension": 7.805660252417263,
+        "dimensions_for_90_percent": 9,
+        "leading_two_fraction": 0.40205072035840617
+      },
+      "all_female": {
+        "voices": 51,
+        "coordinates": 16,
+        "effective_dimension": 7.384628315012657,
+        "dimensions_for_90_percent": 9,
+        "leading_two_fraction": 0.4081897953510269
+      },
+      "train_all": {
+        "voices": 60,
+        "coordinates": 16,
+        "effective_dimension": 2.3427491561804556,
+        "dimensions_for_90_percent": 8,
+        "leading_two_fraction": 0.7041127420534451
+      },
+      "train_male": {
+        "voices": 29,
+        "coordinates": 16,
+        "effective_dimension": 8.04217863476546,
+        "dimensions_for_90_percent": 9,
+        "leading_two_fraction": 0.3902855016316719
+      },
+      "train_female": {
+        "voices": 31,
+        "coordinates": 16,
+        "effective_dimension": 7.436249615113768,
+        "dimensions_for_90_percent": 8,
+        "leading_two_fraction": 0.40792018852013096
+      },
+      "test_all": {
+        "voices": 20,
+        "coordinates": 16,
+        "effective_dimension": 1.6623489126891147,
+        "dimensions_for_90_percent": 4,
+        "leading_two_fraction": 0.840507089934099
+      },
+      "test_male": {
+        "voices": 10,
+        "coordinates": 16,
+        "effective_dimension": 4.175237624891693,
+        "dimensions_for_90_percent": 5,
+        "leading_two_fraction": 0.6005800587858019
+      },
+      "test_female": {
+        "voices": 10,
+        "coordinates": 16,
+        "effective_dimension": 3.455875513521542,
+        "dimensions_for_90_percent": 5,
+        "leading_two_fraction": 0.6472775512654264
+      }
+    },
+    "rank_own": {
+      "all_all": {
+        "voices": 100,
+        "coordinates": 16,
+        "effective_dimension": 7.890737204637022,
+        "dimensions_for_90_percent": 10,
+        "leading_two_fraction": 0.39946776628742586
+      },
+      "all_male": {
+        "voices": 49,
+        "coordinates": 16,
+        "effective_dimension": 6.19186557728626,
+        "dimensions_for_90_percent": 8,
+        "leading_two_fraction": 0.49084463657063093
+      },
+      "all_female": {
+        "voices": 51,
+        "coordinates": 16,
+        "effective_dimension": 7.960651918689567,
+        "dimensions_for_90_percent": 9,
+        "leading_two_fraction": 0.37582742082077114
+      },
+      "train_all": {
+        "voices": 60,
+        "coordinates": 16,
+        "effective_dimension": 8.680477628567127,
+        "dimensions_for_90_percent": 10,
+        "leading_two_fraction": 0.36421631584324876
+      },
+      "train_male": {
+        "voices": 29,
+        "coordinates": 16,
+        "effective_dimension": 5.964978603173528,
+        "dimensions_for_90_percent": 7,
+        "leading_two_fraction": 0.5082995756492399
+      },
+      "train_female": {
+        "voices": 31,
+        "coordinates": 16,
+        "effective_dimension": 7.923316891202883,
+        "dimensions_for_90_percent": 8,
+        "leading_two_fraction": 0.35876659979806225
+      },
+      "test_all": {
+        "voices": 20,
+        "coordinates": 16,
+        "effective_dimension": 5.189396085897687,
+        "dimensions_for_90_percent": 8,
+        "leading_two_fraction": 0.5221771835536112
+      },
+      "test_male": {
+        "voices": 10,
+        "coordinates": 16,
+        "effective_dimension": 4.516657978343695,
+        "dimensions_for_90_percent": 5,
+        "leading_two_fraction": 0.5760368194516736
+      },
+      "test_female": {
+        "voices": 10,
+        "coordinates": 16,
+        "effective_dimension": 3.7565903182099984,
+        "dimensions_for_90_percent": 5,
+        "leading_two_fraction": 0.6339890681432159
+      }
+    },
+    "robust_student": {
+      "all_all": {
+        "voices": 100,
+        "coordinates": 16,
+        "effective_dimension": 5.876828134731709,
+        "dimensions_for_90_percent": 8,
+        "leading_two_fraction": 0.483601812838133
+      },
+      "all_male": {
+        "voices": 49,
+        "coordinates": 16,
+        "effective_dimension": 4.869381317745087,
+        "dimensions_for_90_percent": 7,
+        "leading_two_fraction": 0.5716869872834639
+      },
+      "all_female": {
+        "voices": 51,
+        "coordinates": 16,
+        "effective_dimension": 6.150758513314079,
+        "dimensions_for_90_percent": 8,
+        "leading_two_fraction": 0.4602475078704347
+      },
+      "train_all": {
+        "voices": 60,
+        "coordinates": 16,
+        "effective_dimension": 6.987020803158754,
+        "dimensions_for_90_percent": 9,
+        "leading_two_fraction": 0.4311295806536611
+      },
+      "train_male": {
+        "voices": 29,
+        "coordinates": 16,
+        "effective_dimension": 4.781050021476981,
+        "dimensions_for_90_percent": 6,
+        "leading_two_fraction": 0.5836703928120381
+      },
+      "train_female": {
+        "voices": 31,
+        "coordinates": 16,
+        "effective_dimension": 6.207613078740973,
+        "dimensions_for_90_percent": 7,
+        "leading_two_fraction": 0.4582635694693552
+      },
+      "test_all": {
+        "voices": 20,
+        "coordinates": 16,
+        "effective_dimension": 3.9777660941051334,
+        "dimensions_for_90_percent": 6,
+        "leading_two_fraction": 0.5920016394895016
+      },
+      "test_male": {
+        "voices": 10,
+        "coordinates": 16,
+        "effective_dimension": 3.4233998192476087,
+        "dimensions_for_90_percent": 4,
+        "leading_two_fraction": 0.7062191798839754
+      },
+      "test_female": {
+        "voices": 10,
+        "coordinates": 16,
+        "effective_dimension": 3.017094450721783,
+        "dimensions_for_90_percent": 5,
+        "leading_two_fraction": 0.6665857994953976
+      }
+    }
+  },
+  "scope": "Four normal utterances per person. Centroid spectra depend on sample, between-group structure and recording protocol. No estimate of a universally optimal embedding width."
+}

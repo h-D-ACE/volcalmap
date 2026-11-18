@@ -31,3 +31,5 @@
 原始复现及未修正对照位于本次实例的 /root/autodl-tmp/raw-run，精度修正后的工作目录为 /root/autodl-tmp/precision-fixed。进入 JupyterLab 的数据盘后可查看代码、日志、vm_perceptual/runs 与 vm_perceptual/results。GitHub 交付的历史汇总位于 reference_results。compare_reruns.py 以录音 ID 和音频哈希对齐两份运行产物。可选 content_conditioning.py 实验额外使用 scikit-learn 1.9.1。
 
 实验数据来源为 JVS 公开研究语料、作者公开 JVS 声线配对评分及 VCTK 0.92。来源条款、论文和前端模型版本见 DATA_SOURCES.md。私有研究数据在使用实验者的本地或云端单独准备。
+
+本次供 JupyterLab 直接打开的 Git 工作目录为 `/root/autodl-tmp/volcalmap`，`vm_perceptual/results`、`runs` 和 `features` 指向实际研究产物。`Open_VocalMap.ipynb` 可选 `current`、`student`、`rank_own` 和 `robust_student`，检索距离按完整 16 维计算。云端另有开发用的新文本；原始跨硬件对照使用固定的 440 段。单句排序、合成目标检索和设备稳定性的结果见 [单句实验](WAVE_RESULTS.md)。

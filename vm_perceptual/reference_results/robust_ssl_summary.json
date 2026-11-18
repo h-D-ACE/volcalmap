@@ -1,0 +1,144 @@
+{
+  "development": {
+    "unaugmented": {
+      "76": -0.1663594799845465,
+      "177": -0.18423748256748496,
+      "431": -0.22477230559298608
+    },
+    "channel": {
+      "76": -0.012386226967152275,
+      "177": -0.04321522631217904,
+      "431": -0.05201733318141068
+    },
+    "consistency": {
+      "76": 0.0005722172052914642,
+      "177": -0.03736485052244455,
+      "431": -0.054189713775715256
+    }
+  },
+  "choice": "consistency",
+  "results": {
+    "unaugmented": {
+      "seed": 177,
+      "step": 600,
+      "test": {
+        "clean": {
+          "single_srcc": 0.5145468575026362,
+          "anchor_agreement": 0.7899751752336448,
+          "mean_teacher_l2": 0.7023608088493347,
+          "median_clean_drift": 0.0
+        },
+        "equalizer": {
+          "single_srcc": 0.45485583974177524,
+          "anchor_agreement": 0.7656067464953271,
+          "mean_teacher_l2": 0.7396531105041504,
+          "median_clean_drift": 0.3189401626586914
+        },
+        "room": {
+          "single_srcc": 0.48750371443999274,
+          "anchor_agreement": 0.778700593847352,
+          "mean_teacher_l2": 0.7723355889320374,
+          "median_clean_drift": 0.45891356468200684
+        },
+        "both": {
+          "single_srcc": 0.23518350465672977,
+          "anchor_agreement": 0.6850540303738317,
+          "mean_teacher_l2": 1.0056679248809814,
+          "median_clean_drift": 0.9413681626319885
+        },
+        "telephone": {
+          "single_srcc": 0.48272629725277916,
+          "anchor_agreement": 0.8045414719626168,
+          "mean_teacher_l2": 0.7707257270812988,
+          "median_clean_drift": 0.4973723590373993
+        },
+        "late_room": {
+          "single_srcc": 0.4445618498522812,
+          "anchor_agreement": 0.7525676596573209,
+          "mean_teacher_l2": 0.7818194031715393,
+          "median_clean_drift": 0.494406521320343
+        },
+        "pink_noise": {
+          "single_srcc": 0.39136576914547994,
+          "anchor_agreement": 0.79710621105919,
+          "mean_teacher_l2": 0.9377988576889038,
+          "median_clean_drift": 0.7926112413406372
+        }
+      },
+      "english_two_mics": {
+        "paired_l2": 0.42631709575653076,
+        "per_voice": {
+          "p244": 0.37642332911491394,
+          "p250": 0.4896997809410095,
+          "p252": 0.4816354513168335,
+          "p254": 0.1943991482257843
+        },
+        "same_recording_top1": 0.9583333333333334,
+        "geometry_srcc": 0.9194611949030409,
+        "cross_voice_top5_overlap": 0.8416666666666667
+      },
+      "version": "18a7587fb6a411036433f60aee115771a20f21a8c314bf4a903c0123c8ffb031"
+    },
+    "consistency": {
+      "seed": 177,
+      "step": 600,
+      "test": {
+        "clean": {
+          "single_srcc": 0.5332889158441102,
+          "anchor_agreement": 0.8082043419003115,
+          "mean_teacher_l2": 0.6859366297721863,
+          "median_clean_drift": 0.0
+        },
+        "equalizer": {
+          "single_srcc": 0.5195716387557481,
+          "anchor_agreement": 0.7997408002336448,
+          "mean_teacher_l2": 0.6942492723464966,
+          "median_clean_drift": 0.1334584355354309
+        },
+        "room": {
+          "single_srcc": 0.5218702664639729,
+          "anchor_agreement": 0.8050890771028038,
+          "mean_teacher_l2": 0.6896935701370239,
+          "median_clean_drift": 0.19962704181671143
+        },
+        "both": {
+          "single_srcc": 0.5260951418160129,
+          "anchor_agreement": 0.8159194898753894,
+          "mean_teacher_l2": 0.7621967792510986,
+          "median_clean_drift": 0.40806442499160767
+        },
+        "telephone": {
+          "single_srcc": 0.5020123677581875,
+          "anchor_agreement": 0.8192720502336448,
+          "mean_teacher_l2": 0.7383548617362976,
+          "median_clean_drift": 0.3931431770324707
+        },
+        "late_room": {
+          "single_srcc": 0.5005553718213885,
+          "anchor_agreement": 0.7828623929127726,
+          "mean_teacher_l2": 0.7071367502212524,
+          "median_clean_drift": 0.24142640829086304
+        },
+        "pink_noise": {
+          "single_srcc": 0.5450354022204096,
+          "anchor_agreement": 0.8517146125389408,
+          "mean_teacher_l2": 0.7624360918998718,
+          "median_clean_drift": 0.34582293033599854
+        }
+      },
+      "english_two_mics": {
+        "paired_l2": 0.3281439244747162,
+        "per_voice": {
+          "p244": 0.2728131413459778,
+          "p250": 0.3630017042160034,
+          "p252": 0.38567495346069336,
+          "p254": 0.14681512117385864
+        },
+        "same_recording_top1": 0.9583333333333334,
+        "geometry_srcc": 0.9606780725160885,
+        "cross_voice_top5_overlap": 0.9083333333333332
+      },
+      "version": "d1bff6d05cfe27975fe3d1e41d9b5bf4e7b0fe8d43fe95108a6e98074a52fbd2"
+    }
+  }
+}

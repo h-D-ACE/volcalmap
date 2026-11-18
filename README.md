@@ -1,5 +1,8 @@
 # VocalMap：数学声学与音色空间研究
 
+在本次 AutoDL 实例的 JupyterLab 中打开 `/root/autodl-tmp/volcalmap/Open_VocalMap.ipynb`，运行全部单元即可听查询录音、查看 16 维音色坐标和前五近邻。修改首个代码单元的 `audio`、`map_variant` 和 `display_dimensions` 可更换音频、比较默认图与实验候选，以及切换一至三维显示。云端已准备本轮使用的录音、权重和独立索引。[演示 Notebook](Open_VocalMap.ipynb) · [比较结果](vm_perceptual/WAVE_RESULTS.md)
+
+
 [云端音色地图比较与实际查询](vm_perceptual/WAVE_RESULTS.md) · [AutoDL 演示笔记本](Open_VocalMap.ipynb)
 
 最终目标：输入音频，得到感知音色坐标；可选输出跨音色共享的语气坐标。模仿者听起来相似应靠近，同人不同声线可以分开。语气匹配与语气基准化是两个独立控制。

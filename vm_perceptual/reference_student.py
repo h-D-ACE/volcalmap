@@ -37,18 +37,24 @@ class AttentiveMap(WaveMap):
         return F.normalize(self.out(torch.cat((mean,std),dim=-1)),dim=-1)
 
 
-def read(data):
+def read(data, include_reference=True):
     names=sorted(s for s in data['speakers'] if data['manifest']['split'][s]!='test')
     waves=[];reference=[]
     for s in names:
-        with np.load(ROOT/'features/voxsim_large'/f'{s}.npz') as f:
-            clips=sorted((p,v) for p,v in zip(f['names'],f['vectors']) if '/parallel100/' in str(p))
-        assert len(clips)==12
-        reference.append([v for p,v in clips])
-        for p,v in clips:
-            x,sr=sf.read(ROOT/'data_jvs'/p,dtype='float32');g=math.gcd(16000,sr)
+        if include_reference:
+            with np.load(ROOT/'features/voxsim_large'/f'{s}.npz') as f:
+                clips=sorted((p,v) for p,v in zip(f['names'],f['vectors']) if '/parallel100/' in str(p))
+            paths=[ROOT/'data_jvs'/p for p,_ in clips]
+            reference.append([v for _,v in clips])
+        else:
+            folder=ROOT/'data_jvs'/s/'parallel100/wav24kHz16bit'
+            paths=[folder/f'VOICEACTRESS100_{i:03d}.wav' for i in range(1,13)]
+        if len(paths)!=12:
+            raise ValueError(f'Expected twelve normal utterances for {s}')
+        for path in paths:
+            x,sr=sf.read(path,dtype='float32');g=math.gcd(16000,sr)
             waves.append({'wave':resample_poly(x,16000//g,sr//g).astype('float32')})
-    return names,waves,np.array(reference)
+    return names,waves,np.array(reference) if include_reference else None
 
 
 def projection(reference,train):

@@ -19,6 +19,24 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(search(index,query,include_self=True)['matches'][0]['distance'],0)
         query['model_version']='v2'
         with self.assertRaises(ValueError):search(index,query)
+    def test_rating_graph_without_test_people_or_audio(self):
+        import json
+        from pathlib import Path
+        from unittest.mock import patch
+        from dataset import load_rating_graph
+        with tempfile.TemporaryDirectory(dir=ROOT) as temp:
+            root = Path(temp)
+            (root/'data_jvs').mkdir()
+            (root/'data_sources').mkdir()
+            manifest = {'split': {'a': 'train', 'b': 'dev', 'c': 'test'}}
+            (root/'data_jvs/manifest.json').write_text(json.dumps(manifest))
+            for group, ratings in [('male', {'a-b': [2, 3], 'a-c': [1, 2]}), ('female', {})]:
+                (root/'data_sources'/f'jvs_{group}_raw_similarity_data.json').write_text(json.dumps(ratings))
+            with patch('dataset.ROOT', root):
+                graph = load_rating_graph(('train', 'dev'))
+            self.assertEqual(graph['speakers'], ['a', 'b'])
+            self.assertEqual([(r['speaker_a'],r['speaker_b'],r['score']) for r in graph['pairs']], [('a','b',2.5)])
+
     def fixture(self):
         rng=np.random.default_rng(7);speakers=[f's{i}' for i in range(10)];features={};clips={}
         for s in speakers:

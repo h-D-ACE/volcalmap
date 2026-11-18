@@ -16,10 +16,12 @@ from runtime import ROOT,write_json
 from wave_folds import paired_labels
 
 
-def bank(data):
+def bank(data, include_reference=True):
     with np.load(ROOT/'features/development_layers.npz') as f:
         names=f['speakers'].tolist()
         blocks=[f['acoustic'].astype('float32'),f['ecapa'],f['layers'][:,:,1]]
+    if not include_reference:
+        return names, blocks
     reference=[]
     for s in names:
         with np.load(ROOT/'features/voxsim_large'/f'{s}.npz') as f:

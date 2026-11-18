@@ -1,0 +1,1292 @@
+{
+  "fits": 225,
+  "folds": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.25534380820025343,
+        "selected_step": 600
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.26346392720865686,
+          "selected_step": 100
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.3781142277753766,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.20058332130120915,
+          "selected_step": 200
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.3781142277753766,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.013615115774003456,
+          "selected_step": 900
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.2724083609133775,
+          "selected_step": 100
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.3781142277753766,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.23428397879179097,
+          "selected_step": 100
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.1678046898792436,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.19694917828338376,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.19694917828338376,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.19694917828338376,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.19694917828338376,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.19694917828338376,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.19694917828338376,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.19694917828338376,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.19694917828338376,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.4152909284084536,
+        "selected_step": 200
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.47686574827534034,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.47686574827534034,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.47686574827534034,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.47686574827534034,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.47686574827534034,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.47686574827534034,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.27796146427551144,
+          "selected_step": 900
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.47686574827534034,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "fold": 3,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.2941631257032217,
+        "selected_step": 0
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.2941631257032217,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.2941631257032217,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.2941631257032217,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.2941631257032217,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.26445654058030554,
+          "selected_step": 100
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.2941631257032217,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.2941631257032217,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.2941631257032217,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 0,
+      "fold": 4,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.46940588985741954,
+        "selected_step": 0
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.46940588985741954,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.46940588985741954,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.46940588985741954,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.46940588985741954,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.46940588985741954,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.46940588985741954,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.46940588985741954,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.46940588985741954,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "fold": 0,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.3785572356060506,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.2775804767962036,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.2775804767962036,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.2775804767962036,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.2775804767962036,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.2775804767962036,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.2775804767962036,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.2775804767962036,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.11115539503292324,
+          "selected_step": 200
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "fold": 1,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.2027190207896095,
+        "selected_step": 0
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.2027190207896095,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.2027190207896095,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.2027190207896095,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.2027190207896095,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.2072163241798254,
+          "selected_step": 100
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.2027190207896095,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.2027190207896095,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.2027190207896095,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "fold": 2,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.4410755925765957,
+        "selected_step": 0
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.4410755925765957,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.4410755925765957,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.33934077812298014,
+          "selected_step": 300
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.4410755925765957,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.3335030253432517,
+          "selected_step": 100
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.4410755925765957,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.4410755925765957,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.4410755925765957,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "fold": 3,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.12770905621600592,
+        "selected_step": 400
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.3176300064088339,
+          "selected_step": 200
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.328863683362161,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.17035389069991014,
+          "selected_step": 400
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.11950881402326012,
+          "selected_step": 100
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": -0.0016368790937728167,
+          "selected_step": 300
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.2310371349893155,
+          "selected_step": 100
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.328863683362161,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.328863683362161,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "fold": 4,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.28512001935372655,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.23071447828235306,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.2175365894931724,
+          "selected_step": 900
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.23071447828235306,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.05512518216498554,
+          "selected_step": 1000
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.0777191366750626,
+          "selected_step": 300
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.23071447828235306,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.23071447828235306,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.023831041166030263,
+          "selected_step": 400
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "fold": 0,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.22915608862021075,
+        "selected_step": 0
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.22915608862021075,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.22915608862021075,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.29914803899700687,
+          "selected_step": 100
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.21953970192432667,
+          "selected_step": 100
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.22915608862021075,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.17274559290718292,
+          "selected_step": 100
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.10077376349236015,
+          "selected_step": 100
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.22915608862021075,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "fold": 1,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.2262359460416118,
+        "selected_step": 0
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.25042783525268325,
+          "selected_step": 100
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.30725274033528643,
+          "selected_step": 100
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.2262359460416118,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.2262359460416118,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.2262359460416118,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.2262359460416118,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.2262359460416118,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.13532216164057936,
+          "selected_step": 100
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "fold": 2,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.34589935114573345,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.1511601200088932,
+          "selected_step": 100
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.336811550728732,
+          "selected_step": 100
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.3228039144114758,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.24444012173813462,
+          "selected_step": 100
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.3228039144114758,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.3228039144114758,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.3228039144114758,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.21757464107287228,
+          "selected_step": 100
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "fold": 3,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.28424343341688324,
+        "selected_step": 200
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.2925238986667674,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.2925238986667674,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.2925238986667674,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.2925238986667674,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.2925238986667674,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.2925238986667674,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.2925238986667674,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.21203118178561794,
+          "selected_step": 100
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "fold": 4,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.41204777493727085,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.32832085272685896,
+          "selected_step": 100
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.3713339572641055,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.3730644904128988,
+          "selected_step": 100
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.3713339572641055,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.10600534698347341,
+          "selected_step": 100
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.2447917491114569,
+          "selected_step": 100
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.3713339572641055,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.3713339572641055,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "fold": 0,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.2475430544472361,
+        "selected_step": 300
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.22252501287963541,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.22252501287963541,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.22252501287963541,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.22252501287963541,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.22252501287963541,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.22252501287963541,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.22252501287963541,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.22252501287963541,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "fold": 1,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.3551866032487013,
+        "selected_step": 200
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.2643649864990147,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.2643649864990147,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.3843452273215797,
+          "selected_step": 100
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.2643649864990147,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.2643649864990147,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.2643649864990147,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.2643649864990147,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.2643649864990147,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "fold": 2,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.45031571917440627,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.42636472008535786,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.42636472008535786,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.30178208528414213,
+          "selected_step": 400
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.42636472008535786,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.43403479859693145,
+          "selected_step": 1000
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.42636472008535786,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.42636472008535786,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.42636472008535786,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "fold": 3,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.2904264681483804,
+        "selected_step": 800
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.1748170827910897,
+          "selected_step": 200
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.21065522073119852,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.08679591908609087,
+          "selected_step": 400
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": -0.09965725479704758,
+          "selected_step": 800
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.21065522073119852,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.14841432745071043,
+          "selected_step": 200
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.16508116205166837,
+          "selected_step": 200
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.08992342133972303,
+          "selected_step": 300
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "fold": 4,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.174109612079252,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.11696395858717226,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.19186038481615103,
+          "selected_step": 100
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.1741306815805576,
+          "selected_step": 100
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.0029289548968598478,
+          "selected_step": 200
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.11696395858717226,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.11696395858717226,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.11454027728985532,
+          "selected_step": 600
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.08012592398573105,
+          "selected_step": 100
+        }
+      ]
+    },
+    {
+      "repeat": 4,
+      "fold": 0,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.22296036239507305,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.17181962023984385,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.21763252142591838,
+          "selected_step": 600
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.17181962023984385,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.17181962023984385,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.08112024834078227,
+          "selected_step": 200
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.17181962023984385,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.0624526397539308,
+          "selected_step": 100
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.18597330246730787,
+          "selected_step": 100
+        }
+      ]
+    },
+    {
+      "repeat": 4,
+      "fold": 1,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.3511672955391816,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.12902894649217594,
+          "selected_step": 100
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.16044696833294347,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.16044696833294347,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.16044696833294347,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.24823994370904784,
+          "selected_step": 100
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.16044696833294347,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.24156053633696092,
+          "selected_step": 300
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.10957125534704308,
+          "selected_step": 100
+        }
+      ]
+    },
+    {
+      "repeat": 4,
+      "fold": 2,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.26361234560203733,
+        "selected_step": 0
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.26361234560203733,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.26361234560203733,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.26361234560203733,
+          "selected_step": 0
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.26361234560203733,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.26361234560203733,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.26361234560203733,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.26361234560203733,
+          "selected_step": 0
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.26361234560203733,
+          "selected_step": 0
+        }
+      ]
+    },
+    {
+      "repeat": 4,
+      "fold": 3,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.14534998972914553,
+        "selected_step": 700
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.19930605970486498,
+          "selected_step": 600
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.18311480683263368,
+          "selected_step": 100
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.18754709606127207,
+          "selected_step": 100
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.22765275977735228,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.22765275977735228,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.22765275977735228,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.04115427718896005,
+          "selected_step": 100
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.15489907107871984,
+          "selected_step": 100
+        }
+      ]
+    },
+    {
+      "repeat": 4,
+      "fold": 4,
+      "original": {
+        "permutation": 0,
+        "outer_srcc": 0.3738135789847933,
+        "selected_step": 100
+      },
+      "permuted": [
+        {
+          "permutation": 1,
+          "outer_srcc": 0.3948545130315233,
+          "selected_step": 0
+        },
+        {
+          "permutation": 2,
+          "outer_srcc": 0.3948545130315233,
+          "selected_step": 0
+        },
+        {
+          "permutation": 3,
+          "outer_srcc": 0.2479406068952697,
+          "selected_step": 800
+        },
+        {
+          "permutation": 4,
+          "outer_srcc": 0.3948545130315233,
+          "selected_step": 0
+        },
+        {
+          "permutation": 5,
+          "outer_srcc": 0.3948545130315233,
+          "selected_step": 0
+        },
+        {
+          "permutation": 6,
+          "outer_srcc": 0.3948545130315233,
+          "selected_step": 0
+        },
+        {
+          "permutation": 7,
+          "outer_srcc": 0.14015098090543762,
+          "selected_step": 1000
+        },
+        {
+          "permutation": 8,
+          "outer_srcc": 0.3948545130315233,
+          "selected_step": 0
+        }
+      ]
+    }
+  ],
+  "original": 0.2963702796040199,
+  "shuffled": 0.2610546082721775,
+  "mean_paired_difference": 0.035315671331842345,
+  "folds_higher_than_shuffled_mean": 16,
+  "repeat_deltas": [
+    -0.014327262968965254,
+    0.03402819888384916,
+    0.03523070005291794,
+    0.07325957547058795,
+    0.048387145220821916
+  ],
+  "scope": "Only training voice names in the rating graph are shuffled within gender. Same training audio, optimizer seeds, true development selection and true external-fold labels. Shared corpus, descriptive contrast."
+}
