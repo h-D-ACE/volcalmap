@@ -11,7 +11,7 @@
 
 已新增[VM-Perceptual](vm_perceptual/README.md)：100人JVS、60/20/20人隔离、冻结前端＋小型感知距离头，完整训练、留出评价及单音频→16维坐标→1/2/3维显示已运行。
 
-开发集选定模型测试听感排序相关0.413，未超过完整声学基线0.518；不能称为已验证的最终模型。短音频漂移明显，跨解析器转换仍有较大误差，语气基准化和同人关联未实现。[部署步骤](vm_perceptual/AUTODL.md)、[完整结果](vm_perceptual/results/REPORT.md)、[坐标标准化](vm_perceptual/COORDINATE_STANDARD.md)。Linux/CUDA/AutoDL尚未实际部署。
+开发集选定模型测试听感排序相关0.413，未超过完整声学基线0.518；不能称为已验证的最终模型。短音频漂移明显，跨解析器转换仍有较大误差，语气基准化和同人关联未实现。[部署步骤](vm_perceptual/AUTODL.md)、[完整结果](vm_perceptual/reference_results/REPORT.md)、[坐标标准化](vm_perceptual/COORDINATE_STANDARD.md)。Linux/CUDA/AutoDL尚未实际部署。
 
 下方为此前VM-Acoustic测量阶段记录，不能与新感知指标混用。
 
