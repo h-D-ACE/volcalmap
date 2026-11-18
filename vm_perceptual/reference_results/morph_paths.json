@@ -1,0 +1,38 @@
+{
+  "paths": 80,
+  "ordered_voice_pairs": 20,
+  "steps": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "models": {
+    "current": {
+      "mean_rho_natural_anchors": 0.9787499999999998,
+      "mean_rho_synthetic_anchors": 0.9999999999999998,
+      "mean_rho_other_sentence_anchors": 0.9274999999999999,
+      "fraction_moving_toward_target": 1.0
+    },
+    "student": {
+      "mean_rho_natural_anchors": 0.9999999999999998,
+      "mean_rho_synthetic_anchors": 0.9999999999999998,
+      "mean_rho_other_sentence_anchors": 0.9987499999999997,
+      "fraction_moving_toward_target": 1.0
+    },
+    "own": {
+      "mean_rho_natural_anchors": 0.9962499999999999,
+      "mean_rho_synthetic_anchors": 0.9999999999999998,
+      "mean_rho_other_sentence_anchors": 0.9924999999999999,
+      "fraction_moving_toward_target": 1.0
+    },
+    "identity": {
+      "mean_rho_natural_anchors": 0.9999999999999998,
+      "mean_rho_synthetic_anchors": 0.9999999999999998,
+      "mean_rho_other_sentence_anchors": 0.9999999999999998,
+      "fraction_moving_toward_target": 1.0
+    }
+  },
+  "scope": "Development signal intervention. No human imitation or listening labels."
+}

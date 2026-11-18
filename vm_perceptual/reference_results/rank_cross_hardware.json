@@ -1,0 +1,10 @@
+{
+  "recordings": 440,
+  "model_version": "00e7cc610c4a319007377470f7e0809220b041e62cf203b0a78a61fd8f934fa6",
+  "median_l2": 1.5565882181707221e-06,
+  "max_l2": 4.512598384990728e-06,
+  "same_top1": 440,
+  "same_all_top5": 440,
+  "mean_top5_overlap": 1.0,
+  "pair_geometry_srcc": 0.9999999999577873
+}

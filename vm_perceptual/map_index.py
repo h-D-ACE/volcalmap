@@ -42,6 +42,8 @@ def build(features_path, checkpoint, projection):
     features = json.loads(Path(features_path).read_text(encoding='utf-8'))
     records = []
     for name, feature in sorted(features.items()):
+        if feature.get('edge_policy', 'preserve') != ck.get('edge_policy', 'preserve'):
+            raise ValueError(f'Waveform preprocessing differs from checkpoint for {name}')
         z = encode(feature, ck)
         display = ((z-view['mean']) @ np.asarray(view['axes'][:3]).T).tolist()
         records.append(dict(record_id=name, sample_id=feature['sha256'],

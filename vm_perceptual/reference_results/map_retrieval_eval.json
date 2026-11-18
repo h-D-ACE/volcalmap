@@ -1,0 +1,88 @@
+{
+  "dev": {
+    "n": 20,
+    "female": 10,
+    "male": 10,
+    "models": {
+      "current": {
+        "ndcg3": 0.8316792826428818,
+        "expected_random_ndcg3": 0.7849098706797505,
+        "regret": 0.64375,
+        "top1_rating": -0.57375,
+        "random_rating": -0.73,
+        "top1_tied_best": 0.2375,
+        "candidate_size": 9.0
+      },
+      "student": {
+        "ndcg3": 0.8168295317740691,
+        "expected_random_ndcg3": 0.7849098706797505,
+        "regret": 0.6875000000000001,
+        "top1_rating": -0.6175,
+        "random_rating": -0.73,
+        "top1_tied_best": 0.23124999999999998,
+        "candidate_size": 9.0
+      },
+      "identity_ecapa": {
+        "ndcg3": 0.8409290525607097,
+        "expected_random_ndcg3": 0.7849098706797505,
+        "regret": 0.5125,
+        "top1_rating": -0.4425,
+        "random_rating": -0.73,
+        "top1_tied_best": 0.40625,
+        "candidate_size": 9.0
+      },
+      "voxsim_large": {
+        "ndcg3": 0.8224258094026017,
+        "expected_random_ndcg3": 0.7849098706797505,
+        "regret": 0.6187499999999999,
+        "top1_rating": -0.54875,
+        "random_rating": -0.73,
+        "top1_tied_best": 0.31875,
+        "candidate_size": 9.0
+      }
+    }
+  },
+  "test": {
+    "n": 14,
+    "female": 9,
+    "male": 5,
+    "models": {
+      "current": {
+        "ndcg3": 0.8383750748187796,
+        "expected_random_ndcg3": 0.7934730523415113,
+        "regret": 0.7294642857142857,
+        "top1_rating": -0.7651785714285715,
+        "random_rating": -0.9375,
+        "top1_tied_best": 0.2767857142857143,
+        "candidate_size": 6.571428571428571
+      },
+      "student": {
+        "ndcg3": 0.8519084535350209,
+        "expected_random_ndcg3": 0.7934730523415113,
+        "regret": 0.674107142857143,
+        "top1_rating": -0.7098214285714287,
+        "random_rating": -0.9375,
+        "top1_tied_best": 0.26785714285714285,
+        "candidate_size": 6.571428571428571
+      },
+      "identity_ecapa": {
+        "ndcg3": 0.8634156822105628,
+        "expected_random_ndcg3": 0.7934730523415113,
+        "regret": 0.5178571428571428,
+        "top1_rating": -0.5535714285714286,
+        "random_rating": -0.9375,
+        "top1_tied_best": 0.4553571428571429,
+        "candidate_size": 6.571428571428571
+      },
+      "voxsim_large": {
+        "ndcg3": 0.8838107167127596,
+        "expected_random_ndcg3": 0.7934730523415113,
+        "regret": 0.5589285714285714,
+        "top1_rating": -0.5946428571428573,
+        "random_rating": -0.9375,
+        "top1_tied_best": 0.3482142857142857,
+        "candidate_size": 6.571428571428571
+      }
+    }
+  }
+}

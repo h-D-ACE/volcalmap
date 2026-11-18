@@ -1,0 +1,253 @@
+{
+  "steps": [
+    400,
+    900,
+    400,
+    600,
+    800,
+    500,
+    500,
+    1000,
+    1000,
+    500,
+    500,
+    600
+  ],
+  "anchors": 128,
+  "results": {
+    "dev": {
+      "n_speakers": 20,
+      "gender_pairs": [
+        45,
+        45
+      ],
+      "models": {
+        "current": {
+          "single": {
+            "srcc": 0.24185280406144816,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.3283987880377849,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1500
+          },
+          "gallery_hit3": 0.575
+        },
+        "canonical": {
+          "single": {
+            "srcc": 0.24501074944442874,
+            "difference_vs_current": 0.003157945382980587,
+            "paired_95": [
+              -0.27113582453728485,
+              0.28919070249617324
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.27352243332564546,
+            "difference_vs_current": -0.05487635471213942,
+            "paired_95": [
+              -0.39107765573026027,
+              0.2995112621720354
+            ],
+            "valid_bootstrap": 1500
+          },
+          "gallery_hit3": 0.6375
+        },
+        "ensemble": {
+          "single": {
+            "srcc": 0.23581461000316367,
+            "difference_vs_current": -0.006038194058284485,
+            "paired_95": [
+              -0.2708325793008926,
+              0.280573577231929
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.27218958020259626,
+            "difference_vs_current": -0.056209207835188624,
+            "paired_95": [
+              -0.4095310038829739,
+              0.3105664855171746
+            ],
+            "valid_bootstrap": 1500
+          },
+          "gallery_hit3": 0.65
+        }
+      },
+      "mean_across_seeds": {
+        "raw_median_l2": 0.15265313846369585,
+        "aligned_median_l2": 0.14815079917510351,
+        "top1": 0.7177083333333334,
+        "top5_overlap": 0.7835416666666667
+      }
+    },
+    "test": {
+      "n_speakers": 20,
+      "gender_pairs": [
+        45,
+        45
+      ],
+      "models": {
+        "current": {
+          "single": {
+            "srcc": 0.28698303097838407,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.4251293622065633,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1500
+          },
+          "gallery_hit3": 0.4875
+        },
+        "canonical": {
+          "single": {
+            "srcc": 0.5577673987555392,
+            "difference_vs_current": 0.2707843677771551,
+            "paired_95": [
+              -0.12802277564981768,
+              0.5593880224221869
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.5955425869977726,
+            "difference_vs_current": 0.17041322479120935,
+            "paired_95": [
+              -0.2995604277375352,
+              0.5301045217800856
+            ],
+            "valid_bootstrap": 1500
+          },
+          "gallery_hit3": 0.5
+        },
+        "ensemble": {
+          "single": {
+            "srcc": 0.5337913459743902,
+            "difference_vs_current": 0.24680831499600608,
+            "paired_95": [
+              -0.14499475360946307,
+              0.5216889651064708
+            ],
+            "valid_bootstrap": 1500
+          },
+          "profile": {
+            "srcc": 0.5726882777183657,
+            "difference_vs_current": 0.14755891551180245,
+            "paired_95": [
+              -0.31938033462948906,
+              0.5139579304881338
+            ],
+            "valid_bootstrap": 1500
+          },
+          "gallery_hit3": 0.475
+        }
+      },
+      "mean_across_seeds": {
+        "raw_median_l2": 0.1704665000240008,
+        "aligned_median_l2": 0.1665669201562802,
+        "top1": 0.7114583333333333,
+        "top5_overlap": 0.785625
+      }
+    },
+    "fresh": {
+      "n_speakers": 14,
+      "gender_pairs": [
+        36,
+        10
+      ],
+      "models": {
+        "current": {
+          "single": {
+            "srcc": 0.14853811723089583,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1349
+          },
+          "profile": {
+            "srcc": 0.278857507676097,
+            "difference_vs_current": 0.0,
+            "paired_95": [
+              0.0,
+              0.0
+            ],
+            "valid_bootstrap": 1349
+          },
+          "gallery_hit3": 0.44642857142857145
+        },
+        "canonical": {
+          "single": {
+            "srcc": 0.34914825740400424,
+            "difference_vs_current": 0.2006101401731084,
+            "paired_95": [
+              -0.26101009528498353,
+              0.7150216835171215
+            ],
+            "valid_bootstrap": 1349
+          },
+          "profile": {
+            "srcc": 0.43269307837145576,
+            "difference_vs_current": 0.15383557069535875,
+            "paired_95": [
+              -0.47609100472421173,
+              0.9278061621837631
+            ],
+            "valid_bootstrap": 1349
+          },
+          "gallery_hit3": 0.48214285714285715
+        },
+        "ensemble": {
+          "single": {
+            "srcc": 0.34748398410511,
+            "difference_vs_current": 0.19894586687421417,
+            "paired_95": [
+              -0.222703329030671,
+              0.7308044559576748
+            ],
+            "valid_bootstrap": 1349
+          },
+          "profile": {
+            "srcc": 0.4182337017287631,
+            "difference_vs_current": 0.1393761940526661,
+            "paired_95": [
+              -0.5189681249961925,
+              1.0142237334663593
+            ],
+            "valid_bootstrap": 1349
+          },
+          "gallery_hit3": 0.44642857142857145
+        }
+      },
+      "mean_across_seeds": {
+        "raw_median_l2": 0.1770702072729667,
+        "aligned_median_l2": 0.17043973381320635,
+        "top1": 0.6644345238095237,
+        "top5_overlap": 0.737202380952381
+      }
+    }
+  }
+}

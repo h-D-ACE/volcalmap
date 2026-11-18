@@ -1,0 +1,65 @@
+{
+  "results": {
+    "train_male": {
+      "pairs": 406,
+      "map_srcc": 0.7218154031597142,
+      "pitch_srcc": 0.38553169730397646,
+      "hnr_srcc": 0.13056290581247373,
+      "map_pitch_srcc": 0.42532357704771506,
+      "partial_map_after_pitch": 0.6680100638749115,
+      "within_two_semitones": 151,
+      "within_two_semitone_map_srcc": 0.7021321750056839
+    },
+    "train_female": {
+      "pairs": 465,
+      "map_srcc": 0.8022846958873993,
+      "pitch_srcc": 0.3017673053080986,
+      "hnr_srcc": 0.14858211648627775,
+      "map_pitch_srcc": 0.3719114466717909,
+      "partial_map_after_pitch": 0.7797274365604012,
+      "within_two_semitones": 329,
+      "within_two_semitone_map_srcc": 0.7896029002010548
+    },
+    "dev_male": {
+      "pairs": 45,
+      "map_srcc": 0.32350209777110084,
+      "pitch_srcc": 0.16863970944414883,
+      "hnr_srcc": 0.321316272786161,
+      "map_pitch_srcc": 0.21673254281949936,
+      "partial_map_after_pitch": 0.29821005086646635,
+      "within_two_semitones": 19,
+      "within_two_semitone_map_srcc": 0.1703751329019798
+    },
+    "dev_female": {
+      "pairs": 45,
+      "map_srcc": 0.37802258782725806,
+      "pitch_srcc": 0.43369572576198523,
+      "hnr_srcc": 0.202681922089772,
+      "map_pitch_srcc": 0.49723320158102763,
+      "partial_map_after_pitch": 0.20770017210996905,
+      "within_two_semitones": 28,
+      "within_two_semitone_map_srcc": 0.19141116592563218
+    },
+    "test_male": {
+      "pairs": 45,
+      "map_srcc": 0.4531217303236278,
+      "pitch_srcc": 0.34963585042875556,
+      "hnr_srcc": 0.13349612549854767,
+      "map_pitch_srcc": 0.20223978919631094,
+      "partial_map_after_pitch": 0.41678545334504497,
+      "within_two_semitones": 17,
+      "within_two_semitone_map_srcc": 0.3495417046386715
+    },
+    "test_female": {
+      "pairs": 45,
+      "map_srcc": 0.3733303020738614,
+      "pitch_srcc": 0.6422099381556898,
+      "hnr_srcc": -0.20144528317983368,
+      "map_pitch_srcc": 0.3100131752305665,
+      "partial_map_after_pitch": 0.2390854137113523,
+      "within_two_semitones": 30,
+      "within_two_semitone_map_srcc": 0.20532874053043618
+    }
+  },
+  "scope": "Frozen four-clip profiles; within-gender associations, no causal interpretation; statistics share speakers"
+}

@@ -1,0 +1,220 @@
+{
+  "dev": {
+    "n_speakers": 20,
+    "gender_pairs": [
+      45,
+      45
+    ],
+    "models": {
+      "current": {
+        "single": {
+          "srcc": 0.24185280406144816,
+          "difference_vs_current": 0.0,
+          "paired_95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.3283987880377849,
+          "difference_vs_current": 0.0,
+          "paired_95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap": 1500
+        }
+      },
+      "student": {
+        "single": {
+          "srcc": 0.23716801815209881,
+          "difference_vs_current": -0.004684785909349343,
+          "paired_95": [
+            -0.23445529019992475,
+            0.25524758574429496
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.3023258006101607,
+          "difference_vs_current": -0.026072987427624206,
+          "paired_95": [
+            -0.3476678200347295,
+            0.3162797827186714
+          ],
+          "valid_bootstrap": 1500
+        }
+      },
+      "identity_ecapa": {
+        "single": {
+          "srcc": 0.09482029612456529,
+          "difference_vs_current": -0.14703250793688288,
+          "paired_95": [
+            -0.4531362027534142,
+            0.24155538989738873
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.10680486439252962,
+          "difference_vs_current": -0.22159392364525526,
+          "paired_95": [
+            -0.6035594070547508,
+            0.29993700709226784
+          ],
+          "valid_bootstrap": 1500
+        }
+      },
+      "voxsim_small_reconstructed": {
+        "single": {
+          "srcc": 0.06151759837839847,
+          "difference_vs_current": -0.18033520568304967,
+          "paired_95": [
+            -0.4742118822744395,
+            0.1760883158149521
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.06392606106984973,
+          "difference_vs_current": -0.26447272696793517,
+          "paired_95": [
+            -0.6294860415873154,
+            0.17135089447233598
+          ],
+          "valid_bootstrap": 1500
+        }
+      },
+      "voxsim_large": {
+        "single": {
+          "srcc": 0.1470562815980277,
+          "difference_vs_current": -0.09479652246342046,
+          "paired_95": [
+            -0.4319396125966411,
+            0.2648992908002546
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.17199264718907017,
+          "difference_vs_current": -0.1564061408487147,
+          "paired_95": [
+            -0.5328849881875595,
+            0.2887961038507386
+          ],
+          "valid_bootstrap": 1500
+        }
+      }
+    }
+  },
+  "test": {
+    "n_speakers": 20,
+    "gender_pairs": [
+      45,
+      45
+    ],
+    "models": {
+      "current": {
+        "single": {
+          "srcc": 0.28698303097838407,
+          "difference_vs_current": 0.0,
+          "paired_95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.4251293622065633,
+          "difference_vs_current": 0.0,
+          "paired_95": [
+            0.0,
+            0.0
+          ],
+          "valid_bootstrap": 1500
+        }
+      },
+      "student": {
+        "single": {
+          "srcc": 0.375810035803701,
+          "difference_vs_current": 0.08882700482531691,
+          "paired_95": [
+            -0.22758135982155672,
+            0.3848505889322371
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.4445682326542162,
+          "difference_vs_current": 0.01943887044765291,
+          "paired_95": [
+            -0.3324581643883452,
+            0.37231514506027474
+          ],
+          "valid_bootstrap": 1500
+        }
+      },
+      "identity_ecapa": {
+        "single": {
+          "srcc": 0.25876688522313757,
+          "difference_vs_current": -0.028216145755246502,
+          "paired_95": [
+            -0.39639730164625936,
+            0.29436292975269196
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.2948268401966071,
+          "difference_vs_current": -0.13030252200995618,
+          "paired_95": [
+            -0.5266140019156778,
+            0.2386056359059421
+          ],
+          "valid_bootstrap": 1500
+        }
+      },
+      "voxsim_small_reconstructed": {
+        "single": {
+          "srcc": 0.33756830809272026,
+          "difference_vs_current": 0.05058527711433619,
+          "paired_95": [
+            -0.3258484697166677,
+            0.3237907178746778
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.3581814685283208,
+          "difference_vs_current": -0.0669478936782425,
+          "paired_95": [
+            -0.5004614984717767,
+            0.27058700981812656
+          ],
+          "valid_bootstrap": 1500
+        }
+      },
+      "voxsim_large": {
+        "single": {
+          "srcc": 0.38900046747978106,
+          "difference_vs_current": 0.102017436501397,
+          "paired_95": [
+            -0.22220734716653398,
+            0.3916068343279378
+          ],
+          "valid_bootstrap": 1500
+        },
+        "profile": {
+          "srcc": 0.417100784628908,
+          "difference_vs_current": -0.008028577577655294,
+          "paired_95": [
+            -0.38705551673744987,
+            0.385614380099182
+          ],
+          "valid_bootstrap": 1500
+        }
+      }
+    }
+  }
+}

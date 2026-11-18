@@ -1,0 +1,143 @@
+{
+  "current": {
+    "full": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.28698303097838407,
+        "anchor_agreement": 0.6969857379283488
+      },
+      "median_l2_to_full": 0.0
+    },
+    "2s_center": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.16563020193631744,
+        "anchor_agreement": 0.6345465829439252
+      },
+      "median_l2_to_full": 0.627108745141116
+    },
+    "2s_spread": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.17585759270562457,
+        "anchor_agreement": 0.6408440420560748
+      },
+      "median_l2_to_full": 1.0112478325779377
+    },
+    "4s_center": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.20609574531259583,
+        "anchor_agreement": 0.6380451713395638
+      },
+      "median_l2_to_full": 0.4694743223305931
+    },
+    "4s_spread": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.13529183569310188,
+        "anchor_agreement": 0.5897524824766355
+      },
+      "median_l2_to_full": 0.7792454382881135
+    }
+  },
+  "student": {
+    "full": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.37581003834768256,
+        "anchor_agreement": 0.7541435455607477
+      },
+      "median_l2_to_full": 0.0
+    },
+    "2s_center": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.2936991054696628,
+        "anchor_agreement": 0.6941442757009346
+      },
+      "median_l2_to_full": 0.2737935781478882
+    },
+    "2s_spread": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.20353137651868494,
+        "anchor_agreement": 0.661263629283489
+      },
+      "median_l2_to_full": 0.37376242876052856
+    },
+    "4s_center": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.3104625919459525,
+        "anchor_agreement": 0.717210621105919
+      },
+      "median_l2_to_full": 0.17956028878688812
+    },
+    "4s_spread": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.3927776550907648,
+        "anchor_agreement": 0.7847729264018691
+      },
+      "median_l2_to_full": 0.22990967333316803
+    }
+  },
+  "voxsim": {
+    "full": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.3859733324516156,
+        "anchor_agreement": 0.7402587130062306
+      },
+      "median_l2_to_full": 0.0
+    },
+    "2s_center": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.31934644896548436,
+        "anchor_agreement": 0.7120570482866044
+      },
+      "median_l2_to_full": 0.3800728917121887
+    },
+    "2s_spread": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.23382285011937093,
+        "anchor_agreement": 0.6928239388629284
+      },
+      "median_l2_to_full": 0.6340124607086182
+    },
+    "4s_center": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.37482472053059257,
+        "anchor_agreement": 0.7377944898753894
+      },
+      "median_l2_to_full": 0.22461283206939697
+    },
+    "4s_spread": {
+      "recordings": 80,
+      "total": 80,
+      "score": {
+        "single_srcc": 0.37596162648543907,
+        "anchor_agreement": 0.7788405373831775
+      },
+      "median_l2_to_full": 0.40879353880882263
+    }
+  }
+}

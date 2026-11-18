@@ -1,0 +1,40 @@
+{
+  "speakers": 20,
+  "matched_text_pairs": 0,
+  "per_map": {
+    "map": {
+      "median_normal": 0.6095966100692749,
+      "median_cross_style": 1.3246498107910156,
+      "median_falsetto_repeat": 0.596298336982727,
+      "people_larger": 20,
+      "median_paired_difference": 0.6965979635715485,
+      "paired_percentile_95": [
+        0.5521766245365143,
+        0.8539980947971344
+      ]
+    },
+    "student": {
+      "median_normal": 0.3422781229019165,
+      "median_cross_style": 1.1953039169311523,
+      "median_falsetto_repeat": 0.4107227474451065,
+      "people_larger": 20,
+      "median_paired_difference": 0.8482088148593903,
+      "paired_percentile_95": [
+        0.7568836212158203,
+        1.1094684898853302
+      ]
+    },
+    "ecapa": {
+      "median_normal": 0.5464711945852465,
+      "median_cross_style": 1.0868343570492716,
+      "median_falsetto_repeat": 0.6727555215876132,
+      "people_larger": 20,
+      "median_paired_difference": 0.5549376923030555,
+      "paired_percentile_95": [
+        0.40989247314145955,
+        0.6112918385100838
+      ]
+    }
+  },
+  "limitation": "Natural text and style may change together; no human similarity labels here."
+}

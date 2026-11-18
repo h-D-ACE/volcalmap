@@ -1,0 +1,61 @@
+{
+  "repeated_splits": 25,
+  "people": 80,
+  "policies": {
+    "static_profile": {
+      "single_mean": 0.24918433778627042,
+      "profile_mean": 0.3362673319904058,
+      "single_range": [
+        -0.018885008937140367,
+        0.24669618844307972,
+        0.4345437074315416
+      ]
+    },
+    "trained_profile": {
+      "single_mean": 0.20638962650625306,
+      "profile_mean": 0.3055984835946423,
+      "single_range": [
+        -0.021913117328303727,
+        0.2176761331062761,
+        0.43581650304846653
+      ]
+    },
+    "all_profile": {
+      "single_mean": 0.2171895580271303,
+      "profile_mean": 0.32443228786820966,
+      "single_range": [
+        -0.021913117328303727,
+        0.21870580360880726,
+        0.43581650304846653
+      ]
+    },
+    "static_single": {
+      "single_mean": 0.21605429466956275,
+      "profile_mean": 0.29463257468339593,
+      "single_range": [
+        -0.018885008937140367,
+        0.21829310639099936,
+        0.4256824021585872
+      ]
+    },
+    "trained_single": {
+      "single_mean": 0.196389528384448,
+      "profile_mean": 0.29741884142838115,
+      "single_range": [
+        -0.009524341328403158,
+        0.2253009955791348,
+        0.4290132165767199
+      ]
+    },
+    "all_single": {
+      "single_mean": 0.20122298036731795,
+      "profile_mean": 0.285947763911218,
+      "single_range": [
+        -0.018885008937140367,
+        0.2253009955791348,
+        0.4290132165767199
+      ]
+    }
+  },
+  "scope": "Repeated speakers across folds; dispersion is descriptive; original test people excluded."
+}

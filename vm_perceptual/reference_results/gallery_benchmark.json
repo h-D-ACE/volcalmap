@@ -1,0 +1,203 @@
+{
+  "gallery": {
+    "female": [
+      "jvs002",
+      "jvs010",
+      "jvs025",
+      "jvs038",
+      "jvs040",
+      "jvs043",
+      "jvs063",
+      "jvs067",
+      "jvs091",
+      "jvs093"
+    ],
+    "male": [
+      "jvs001",
+      "jvs003",
+      "jvs013",
+      "jvs037",
+      "jvs041",
+      "jvs042",
+      "jvs045",
+      "jvs075",
+      "jvs088",
+      "jvs100"
+    ]
+  },
+  "groups": {
+    "train": {
+      "people": 40,
+      "queries": 160,
+      "models": {
+        "current": {
+          "hit3": 0.6125,
+          "ndcg3": 0.8721047682809908,
+          "regret": 0.4875,
+          "rank": 3.15625,
+          "chance": 0.3375
+        },
+        "student": {
+          "hit3": 0.725,
+          "ndcg3": 0.8921079305290428,
+          "regret": 0.41312499999999996,
+          "rank": 2.73125,
+          "chance": 0.3375
+        },
+        "identity": {
+          "hit3": 0.59375,
+          "ndcg3": 0.8273749217531297,
+          "regret": 0.564375,
+          "rank": 3.71875,
+          "chance": 0.3375
+        },
+        "voxsim": {
+          "hit3": 0.6125,
+          "ndcg3": 0.8501019468847953,
+          "regret": 0.56125,
+          "rank": 3.3375,
+          "chance": 0.3375
+        }
+      },
+      "hit3_delta_95": {
+        "current": [
+          0.0,
+          0.0
+        ],
+        "student": [
+          0.01875,
+          0.2125
+        ],
+        "identity": [
+          -0.16875,
+          0.125
+        ],
+        "voxsim": [
+          -0.16875,
+          0.1625
+        ]
+      },
+      "calibrated_probability_brier": 0.18830656409205274,
+      "constant_brier": 0.23734567901234568,
+      "constant_skill_rate": 0.6111111111111112,
+      "predicted_hit_rate": 0.6124999956691022,
+      "observed_hit_rate": 0.6125
+    },
+    "dev": {
+      "people": 20,
+      "queries": 80,
+      "models": {
+        "current": {
+          "hit3": 0.575,
+          "ndcg3": 0.8432274438726385,
+          "regret": 0.6475000000000001,
+          "rank": 3.725,
+          "chance": 0.33999999999999997
+        },
+        "student": {
+          "hit3": 0.5875,
+          "ndcg3": 0.8749929997827879,
+          "regret": 0.6137499999999999,
+          "rank": 3.6,
+          "chance": 0.33999999999999997
+        },
+        "identity": {
+          "hit3": 0.5,
+          "ndcg3": 0.8365299521070286,
+          "regret": 0.705,
+          "rank": 4.1625,
+          "chance": 0.33999999999999997
+        },
+        "voxsim": {
+          "hit3": 0.4875,
+          "ndcg3": 0.8447915520886815,
+          "regret": 0.72,
+          "rank": 4.15,
+          "chance": 0.33999999999999997
+        }
+      },
+      "hit3_delta_95": {
+        "current": [
+          0.0,
+          0.0
+        ],
+        "student": [
+          -0.1375,
+          0.175
+        ],
+        "identity": [
+          -0.275,
+          0.125
+        ],
+        "voxsim": [
+          -0.2875,
+          0.125
+        ]
+      },
+      "calibrated_probability_brier": 0.21063229942889228,
+      "constant_brier": 0.24567901234567904,
+      "constant_skill_rate": 0.6111111111111112,
+      "predicted_hit_rate": 0.6534749358053478,
+      "observed_hit_rate": 0.575
+    },
+    "test": {
+      "people": 20,
+      "queries": 80,
+      "models": {
+        "current": {
+          "hit3": 0.4875,
+          "ndcg3": 0.816377450257859,
+          "regret": 0.68125,
+          "rank": 4.0625,
+          "chance": 0.325
+        },
+        "student": {
+          "hit3": 0.4875,
+          "ndcg3": 0.8438264867018399,
+          "regret": 0.68125,
+          "rank": 3.875,
+          "chance": 0.325
+        },
+        "identity": {
+          "hit3": 0.4875,
+          "ndcg3": 0.8089494516562498,
+          "regret": 0.7074999999999998,
+          "rank": 4.1875,
+          "chance": 0.325
+        },
+        "voxsim": {
+          "hit3": 0.5,
+          "ndcg3": 0.8544115049098269,
+          "regret": 0.6724999999999999,
+          "rank": 4.0625,
+          "chance": 0.325
+        }
+      },
+      "hit3_delta_95": {
+        "current": [
+          0.0,
+          0.0
+        ],
+        "student": [
+          -0.1875,
+          0.175
+        ],
+        "identity": [
+          -0.2003125,
+          0.2125
+        ],
+        "voxsim": [
+          -0.1875,
+          0.2125
+        ]
+      },
+      "calibrated_probability_brier": 0.26223748203685926,
+      "constant_brier": 0.26512345679012345,
+      "constant_skill_rate": 0.6111111111111112,
+      "predicted_hit_rate": 0.5652584537437277,
+      "observed_hit_rate": 0.4875
+    }
+  },
+  "model": "acoustic_d16 for calibration",
+  "note": "Conditional on 10 same-sex gallery voices. Listener mean ties count equally. No arbitrary-voice confidence."
+}

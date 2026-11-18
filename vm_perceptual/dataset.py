@@ -6,6 +6,8 @@ import numpy as np
 def load_data():
     manifest=json.loads((ROOT/'data_jvs/manifest.json').read_text())
     features=json.loads((ROOT/'features/jvs_features.json').read_text())
+    edge_policies={f.get('edge_policy','preserve') for f in features.values()}
+    if len(edge_policies)!=1:raise ValueError('Mixed waveform edge policies in feature cache')
     speakers=sorted(manifest['split']);idx={s:i for i,s in enumerate(speakers)}
     rows=[]
     for gender in ('male','female'):
@@ -20,7 +22,7 @@ def load_data():
     if any(len(v)!=4 for v in clips.values()):raise ValueError('Expected all four predetermined normal clips')
     split=np.array([manifest['split'][s] for s in speakers])
     if tuple(np.sum(split==k) for k in ('train','dev','test'))!=(60,20,20):raise ValueError('Unexpected split')
-    return dict(manifest=manifest,features=features,speakers=speakers,clips=clips,split=split,pairs=rows,
+    return dict(edge_policy=edge_policies.pop(),manifest=manifest,features=features,speakers=speakers,clips=clips,split=split,pairs=rows,
         provenance=hashlib.sha256((ROOT/'features/jvs_features.json').read_bytes()+(ROOT/'data_sources/selection.json').read_bytes()+
             (ROOT/'data_sources/jvs_male_raw_similarity_data.json').read_bytes()+(ROOT/'data_sources/jvs_female_raw_similarity_data.json').read_bytes()).hexdigest())
 

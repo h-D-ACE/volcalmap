@@ -1,0 +1,70 @@
+{
+  "replicates": 1500,
+  "groups": {
+    "dev": {
+      "half_to_half_top3": 0.47036666666666677,
+      "random_half_to_half": 0.3426766666666667,
+      "probability_full_score_winner_top3": 0.8558999999999999,
+      "models": {
+        "current": {
+          "estimated_top3": 0.45188333333333325,
+          "empirical_top3": 0.575,
+          "second_half_top3": 0.49466666666666664
+        },
+        "student": {
+          "estimated_top3": 0.4317666666666667,
+          "empirical_top3": 0.5875,
+          "second_half_top3": 0.48616666666666675
+        },
+        "voxsim": {
+          "estimated_top3": 0.3910583333333334,
+          "empirical_top3": 0.4875,
+          "second_half_top3": 0.4392250000000001
+        },
+        "own": {
+          "estimated_top3": 0.4979416666666666,
+          "empirical_top3": 0.6375,
+          "second_half_top3": 0.539775
+        },
+        "combined": {
+          "estimated_top3": 0.5016583333333333,
+          "empirical_top3": 0.625,
+          "second_half_top3": 0.5462750000000001
+        }
+      }
+    },
+    "test": {
+      "half_to_half_top3": 0.5020666666666667,
+      "random_half_to_half": 0.34245666666666663,
+      "probability_full_score_winner_top3": 0.867,
+      "models": {
+        "current": {
+          "estimated_top3": 0.4265083333333333,
+          "empirical_top3": 0.4875,
+          "second_half_top3": 0.47717500000000007
+        },
+        "student": {
+          "estimated_top3": 0.4205,
+          "empirical_top3": 0.4875,
+          "second_half_top3": 0.471025
+        },
+        "voxsim": {
+          "estimated_top3": 0.4288,
+          "empirical_top3": 0.5,
+          "second_half_top3": 0.47992500000000005
+        },
+        "own": {
+          "estimated_top3": 0.4565916666666666,
+          "empirical_top3": 0.5,
+          "second_half_top3": 0.5026833333333334
+        },
+        "combined": {
+          "estimated_top3": 0.43752499999999994,
+          "empirical_top3": 0.4875,
+          "second_half_top3": 0.48729999999999996
+        }
+      }
+    }
+  },
+  "note": "Within-pair repeatability proxy. Identities of listeners across edges are unknown; this is not an upper bound on machine performance."
+}

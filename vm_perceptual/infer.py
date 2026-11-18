@@ -21,7 +21,7 @@ def main():
     p.add_argument('--projection',default=str(ROOT/'results/projection.json'));p.add_argument('--display-dimensions',type=int,choices=[1,2,3],default=2)
     p.add_argument('--output',default=str(ROOT/'results/query.json'));a=p.parse_args()
     ck=torch.load(a.checkpoint,map_location='cpu',weights_only=True)
-    frontend=Frontend(a.models,a.device,ck['representation']=='wavlm3',ck['representation'] in ('ecapa','fusion'))
+    frontend=Frontend(a.models,a.device,ck['representation']=='wavlm3',ck['representation'] in ('ecapa','fusion'),edge_policy=ck.get('edge_policy','preserve'))
     feature=frontend.extract(a.audio);z=encode(feature,ck)
     view=json.loads(Path(a.projection).read_text())
     if view.get('checkpoint_sha256')!=file_hash(a.checkpoint):raise ValueError('Projection belongs to a different checkpoint')

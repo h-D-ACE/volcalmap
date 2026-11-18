@@ -75,7 +75,7 @@ def fit(data,representation,dim,epochs,device,out,resume=False):
         best_model=best_state,epoch=epoch,best_epoch=best_epoch,best_dev=best,history=history,
         representation=representation,input_dim=X.shape[1],output_dim=dim,preprocessing=conf,data_hash=data['provenance'],
         research_only=True,target='JVS different-person perceived normal-voice similarity; not identity classification',
-        seed=20261117,torch_version=str(torch.__version__))
+        edge_policy=data['edge_policy'],seed=20261117,torch_version=str(torch.__version__))
     torch.save(checkpoint,out/'last.pt');checkpoint['model']=best_state;torch.save(checkpoint,out/'best.pt')
     write_json(out/'history.json',history)
     return dict(name=f'{representation}_d{dim}',representation=representation,dim=dim,dev_spearman=best,

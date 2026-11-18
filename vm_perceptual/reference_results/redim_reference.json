@@ -1,0 +1,32 @@
+{
+  "source_commit": "c5bbe0b76e37df698c403f8844e41304ceab6307",
+  "checkpoint": "0545a29679a87fe1c662d2bbd05e3b3fe0d1b392832729abaa135e4079a2f77a",
+  "groups": {
+    "dev": {
+      "single": {
+        "single_srcc": 0.17642077436027173,
+        "anchor_agreement": 0.5866978609625668
+      },
+      "fixed_gallery": {
+        "hit3": 0.5125,
+        "ndcg3": 0.8592450538642954,
+        "regret": 0.6675,
+        "rank": 4.1125,
+        "chance": 0.33999999999999997
+      }
+    },
+    "test": {
+      "single": {
+        "single_srcc": 0.3220023367834969,
+        "anchor_agreement": 0.6734508859034267
+      },
+      "fixed_gallery": {
+        "hit3": 0.4875,
+        "ndcg3": 0.8252707474704177,
+        "regret": 0.7725,
+        "rank": 4.4125,
+        "chance": 0.32499999999999996
+      }
+    }
+  }
+}

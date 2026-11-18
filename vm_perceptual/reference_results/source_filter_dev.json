@@ -1,0 +1,176 @@
+{
+  "voices": 20,
+  "sentences_per_voice": 4,
+  "conditions": [
+    "original",
+    "resynthesis",
+    "pitch_up",
+    "pitch_down",
+    "tract_up",
+    "tract_down",
+    "flatter_contour",
+    "wider_contour"
+  ],
+  "models": {
+    "map": {
+      "original": {
+        "median_within_clip_l2": 0.0,
+        "same_cross_person_top1": 1.0,
+        "cross_person_top5_overlap": 1.0
+      },
+      "resynthesis": {
+        "median_within_clip_l2": 0.2674977779388428,
+        "same_cross_person_top1": 0.5625,
+        "cross_person_top5_overlap": 0.7249999999999999
+      },
+      "pitch_up": {
+        "median_within_clip_l2": 0.4154964089393616,
+        "same_cross_person_top1": 0.45,
+        "cross_person_top5_overlap": 0.6200000000000001
+      },
+      "pitch_down": {
+        "median_within_clip_l2": 0.41235437989234924,
+        "same_cross_person_top1": 0.4625,
+        "cross_person_top5_overlap": 0.5575
+      },
+      "tract_up": {
+        "median_within_clip_l2": 0.5149275064468384,
+        "same_cross_person_top1": 0.3625,
+        "cross_person_top5_overlap": 0.5625
+      },
+      "tract_down": {
+        "median_within_clip_l2": 0.5427342057228088,
+        "same_cross_person_top1": 0.3,
+        "cross_person_top5_overlap": 0.485
+      },
+      "flatter_contour": {
+        "median_within_clip_l2": 0.34370261430740356,
+        "same_cross_person_top1": 0.525,
+        "cross_person_top5_overlap": 0.6425
+      },
+      "wider_contour": {
+        "median_within_clip_l2": 0.3338296413421631,
+        "same_cross_person_top1": 0.525,
+        "cross_person_top5_overlap": 0.6425
+      }
+    },
+    "student": {
+      "original": {
+        "median_within_clip_l2": 0.0,
+        "same_cross_person_top1": 1.0,
+        "cross_person_top5_overlap": 1.0
+      },
+      "resynthesis": {
+        "median_within_clip_l2": 0.2486581951379776,
+        "same_cross_person_top1": 0.4375,
+        "cross_person_top5_overlap": 0.6725
+      },
+      "pitch_up": {
+        "median_within_clip_l2": 0.3455398678779602,
+        "same_cross_person_top1": 0.4,
+        "cross_person_top5_overlap": 0.6
+      },
+      "pitch_down": {
+        "median_within_clip_l2": 0.2605336308479309,
+        "same_cross_person_top1": 0.425,
+        "cross_person_top5_overlap": 0.5425000000000001
+      },
+      "tract_up": {
+        "median_within_clip_l2": 0.4134899377822876,
+        "same_cross_person_top1": 0.225,
+        "cross_person_top5_overlap": 0.515
+      },
+      "tract_down": {
+        "median_within_clip_l2": 0.4277458190917969,
+        "same_cross_person_top1": 0.2125,
+        "cross_person_top5_overlap": 0.4525
+      },
+      "flatter_contour": {
+        "median_within_clip_l2": 0.1879362016916275,
+        "same_cross_person_top1": 0.4875,
+        "cross_person_top5_overlap": 0.695
+      },
+      "wider_contour": {
+        "median_within_clip_l2": 0.2059980034828186,
+        "same_cross_person_top1": 0.4625,
+        "cross_person_top5_overlap": 0.6875
+      }
+    },
+    "ecapa": {
+      "original": {
+        "median_within_clip_l2": 0.0,
+        "same_cross_person_top1": 1.0,
+        "cross_person_top5_overlap": 1.0
+      },
+      "resynthesis": {
+        "median_within_clip_l2": 0.3049539931413074,
+        "same_cross_person_top1": 0.8,
+        "cross_person_top5_overlap": 0.8474999999999998
+      },
+      "pitch_up": {
+        "median_within_clip_l2": 0.34478758394273334,
+        "same_cross_person_top1": 0.7375,
+        "cross_person_top5_overlap": 0.7675
+      },
+      "pitch_down": {
+        "median_within_clip_l2": 0.36204246128877415,
+        "same_cross_person_top1": 0.725,
+        "cross_person_top5_overlap": 0.805
+      },
+      "tract_up": {
+        "median_within_clip_l2": 0.7409012761436714,
+        "same_cross_person_top1": 0.2375,
+        "cross_person_top5_overlap": 0.44000000000000006
+      },
+      "tract_down": {
+        "median_within_clip_l2": 0.7387681237594772,
+        "same_cross_person_top1": 0.2125,
+        "cross_person_top5_overlap": 0.4
+      },
+      "flatter_contour": {
+        "median_within_clip_l2": 0.3490997102860961,
+        "same_cross_person_top1": 0.6875,
+        "cross_person_top5_overlap": 0.7725
+      },
+      "wider_contour": {
+        "median_within_clip_l2": 0.300137519871653,
+        "same_cross_person_top1": 0.7625,
+        "cross_person_top5_overlap": 0.8324999999999999
+      }
+    },
+    "logf0": {
+      "original": {
+        "median_within_clip_l2": 0.0,
+        "median_signed_semitones": 0.0
+      },
+      "resynthesis": {
+        "median_within_clip_l2": 0.005689859390258789,
+        "median_signed_semitones": -0.05664695761058846
+      },
+      "pitch_up": {
+        "median_within_clip_l2": 0.11404252052307129,
+        "median_signed_semitones": 1.9743429457093535
+      },
+      "pitch_down": {
+        "median_within_clip_l2": 0.11512541770935059,
+        "median_signed_semitones": -1.9930904305146064
+      },
+      "tract_up": {
+        "median_within_clip_l2": 0.0018417835235595703,
+        "median_signed_semitones": -0.0036941873405331297
+      },
+      "tract_down": {
+        "median_within_clip_l2": 0.0017747879028320312,
+        "median_signed_semitones": -0.01677862741817561
+      },
+      "flatter_contour": {
+        "median_within_clip_l2": 0.01329350471496582,
+        "median_signed_semitones": -0.2301416799397829
+      },
+      "wider_contour": {
+        "median_within_clip_l2": 0.018381357192993164,
+        "median_signed_semitones": 0.318224314405679
+      }
+    }
+  }
+}

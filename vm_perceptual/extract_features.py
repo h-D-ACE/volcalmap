@@ -12,9 +12,12 @@ REVISIONS={'ecapa':dict(repo='speechbrain/spkrec-ecapa-voxceleb',revision='0f99f
            'wavlm':dict(repo='microsoft/wavlm-base-plus',revision='4c66d4806a428f2e922ccfa1a962776e232d487b')}
 
 class Frontend:
-    def __init__(self,models=None,device='cpu',use_wavlm=True,use_ecapa=True):
+    def __init__(self,models=None,device='cpu',use_wavlm=True,use_ecapa=True,edge_policy="preserve"):
         import torchaudio
         models=Path(models or PROJECT/'claude_baselines/models').resolve()
+        if edge_policy not in ('preserve', 'trim_zero'):
+            raise ValueError('Unknown waveform edge policy')
+        self.edge_policy=edge_policy
         self.device=device
         torch.set_num_threads(2)
         local=str(models/'ecapa')
@@ -42,6 +45,10 @@ class Frontend:
         y,sr=sf.read(path,dtype='float32',always_2d=True)
         if y.shape[1]!=1:raise ValueError('Expected mono; choose a channel explicitly')
         y=y[:,0]
+        if self.edge_policy=='trim_zero':
+            nonzero=np.flatnonzero(y)
+            if not len(nonzero):raise ValueError('Silent audio')
+            y=y[nonzero[0]:nonzero[-1]+1]
         if not np.isfinite(y).all() or len(y)/sr<.25:raise ValueError('Invalid or too short audio')
         if np.sqrt(np.mean(y*y))<1e-6:raise ValueError('Silent audio')
         if sr!=16000:
@@ -73,18 +80,18 @@ class Frontend:
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--models',default=str(PROJECT/'claude_baselines/models'))
-    p.add_argument('--device',default='cpu');p.add_argument('--no-wavlm',action='store_true');a=p.parse_args()
+    p.add_argument('--device',default='cpu');p.add_argument('--no-wavlm',action='store_true');p.add_argument('--edge-policy',choices=['preserve','trim_zero'],default='preserve');a=p.parse_args()
     data=ROOT/'data_jvs';manifest=json.loads((data/'manifest.json').read_text())
     out=ROOT/'features/jvs_features.json';cache=json.loads(out.read_text()) if out.exists() else {}
     signature=file_hash(__file__);frontend=None;t0=time.time()
     rows=[r for r in manifest['files'] if r['path'].endswith('.wav')]
     for i,r in enumerate(rows):
         path=r['path'];existing=cache.get(path,{})
-        if existing.get('sha256')==r['sha256'] and existing.get('extractor_hash')==signature and ('wavlm3' in existing or a.no_wavlm):continue
+        if existing.get('sha256')==r['sha256'] and existing.get('extractor_hash')==signature and existing.get('edge_policy','preserve')==a.edge_policy and ('wavlm3' in existing or a.no_wavlm):continue
         if file_hash(data/path)!=r['sha256']:raise ValueError('Audio provenance mismatch')
-        if frontend is None:frontend=Frontend(a.models,a.device,not a.no_wavlm)
+        if frontend is None:frontend=Frontend(a.models,a.device,not a.no_wavlm,edge_policy=a.edge_policy)
         values=frontend.extract(data/path)
-        cache[path]=dict(**values,sha256=r['sha256'],extractor_hash=signature,model_revisions=REVISIONS)
+        cache[path]=dict(**values,edge_policy=a.edge_policy,sha256=r['sha256'],extractor_hash=signature,model_revisions=REVISIONS)
         if i%10==0:
             write_json(out,cache);print('features',i+1,'/',len(rows),'seconds',round(time.time()-t0),flush=True)
     write_json(out,cache);print('DONE features',len(cache),flush=True)

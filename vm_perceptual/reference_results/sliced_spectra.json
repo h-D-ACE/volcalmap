@@ -1,0 +1,50 @@
+{
+  "method": "Fixed spectral projection quantiles; squared Euclidean distance approximates sliced-W2 squared",
+  "quantiles": 15,
+  "directions": 128,
+  "selection": "sliced128_source0.5",
+  "inner_folds": [
+    {
+      "moments": 0.32698190585220566,
+      "marginal_quantiles": 0.32651530728458467,
+      "sliced32": 0.3745008752638247,
+      "sliced128": 0.3308803187512346,
+      "moments_source0.25": 0.3650083349189951,
+      "moments_source0.5": 0.37684762959492873,
+      "sliced128_source0.25": 0.3644522543417301,
+      "sliced128_source0.5": 0.38369397324768695
+    },
+    {
+      "moments": 0.29941395663037673,
+      "marginal_quantiles": 0.296467038827662,
+      "sliced32": 0.273525994374341,
+      "sliced128": 0.3092191506970814,
+      "moments_source0.25": 0.3346247304731348,
+      "moments_source0.5": 0.3394581844982788,
+      "sliced128_source0.25": 0.3451048920262163,
+      "sliced128_source0.5": 0.34446801726245346
+    },
+    {
+      "moments": 0.1567171607716057,
+      "marginal_quantiles": 0.15190713160969047,
+      "sliced32": 0.09508761221393441,
+      "sliced128": 0.15314109110385427,
+      "moments_source0.25": 0.24104558521229474,
+      "moments_source0.5": 0.29767410024923757,
+      "sliced128_source0.25": 0.23323034820297028,
+      "sliced128_source0.5": 0.29169105504500487
+    }
+  ],
+  "dev": {
+    "moments": 0.14080350646065076,
+    "marginal_quantiles": 0.13584103598008557,
+    "sliced32": 0.1640354751523202,
+    "sliced128": 0.14789441896279046,
+    "moments_source0.25": 0.15767721813884483,
+    "moments_source0.5": 0.17773045407642946,
+    "sliced128_source0.25": 0.16778364185408942,
+    "sliced128_source0.5": 0.18473945970493272
+  },
+  "selected_dev": 0.18473945970493272,
+  "reference_moments": 0.14080350646065076
+}

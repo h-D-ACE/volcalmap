@@ -1,5 +1,7 @@
 # VocalMap：数学声学与音色空间研究
 
+[云端音色地图比较与实际查询](vm_perceptual/WAVE_RESULTS.md) · [AutoDL 演示笔记本](Open_VocalMap.ipynb)
+
 最终目标：输入音频，得到感知音色坐标；可选输出跨音色共享的语气坐标。模仿者听起来相似应靠近，同人不同声线可以分开。语气匹配与语气基准化是两个独立控制。
 
 ## 最新：真实感知监督的研究地图
@@ -33,7 +35,7 @@ python vm_acoustic/test_contracts.py
 python vm_acoustic/train_physics.py --smoke --output vm_acoustic/training_runs/smoke
 ```
 
-Windows CPU测试已运行；GitHub Actions配置提供Linux/Windows检查，但尚未在GitHub或AutoDL执行。不包含原始音频、依赖DLL、模型权重和账户凭据。原音频需按来源条款重新获取，不因代码托管而改变其许可。
+Windows CPU 与 AutoDL 的契约测试已运行。GitHub Actions 已在提交 59675ff 的 Linux/Windows 两个任务通过。不包含原始音频、依赖DLL、模型权重和账户凭据。原音频需按来源条款重新获取，不因代码托管而改变其许可。
 
 ## 阅读顺序
 

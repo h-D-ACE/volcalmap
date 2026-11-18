@@ -1,0 +1,46 @@
+{
+  "development_only": true,
+  "gallery": 320,
+  "results": {
+    "gain_minus12": {
+      "valid": 80,
+      "attempted": 80,
+      "median_l2": 1.8316115415473178e-06,
+      "p90_l2": 2.398082142462955e-06,
+      "same_top1": 1.0,
+      "overlap5": 1.0
+    },
+    "leading_trailing_silence": {
+      "valid": 80,
+      "attempted": 80,
+      "median_l2": 0.5470350384712219,
+      "p90_l2": 0.8353652000427246,
+      "same_top1": 0.3125,
+      "overlap5": 0.4025
+    },
+    "add_noise_20db": {
+      "valid": 80,
+      "attempted": 80,
+      "median_l2": 0.7362567782402039,
+      "p90_l2": 1.3121724724769595,
+      "same_top1": 0.1,
+      "overlap5": 0.24749999999999997
+    },
+    "resample_to_16k": {
+      "valid": 80,
+      "attempted": 80,
+      "median_l2": 0.0,
+      "p90_l2": 0.0,
+      "same_top1": 1.0,
+      "overlap5": 1.0
+    },
+    "telephone_bandwidth": {
+      "valid": 80,
+      "attempted": 80,
+      "median_l2": 0.9907344877719879,
+      "p90_l2": 1.2290495276451112,
+      "same_top1": 0.0125,
+      "overlap5": 0.095
+    }
+  }
+}

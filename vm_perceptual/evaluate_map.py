@@ -76,7 +76,7 @@ def main():
             candidates.append(dict(name=name,kind='baseline',dev_spearman=val['mean_spearman'],alpha=alpha,beta=beta))
             coordinates[name]=z
             clip_coordinates[name]={f:unit(v if dim is None else pca_transform(v[None],conf)[0,:dim]) for f,v in clips.items()}
-            checkpoints[name]=dict(kind='baseline',representation=rep,preprocessing=conf,pca_dim=dim,alpha=alpha,beta=beta,data_hash=data['provenance'],research_only=True)
+            checkpoints[name]=dict(kind='baseline',edge_policy=data['edge_policy'],representation=rep,preprocessing=conf,pca_dim=dim,alpha=alpha,beta=beta,data_hash=data['provenance'],research_only=True)
     for r in dev['candidates']:
         ck=torch.load(ROOT/r['checkpoint'],map_location='cpu',weights_only=True)
         if ck['data_hash']!=data['provenance']:raise ValueError('Checkpoint data mismatch')
